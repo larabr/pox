@@ -119,7 +119,7 @@ class l3_switch (EventMixin):
   def _handle_expiration (self):
     # Called by a timer so that we can remove old items.
     empty = []
-    for k,v in self.lost_buffers.iteritems():
+    for k,v in self.lost_buffers.items():
       dpid,ip = k
 
       for item in list(v):
@@ -171,7 +171,7 @@ class l3_switch (EventMixin):
       # Ignore LLDP packets
       return
 
-    if isinstance(packet.next, ipv4):
+    if isinstance(packet.__next__, ipv4):
       log.debug("%i %i IP %s => %s", dpid,inport,
                 packet.next.srcip,packet.next.dstip)
 
@@ -238,7 +238,7 @@ class l3_switch (EventMixin):
 
         # Expire things from our outstanding ARP list...
         self.outstanding_arps = {k:v for k,v in
-         self.outstanding_arps.iteritems() if v > time.time()}
+         self.outstanding_arps.items() if v > time.time()}
 
         # Check if we've already ARPed recently
         if (dpid,dstaddr) in self.outstanding_arps:
@@ -269,8 +269,8 @@ class l3_switch (EventMixin):
         msg.in_port = inport
         event.connection.send(msg)
 
-    elif isinstance(packet.next, arp):
-      a = packet.next
+    elif isinstance(packet.__next__, arp):
+      a = packet.__next__
       log.debug("%i %i ARP %s %s => %s", dpid, inport,
        {arp.REQUEST:"request",arp.REPLY:"reply"}.get(a.opcode,
        'op:%i' % (a.opcode,)), a.protosrc, a.protodst)

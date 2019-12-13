@@ -218,7 +218,7 @@ class Connection (EventMixin):
     if self._is_connected is False: return
     self._transport._forget(self)
     self._is_connected = False
-    for name,chan in self._transport._nexus._channels.items():
+    for name,chan in list(self._transport._nexus._channels.items()):
       chan._remove_member(self)
     self.raiseEventNoErrors(ConnectionClosed, self)
     #self._transport._nexus.raiseEventNoErrors(ConnectionClosed, self)
@@ -329,7 +329,7 @@ class Channel (EventMixin):
     associated (defaults to core.MessengerNexus).
     """
     EventMixin.__init__(self)
-    assert isinstance(name, basestring)
+    assert isinstance(name, str)
     self._name = name
 
     self._nexus = _get_nexus(nexus)

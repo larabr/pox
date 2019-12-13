@@ -47,12 +47,12 @@ a start.
 """
 
 import struct
-from packet_utils import *
-from tcp import *
-from udp import *
-from icmpv6 import *
+from .packet_utils import *
+from .tcp import *
+from .udp import *
+from .icmpv6 import *
 
-from packet_base import packet_base
+from .packet_base import packet_base
 
 from pox.lib.addresses import IPAddr6
 from pox.lib.util import init_helper
@@ -383,7 +383,7 @@ class ipv6 (packet_base):
     else:
       self.next =  raw[offset:offset+length]
 
-    if isinstance(self.next, packet_base) and not self.next.parsed:
+    if isinstance(self.__next__, packet_base) and not self.next.parsed:
       self.next = raw[offset:offset+length]
 
   def add_header (self, eh):

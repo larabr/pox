@@ -692,7 +692,7 @@ class TelnetHandler (StateMachine):
 
   def _rx_telnet (self, msg):
     #self.log.info(" ".join("%02x" % (ord(x),) for x in msg))
-    print " ".join("%02x" % (ord(x),) for x in msg),
+    print(" ".join("%02x" % (ord(x),) for x in msg), end=' ')
 
   @property
   def log (self):
@@ -704,7 +704,7 @@ class TelnetHandler (StateMachine):
     class O (object):
       pass
     def pr (fmt, *args):
-      print fmt % args
+      print(fmt % args)
     def nopr (*args):
       pass
     o = O()
@@ -929,7 +929,7 @@ def _chr (opt):
 
   Like chr(), but if the value is already a string, simply returns it.
   """
-  if isinstance(opt, basestring):
+  if isinstance(opt, str):
     return opt
   else:
     return chr(opt)
@@ -1728,7 +1728,7 @@ class PythonTelnetPersonality (TelnetPersonality):
     oldout = sys.stdout
     olderr = sys.stderr
     oldin = sys.stdin
-    from StringIO import StringIO
+    from io import StringIO
     sys.stdout = StringIO()
     sys.stderr = sys.stdout
     # Sometime in the future something like this may be more useful...

@@ -91,8 +91,8 @@ class BasicAuthMixin (object):
     if bae is True: return True
     if bae is False: return False
     try:
-      if (self._check_basic_auth.im_func.func_code is
-          BasicAuthMixin._check_basic_auth.im_func.func_code):
+      if (self._check_basic_auth.__func__.__code__ is
+          BasicAuthMixin._check_basic_auth.__func__.__code__):
         authf = getattr(self, 'basic_auth_function', None)
         if authf is None:
           self.basic_auth_enabled = False
@@ -145,7 +145,7 @@ def basic (__INSTANCE__=None, **kw):
   Lets you add username/password pairs to root of POX webserver
   """
   from pox.web.webcore import SplitterRequestHandler
-  for k,v in kw.items():
+  for k,v in list(kw.items()):
     SplitterRequestHandler.basic_auth_info[k] = v
 
   # Since you called this explicitly, force auth on regardless of

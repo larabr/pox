@@ -88,7 +88,7 @@ class packet_base (object):
         #TODO: Remove?
         lg.warning(*args)
 
-    def __nonzero__(self):
+    def __bool__(self):
         return self.parsed is True
 
     def __len__(self):
@@ -104,7 +104,7 @@ class packet_base (object):
             lg.debug("str(%s): %s" % (self.__class__.__name__, e))
           return "[%s:Bad representation]" % (self.__class__.__name__,)
         return "[%s l:%i%s]" % (self.__class__.__name__, len(self),
-            "" if self.next else " *")
+            "" if self.__next__ else " *")
 
     def dump(self):
         p = self
@@ -129,19 +129,19 @@ class packet_base (object):
               m.append("[%s]" % (p.__class__.__name__,))
             break
           m.append(str(p))
-          p = p.next
+          p = p.__next__
         return "".join(m)
 
     def find(self, proto):
         """
         Find the specified protocol layer based on its class type or name.
         """
-        if not isinstance(proto, basestring):
+        if not isinstance(proto, str):
             proto = proto.__name__
         if self.__class__.__name__ == proto and self.parsed:
             return self
         else:
-            if self.next and isinstance(self.next, packet_base):
+            if self.__next__ and isinstance(self.__next__, packet_base):
                 return self.next.find(proto)
             else:
                 return None
@@ -155,7 +155,7 @@ class packet_base (object):
         setting the new payload's "prev" field to point back to its new
         container (the same as the set_payload() method).
         """
-        return self.next
+        return self.__next__
 
     @payload.setter
     def payload (self, new_payload):
@@ -192,16 +192,16 @@ class packet_base (object):
     def pack(self):
         '''Convert header and payload to bytes'''
 
-        if self.parsed is False and self.raw is not None and self.next is None:
+        if self.parsed is False and self.raw is not None and self.__next__ is None:
           return self.raw
 
         self.pre_hdr()
 
-        if self.next == None:
+        if self.__next__ == None:
             return self.hdr(b'')
-        elif isinstance(self.next, packet_base):
+        elif isinstance(self.__next__, packet_base):
             rest = self.next.pack()
         else:
-            rest = self.next
+            rest = self.__next__
 
         return self.hdr(rest) + rest

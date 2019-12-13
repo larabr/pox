@@ -242,7 +242,7 @@ class DHCPD (EventMixin):
       self.dpid = None
     else:
       try:
-        dpid = long(dpid)
+        dpid = int(dpid)
       except:
         dpid = util.str_to_dpid(dpid)
       self.dpid = dpid
@@ -597,8 +597,8 @@ def launch (no_flow = False,
     if i.lower() == "true": return None
     if i == '()': return ()
     return i
-  first,last,count = map(fixint,(first,last,count))
-  router,dns = map(fix,(router,dns))
+  first,last,count = list(map(fixint,(first,last,count)))
+  router,dns = list(map(fix,(router,dns)))
 
   if ports is not None:
     ports = ports.split(",")

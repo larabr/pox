@@ -20,7 +20,7 @@ This includes things like component rendezvous, logging, system status
 (up and down events), etc.
 """
 
-from __future__ import print_function
+
 
 # Set up initial log state
 import logging
@@ -376,6 +376,7 @@ class POXCore (EventMixin):
       if not l.isEnabledFor(logging.WARNING):
         l.setLevel(logging.WARNING)
       l.warn("POX requires Python 2.7. You're running %s.", vers)
+      l.warn("Support for Python 3 is experimental.")
       l.warn("If you run into problems, try using Python 2.7 or PyPy.")
 
     self.starting_up = False
@@ -483,7 +484,7 @@ class POXCore (EventMixin):
     if callback is None:
       callback = lambda:None
       callback.__name__ = "<None>"
-    if isinstance(components, basestring):
+    if isinstance(components, str):
       components = [components]
     elif isinstance(components, set):
       components = list(components)
@@ -577,7 +578,7 @@ class POXCore (EventMixin):
     """
     if components is None:
       components = set()
-    elif isinstance(components, basestring):
+    elif isinstance(components, str):
       components = set([components])
     else:
       components = set(components)
@@ -591,7 +592,7 @@ class POXCore (EventMixin):
     if None in listen_args:
       # This means add it to all...
       args = listen_args.pop(None)
-      for k,v in args.iteritems():
+      for k,v in args.items():
         for c in components:
           if c not in listen_args:
             listen_args[c] = {}

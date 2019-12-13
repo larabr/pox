@@ -411,7 +411,7 @@ class LogWebsocketHandler (WebsocketHandler):
     import json
     import logging
     msg = json.loads(msg)
-    for k,v in msg.items():
+    for k,v in list(msg.items()):
       logging.getLogger(k).setLevel(v)
 
   def _on_start (self):

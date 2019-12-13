@@ -39,9 +39,9 @@ See RFCs 4443 and 4861 in particular.
 
 import struct
 import random
-import new
-from packet_utils import *
-from packet_base import packet_base
+import types
+from .packet_utils import *
+from .packet_base import packet_base
 
 from pox.lib.addresses import IPAddr6,EthAddr
 from pox.lib.util import hexdump, init_helper
@@ -159,7 +159,7 @@ class NDOptionBase (packet_base):
     ss = self._fields()
     if ss:
       s += ' '
-      s += " ".join(["%s:%s" % (k,v) for k,v in ss.iteritems()])
+      s += " ".join(["%s:%s" % (k,v) for k,v in ss.items()])
     return "[" + s + "]"
 
   @property
@@ -410,7 +410,7 @@ class icmp_base (packet_base):
     ss = self._fields()
     if ss:
       s += ' '
-      s += " ".join(["%s:%s" % (k,v) for k,v in ss.iteritems()])
+      s += " ".join(["%s:%s" % (k,v) for k,v in ss.items()])
     return s + "]"
 
   def _fields (self):
@@ -910,7 +910,7 @@ class unreach (packet_base, unpack_new_adapter):
 
     self.parsed = True
 
-    import ipv6
+    from . import ipv6
     # xxx We're assuming this is IPv6!
     if dlen >= 8 + ipv6.MIN_LEN:
       self.next = ipv6.ipv6(raw=raw[unreach.MIN_LEN:],prev=self)

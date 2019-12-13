@@ -93,7 +93,7 @@ class basics_test (unittest.TestCase):
     for name in dir(nx):
       a = getattr(nx, name)
       if not nx._issubclass(a, of.ofp_action_vendor_base): continue
-      print "Trying",name,"...",
+      print("Trying",name,"...", end=' ')
       init = getattr(self, "_init_action_" + name, lambda c: c())
       original = init(a)
       original_packed = original.pack()
@@ -108,7 +108,7 @@ class basics_test (unittest.TestCase):
 
       self.assertEqual(original, unoriginal,
                        "Pack/Unpack failed for " + name)
-      print "Success!"
+      print("Success!")
 
 
   def test_nxm_ip (self):
@@ -118,7 +118,7 @@ class basics_test (unittest.TestCase):
     def try_bad ():
       e = nx.NXM_OF_IP_SRC(IPAddr("192.168.56.1"),IPAddr("255.255.255.0"))
       e.pack()
-    self.assertRaisesRegexp(AssertionError, '^nonzero masked bits$', 
+    self.assertRaisesRegex(AssertionError, '^nonzero masked bits$', 
         try_bad)
 
 
@@ -168,7 +168,7 @@ class basics_test (unittest.TestCase):
     # Note that this does not currently really take into account constraints
     # on masks (e.g., EthAddr masks only having broadcast bit).
 
-    for nxm_name,nxm_type in nx._nxm_name_to_type.items():
+    for nxm_name,nxm_type in list(nx._nxm_name_to_type.items()):
       nxm_class = nx._nxm_type_to_class[nxm_type]
       mask = None
 

@@ -36,7 +36,7 @@ def _format_entry (desc):
   dpid = dpid_to_str(desc.connection.dpid)
   ofp = desc.ofp.body
   s = []
-  ports = [(p.port_no,p.name) for p in desc.connection.ports.values()]
+  ports = [(p.port_no,p.name) for p in list(desc.connection.ports.values())]
   ports.sort()
   ports = " ".join(p[1] for p in ports)
   #if len(ports) > len(dpid)+12:

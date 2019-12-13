@@ -43,11 +43,11 @@
 #======================================================================
 
 import struct
-from packet_utils import *
+from .packet_utils import *
 from socket import htons
 from socket import htonl
 
-from packet_base import packet_base
+from .packet_base import packet_base
 
 import logging
 lg = logging.getLogger('packet')
@@ -703,12 +703,12 @@ class tcp (packet_base):
     else:
       if payload is not None:
         pass
-      elif isinstance(self.next, packet_base):
+      elif isinstance(self.__next__, packet_base):
         payload = self.next.pack()
-      elif self.next is None:
+      elif self.__next__ is None:
         payload = bytes()
       else:
-        payload = self.next
+        payload = self.__next__
       payload = self.hdr(None, calc_checksum = False) + payload
       payload_len = len(payload)
 

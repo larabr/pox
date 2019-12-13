@@ -119,7 +119,7 @@ class Entity (object):
   def __init__ (self, id=None):
     if id:
       if id in Entity._all_ids:
-        print("".join(traceback.format_list(self._tb[id])))
+        print(("".join(traceback.format_list(self._tb[id]))))
         raise Exception("ID %s already taken" % str(id))
     else:
       while Entity._next_id in Entity._all_ids:
@@ -233,9 +233,9 @@ class Topology (EventMixin):
 
   def getEntitiesOfType (self, t=Entity, subtypes=True):
     if subtypes is False:
-      return [x for x in self._entities.itervalues() if type(x) is t]
+      return [x for x in self._entities.values() if type(x) is t]
     else:
-      return [x for x in self._entities.itervalues() if isinstance(x, t)]
+      return [x for x in self._entities.values() if isinstance(x, t)]
 
   def addListener(self, eventType, handler, once=False, weak=False,
                   priority=None, byName=False):
@@ -279,7 +279,7 @@ class Topology (EventMixin):
       - insert a new Entry if it didn't already exist here, or
       - update a pre-existing entry if it already existed
     """
-    for entity_id in id2entity.keys():
+    for entity_id in list(id2entity.keys()):
       pickled_entity = id2entity[entity_id].encode('ascii', 'ignore')
       entity = pickle.loads(pickled_entity)
       entity.id = entity_id.encode('ascii', 'ignore')
@@ -308,7 +308,7 @@ class Topology (EventMixin):
     # TODO: display me graphically
     strings = []
     strings.append("topology (%d total entities)" % len(self._entities))
-    for id,entity in self._entities.iteritems():
+    for id,entity in self._entities.items():
       strings.append("%s %s" % (str(id), str(entity)))
 
     return '\n'.join(strings)

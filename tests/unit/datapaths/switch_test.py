@@ -101,7 +101,7 @@ class SwitchImplTest (unittest.TestCase):
     c = self.conn
     s = self.switch
     received = []
-    s.addListener(DpPacketOut, lambda(event): received.append(event))
+    s.addListener(DpPacketOut, lambda event: received.append(event))
 
     packet = self.packet
     c.to_switch(ofp_packet_out(data=packet,
@@ -128,7 +128,7 @@ class SwitchImplTest (unittest.TestCase):
     c = self.conn
     s = self.switch
     received = []
-    s.addListener(DpPacketOut, lambda(event): received.append(event))
+    s.addListener(DpPacketOut, lambda event: received.append(event))
     # no flow entries -> should result in a packet_in
     s.rx_packet(self.packet, in_port=1)
     self.assertEqual(len(c.received), 1)
@@ -163,7 +163,7 @@ class SwitchImplTest (unittest.TestCase):
     c = self.conn
     s = self.switch
     original_num_ports = len(self.switch.ports)
-    p = self.switch.ports.values()[0]
+    p = list(self.switch.ports.values())[0]
     s.delete_port(p)
     new_num_ports = len(self.switch.ports)
     self.assertTrue(new_num_ports == original_num_ports - 1,
@@ -279,23 +279,23 @@ class ProcessFlowModTest(unittest.TestCase):
     t = s.table
     msg = ofp_flow_mod(command = OFPFC_MODIFY, match=ofp_match(), actions = [ofp_action_output(port=1)])
     c.to_switch(msg)
-    self.assertEquals([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=1)] ], [1,2,3])
-    self.assertEquals(len(t.entries), 3)
+    self.assertEqual([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=1)] ], [1,2,3])
+    self.assertEqual(len(t.entries), 3)
 
     s.table = table()
     t = s.table
     msg = ofp_flow_mod(command = OFPFC_MODIFY, match=ofp_match(nw_src="1.2.0.0/16"), actions = [ofp_action_output(port=8)])
     c.to_switch(msg)
-    self.assertEquals([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [1,2])
-    self.assertEquals(len(t.entries), 3)
+    self.assertEqual([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [1,2])
+    self.assertEqual(len(t.entries), 3)
 
     # non-matching OFPFC_MODIFY acts as add
     s.table = table()
     t = s.table
     msg = ofp_flow_mod(cookie=5, command = OFPFC_MODIFY, match=ofp_match(nw_src="2.2.0.0/16"), actions = [ofp_action_output(port=8)])
     c.to_switch(msg)
-    self.assertEquals(len(t.entries), 4)
-    self.assertEquals([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [5])
+    self.assertEqual(len(t.entries), 4)
+    self.assertEqual([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [5])
 
   def test_process_flow_mod_modify_strict(self):
     """ test that simple removal of a flow works"""
@@ -313,15 +313,15 @@ class ProcessFlowModTest(unittest.TestCase):
     t = s.table
     msg = ofp_flow_mod(command = OFPFC_MODIFY_STRICT, priority=1, match=ofp_match(), actions = [ofp_action_output(port=1)])
     c.to_switch(msg)
-    self.assertEquals([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=1)] ], [3])
-    self.assertEquals(len(t.entries), 3)
+    self.assertEqual([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=1)] ], [3])
+    self.assertEqual(len(t.entries), 3)
 
     s.table = table()
     t = s.table
     msg = ofp_flow_mod(command = OFPFC_MODIFY_STRICT, priority=5, match=ofp_match(dl_src=EthAddr("00:00:00:00:00:02"), nw_src="1.2.3.0/24"), actions = [ofp_action_output(port=8)])
     c.to_switch(msg)
-    self.assertEquals([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [2])
-    self.assertEquals(len(t.entries), 3)
+    self.assertEqual([e.cookie for e in t.entries if e.actions == [ofp_action_output(port=8)] ], [2])
+    self.assertEqual(len(t.entries), 3)
 
 
 

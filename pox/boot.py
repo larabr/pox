@@ -34,13 +34,10 @@ if [ -x pypy/bin/pypy ]; then
   exec pypy/bin/pypy $OPT "$0" $FLG "$@"
 fi
 
-if type python2.7 > /dev/null; then
-  exec python2.7 $OPT "$0" $FLG "$@"
-fi
 exec python $OPT "$0" $FLG "$@"
 '''
 
-from __future__ import print_function
+
 
 import logging
 import logging.config
@@ -214,7 +211,7 @@ def _do_launch (argv, skip_startup=False):
 
       if getattr(f, '_pox_eval_args', False):
         import ast
-        for k,v in params.items():
+        for k,v in list(params.items()):
           if isinstance(v, str):
             try:
               params[k] = ast.literal_eval(v)
@@ -272,7 +269,7 @@ def _do_launch (argv, skip_startup=False):
           code = f.__code__
           argcount = code.co_argcount
           argnames = code.co_varnames[:argcount]
-          defaults = list((f.func_defaults) or [])
+          defaults = list((f.__defaults__) or [])
           defaults = [EMPTY] * (argcount - len(defaults)) + defaults
           args = {}
           for n, a in enumerate(argnames):
@@ -290,7 +287,7 @@ def _do_launch (argv, skip_startup=False):
             doc = f.__doc__.split("\n")
             #TODO: only strip the same leading space as was on the first
             #      line
-            doc = map(str.strip, doc)
+            doc = list(map(str.strip, doc))
             print('',("\n ".join(doc)).strip())
 
           #print(params)
@@ -304,15 +301,15 @@ def _do_launch (argv, skip_startup=False):
                                                 "Active"))
             print(" {0:25} {0:25} {0:25}".format("-" * 15))
 
-            for k,v in args.iteritems():
+            for k,v in args.items():
               print(" {0:25} {1:25} {2:25}".format(k,str(v[0]),
                     str(v[1] if v[1] is not EMPTY else v[0])))
 
           if len(params):
             print("This component does not have a parameter named "
-                  + "'{0}'.".format(params.keys()[0]))
+                  + "'{0}'.".format(list(params.keys())[0]))
             return False
-          missing = [k for k,x in args.iteritems()
+          missing = [k for k,x in args.items()
                      if x[1] is EMPTY and x[0] is EMPTY]
           if len(missing):
             print("You must specify a value for the '{0}' "
@@ -354,7 +351,7 @@ class Options (object):
     return True
 
   def process_options (self, options):
-    for k,v in options.iteritems():
+    for k,v in options.items():
       if self.set(k, v) is False:
         # Bad option!
         sys.exit(1)

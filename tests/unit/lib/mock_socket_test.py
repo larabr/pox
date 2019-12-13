@@ -30,22 +30,22 @@ class MockSocketTest(unittest.TestCase):
   def test_simple_send(self):
     (a, b) = MockSocket.pair()
     a.send("Hallo")
-    self.assertEquals(b.recv(), "Hallo")
+    self.assertEqual(b.recv(), "Hallo")
     b.send("Servus")
-    self.assertEquals(a.recv(), "Servus")
+    self.assertEqual(a.recv(), "Servus")
 
   def test_ready_to_recv(self):
     (a, b) = MockSocket.pair()
     a.send("Hallo")
     self.assertFalse(a.ready_to_recv())
     self.assertTrue(b.ready_to_recv())
-    self.assertEquals(b.recv(), "Hallo")
+    self.assertEqual(b.recv(), "Hallo")
     self.assertFalse(b.ready_to_recv())
 
     self.assertFalse(a.ready_to_recv())
     b.send("Servus")
     self.assertTrue(a.ready_to_recv())
-    self.assertEquals(a.recv(), "Servus")
+    self.assertEqual(a.recv(), "Servus")
     self.assertFalse(a.ready_to_recv())
 
   def test_on_ready_to_recv(self):
@@ -57,14 +57,14 @@ class MockSocketTest(unittest.TestCase):
 
     (a, b) = MockSocket.pair()
     b.set_on_ready_to_recv(ready)
-    self.assertEquals(self.called, 0)
+    self.assertEqual(self.called, 0)
     a.send("Hallo")
-    self.assertEquals(self.called, 1)
-    self.assertEquals(self.seen_size, 5)
+    self.assertEqual(self.called, 1)
+    self.assertEqual(self.seen_size, 5)
 
     # check that it doesn't get called on the other sockets data
     b.send("Huhu")
-    self.assertEquals(self.called, 1)
+    self.assertEqual(self.called, 1)
 
   def test_empty_recv(self):
     """ test_empty_recv: Check that empty reads on socket return ""
@@ -72,7 +72,7 @@ class MockSocketTest(unittest.TestCase):
        test documents it as intended for now, though
     """
     (a, b) = MockSocket.pair()
-    self.assertEquals(a.recv(), "")
+    self.assertEqual(a.recv(), "")
 
 if __name__ == '__main__':
   unittest.main()

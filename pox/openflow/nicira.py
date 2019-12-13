@@ -1634,7 +1634,7 @@ class flow_mod_spec (object):
     dst_inst = None
     n_bits = None
 
-    for k,v in kw.iteritems():
+    for k,v in kw.items():
       # This is handy, though there's potentially future ambiguity
       s = globals().get('nx_learn_' + k)
       if not s:
@@ -1757,7 +1757,7 @@ class _nxm_tcp_flags (_nxm_numeric):
   """
   def _pack_mask (self, v):
     assert self._nxm_length == 2
-    assert isinstance(v, (int, long))
+    assert isinstance(v, int)
     if (v & 0xf000) != 0:
       raise RuntimeError("Top bits of TCP flags mask must be 0")
     return struct.pack("!H", v)
@@ -1784,7 +1784,7 @@ class _nxm_ip (object):
       self.mask = value[1]
       #if isinstance(mask, (int,long)):
       #  self.mask = mask
-    elif isinstance(value, basestring) and len(value)>4 and '/' in value:
+    elif isinstance(value, str) and len(value)>4 and '/' in value:
       temp = parse_cidr(value, infer=False)
       ip = temp[0]
       self.mask = 32 if temp[1] is None else temp[1]
@@ -1798,7 +1798,7 @@ class _nxm_ip (object):
   def _unpack_value (self, v):
     return IPAddr(v, networkOrder=True)
   def _pack_mask (self, v):
-    if isinstance(v, (int, long)):
+    if isinstance(v, int):
       # Assume CIDR
       if v > 32: v = 32
       elif v < 0: v = 0
@@ -1831,7 +1831,7 @@ class _nxm_ipv6 (object):
       assert len(value) == 2
       ip = value[0]
       self.mask = value[1]
-    elif isinstance(value, (unicode,str)):
+    elif isinstance(value, str):
       ip,mask = IPAddr6.parse_cidr(value, allow_host = True)
       #self.mask = 128 if mask is None else mask
       self.mask = mask
@@ -1845,7 +1845,7 @@ class _nxm_ipv6 (object):
   def _unpack_value (self, v):
     return IPAddr6(v, raw=True)
   def _pack_mask (self, v):
-    if isinstance(v, (int,long)):
+    if isinstance(v, int):
       # Assume CIDR
       if v > 128: v = 128
       elif v < 0: v = 0
@@ -2141,8 +2141,8 @@ def _make_nxm (__name, __vendor, __field, __len = None, type = None,
   t = _make_type(__vendor, __field)
   kw['_nxm_type'] = t
   if __len is not None: kw['_nxm_length'] = __len
-  import __builtin__
-  typ = __builtin__.type
+  import builtins
+  typ = builtins.type
   c = typ(__name, tuple(type), kw)
   _nxm_type_to_class[t] = c
   _nxm_name_to_type[__name] = t
@@ -2799,7 +2799,7 @@ def _unpack_nx_vendor (raw, offset):
     nrr = nx_role_reply()
     return nrr.unpack(raw, offset)[0], nrr
   else:
-    print "NO UNPACKER FOR",subtype
+    print("NO UNPACKER FOR",subtype)
     return _old_unpacker(raw, offset)
 
 

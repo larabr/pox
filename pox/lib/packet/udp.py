@@ -33,13 +33,13 @@
 #                 +---------------- ...
 #======================================================================
 import struct
-from packet_utils import *
-from dhcp import *
-from dns  import *
-from rip  import *
-from vxlan import *
+from .packet_utils import *
+from .dhcp import *
+from .dns  import *
+from .rip  import *
+from .vxlan import *
 
-from packet_base import packet_base
+from .packet_base import packet_base
 
 # We grab ipv4 later to prevent cyclic dependency
 #_ipv4 = None
@@ -145,12 +145,12 @@ class udp(packet_base):
             payload_len = len(self.raw)
             payload = self.raw
         else:
-            if isinstance(self.next, packet_base):
+            if isinstance(self.__next__, packet_base):
                 payload = self.next.pack()
-            elif self.next is None:
+            elif self.__next__ is None:
                 payload = bytes()
             else:
-                payload = self.next
+                payload = self.__next__
             payload_len = udp.MIN_LEN + len(payload)
 
             myhdr = struct.pack('!HHHH', self.srcport, self.dstport,

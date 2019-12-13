@@ -16,16 +16,9 @@
 Classes and utilities for addresses of various types.
 """
 
-from __future__ import print_function
+
 import struct
 import socket
-
-# Slightly tested attempt at Python 3 friendliness
-import sys
-if 'long' not in sys.modules['__builtin__'].__dict__:
-  long = int
-
-
 
 _eth_oui_to_name = {} # OUI (3 bytes) -> name
 
@@ -40,7 +33,7 @@ def _load_oui_names ():
   filename = os.path.join(os.path.dirname(inspect.stack()[0][1]), 'oui.txt')
   f = None
   try:
-    f = open(filename)
+    f = open(filename, encoding = "utf-8")
     for line in f.readlines():
       if len(line) < 1:
         continue
@@ -50,7 +43,7 @@ def _load_oui_names ():
       if not '-' in split[0]:
         continue
       # grab 3-byte OUI
-      oui  = b''.join(chr(int(x,16)) for x in split[0].split('-'))
+      oui  = ''.join(chr(int(x,16)) for x in split[0].split('-'))
       # strip off (hex) identifer and keep rest of name
       end = ' '.join(split[1:]).strip()
       end = end.split('\t')
@@ -79,7 +72,7 @@ class EthAddr (object):
     Understands Ethernet address is various forms.  Hex strings, raw byte
     strings, etc.
     """
-    if isinstance(addr, bytes) or isinstance(addr, basestring):
+    if isinstance(addr, bytes) or isinstance(addr, str):
       if len(addr) == 6:
         # raw
         pass
@@ -90,7 +83,7 @@ class EthAddr (object):
             raise RuntimeError("Bad format for ethernet address")
           # Address of form xx:xx:xx:xx:xx:xx
           # Pick out the hex digits only
-          addr = ''.join((addr[x*3:x*3+2] for x in xrange(0,6)))
+          addr = ''.join((addr[x*3:x*3+2] for x in range(0,6)))
         elif len(addr) == 12:
           pass
         else:
@@ -99,7 +92,7 @@ class EthAddr (object):
           addr = ''.join(["%02x" % (int(x,16),) for x in addr.split(":")])
         # We should now have 12 hex digits (xxxxxxxxxxxx).
         # Convert to 6 raw bytes.
-        addr = b''.join((chr(int(addr[x*2:x*2+2], 16)) for x in range(0,6)))
+        addr = ''.join((chr(int(addr[x*2:x*2+2], 16)) for x in range(0,6)))
       else:
         raise RuntimeError("Expected ethernet address string to be 6 raw "
                            "bytes or some hex")
@@ -107,11 +100,11 @@ class EthAddr (object):
     elif isinstance(addr, EthAddr):
       self._value = addr.toRaw()
     elif isinstance(addr, (list,tuple,bytearray)):
-      self._value = b''.join( (chr(x) for x in addr) )
+      self._value = ''.join( (chr(x) for x in addr) )
     elif (hasattr(addr, '__len__') and len(addr) == 6
           and hasattr(addr, '__iter__')):
       # Pretty much same as above case, but for sequences we don't know.
-      self._value = b''.join( (chr(x) for x in addr) )
+      self._value = ''.join( (chr(x) for x in addr) )
     elif addr is None:
       self._value = b'\x00' * 6
     else:
@@ -264,7 +257,7 @@ class IPAddr (object):
     """
 
     # Always stores as a signed network-order int
-    if isinstance(addr, (basestring, bytes, bytearray)):
+    if isinstance(addr, (str, bytes, bytearray)):
       if len(addr) != 4:
         # dotted quad
         self._value = struct.unpack('i', socket.inet_aton(addr))[0]
@@ -272,7 +265,7 @@ class IPAddr (object):
         self._value = struct.unpack('i', addr)[0]
     elif isinstance(addr, IPAddr):
       self._value = addr._value
-    elif isinstance(addr, int) or isinstance(addr, long):
+    elif isinstance(addr, int) or isinstance(addr, int):
       addr = addr & 0xffFFffFF # unsigned long
       self._value = struct.unpack("!i",
           struct.pack(('!' if networkOrder else '') + "I", addr))[0]
@@ -442,7 +435,7 @@ class IPAddr6 (object):
     Factory that creates an IPAddr6 from a large integer
     """
     o = b''
-    for i in xrange(16):
+    for i in range(16):
       o = chr(num & 0xff) + o
       num >>= 8
     return cls.from_raw(o)
@@ -471,7 +464,7 @@ class IPAddr6 (object):
     if addr is None:
       # Should we even allow this?  It's a weird case.
       self._value = self.UNDEFINED._value
-    elif isinstance(addr, unicode) or (isinstance(addr, bytes) and not raw):
+    elif isinstance(addr, str) or (isinstance(addr, bytes) and not raw):
       # A textual IPv6 representation
       ip4part = None
       if '.' in addr:
@@ -605,7 +598,7 @@ class IPAddr6 (object):
     of network bits.  e.g., 255.255.255.0 -> 24
     Raise exception if subnet mask is not CIDR-compatible.
     """
-    if isinstance(dq, basestring):
+    if isinstance(dq, str):
       dq = IPAddr6(dq)
     v = dq.num
     c = 0
@@ -698,7 +691,7 @@ class IPAddr6 (object):
     (or .is_ipv4_mapped, of course).
     """
     o = [ord(lo) | (ord(hi)<<8) for hi,lo in
-         (self._value[i:i+2] for i in xrange(0,16,2))]
+         (self._value[i:i+2] for i in range(0,16,2))]
 
     if (ipv4 is None and self.is_ipv4_mapped) or ipv4:
       ip4part = o[-2:]
@@ -792,7 +785,7 @@ def netmask_to_cidr (dq):
   of network bits.  e.g., 255.255.255.0 -> 24
   Raise exception if subnet mask is not CIDR-compatible.
   """
-  if isinstance(dq, basestring):
+  if isinstance(dq, str):
     dq = IPAddr(dq)
   v = dq.toUnsigned(networkOrder=False)
   c = 0

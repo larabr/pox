@@ -16,7 +16,7 @@
 Provides a Python interpreter while running POX
 """
 
-from __future__ import print_function
+
 
 from pox.core import core
 from pox.lib.util import str_to_bool
@@ -199,7 +199,7 @@ def launch (disable = False, completion = None, history = False,
   if not core.hasComponent("Interactive"):
     Interactive()
 
-  import boot
+  from . import boot
   if not disable:
     boot.set_main_function(core.Interactive.interact)
   else:

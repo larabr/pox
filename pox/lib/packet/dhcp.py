@@ -55,9 +55,9 @@
 #======================================================================
 import struct
 import string
-from packet_utils import *
+from .packet_utils import *
 
-from packet_base import packet_base
+from .packet_base import packet_base
 import pox.lib.util as util
 from pox.lib.util import is_subclass
 from pox.lib.addresses import *
@@ -168,7 +168,7 @@ class dhcp(packet_base):
         #                          self._raw_options])
         if len(self.options):
           s += ' options:'
-          s += ','.join(repr(x) for x in self.options.values())
+          s += ','.join(repr(x) for x in list(self.options.values()))
         s += ']'
         return s
 
@@ -217,7 +217,7 @@ class dhcp(packet_base):
         self.parsed = True
 
     def unpackOptions(self):
-      for k,v in self.options.items():
+      for k,v in list(self.options.items()):
         unpack = _dhcp_option_unpackers.get(k, DHCPRawOption.unpack)
         try:
           self.options[k] = unpack(v,k)
@@ -277,7 +277,7 @@ class dhcp(packet_base):
                 o += chr(dhcp.PAD_OPT)
             return o
 
-        for k,v in self.options.iteritems():
+        for k,v in self.options.items():
             if k == dhcp.END_OPT: continue
             if k == dhcp.PAD_OPT: continue
             if isinstance(v, DHCPOption):
@@ -428,7 +428,7 @@ class DHCPIPsOptionBase (DHCPOption):
   Superclass for options which are a list of IP addresses
   """
   def __init__ (self, addrs=[]):
-    if isinstance(addrs, (basestring,IPAddr)):
+    if isinstance(addrs, (str,IPAddr)):
       self.addrs = [IPAddr(addrs)]
     else:
       self.addrs = [IPAddr(a) for a in addrs]
@@ -600,7 +600,7 @@ class DHCPParameterRequestOption (DHCPOption):
       if n is None or not hasattr(n, 'im_self'):
         n = "Opt/" + str(o)
       else:
-        n = n.im_self.__name__
+        n = n.__self__.__name__
         if n.startswith("DHCP"): n = n[4:]
         if n.endswith("Option"): n = n[:-6]
         if n == "": n = "Opt"

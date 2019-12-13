@@ -4395,7 +4395,7 @@ company_id			Organization
 
 00-02-A2   (hex)		Hilscher GmbH
 0002A2     (base 16)		Hilscher GmbH
-				Rheinstraﬂe 15
+				RheinstraÔøΩe 15
 				65795 Hattersheim
 				GERMANY
 				GERMANY
@@ -9858,7 +9858,7 @@ company_id			Organization
 
 00-05-ED   (hex)		Technikum Joanneum GmbH
 0005ED     (base 16)		Technikum Joanneum GmbH
-				Alte Poststraﬂe 149
+				Alte PoststraÔøΩe 149
 				8020 Graz
 				AUSTRIA
 
@@ -10544,8 +10544,8 @@ company_id			Organization
 				Pittsburgh PA 15205-1333
 				UNITED STATES
 
-00-06-58   (hex)		Helmut Fischer GmbH Institut f¸r Elektronik und Messtechnik
-000658     (base 16)		Helmut Fischer GmbH Institut f¸r Elektronik und Messtechnik
+00-06-58   (hex)		Helmut Fischer GmbH Institut fÔøΩr Elektronik und Messtechnik
+000658     (base 16)		Helmut Fischer GmbH Institut fÔøΩr Elektronik und Messtechnik
 				IndustriaBe21
 				71069 Sindefingen
 				GERMANY
@@ -10980,8 +10980,8 @@ company_id			Organization
 
 00-06-9C   (hex)		Transmode Systems AB
 00069C     (base 16)		Transmode Systems AB
-				Jakobsdalsv‰gen 17
-				HƒGERSTEN SE-126 53
+				JakobsdalsvÔøΩgen 17
+				HÔøΩGERSTEN SE-126 53
 				SWEDEN
 
 00-06-9D   (hex)		Petards Ltd
@@ -12135,9 +12135,9 @@ company_id			Organization
 				San Jose CA 95134
 				UNITED STATES
 
-00-07-51   (hex)		m∑u∑t AG
-000751     (base 16)		m∑u∑t AG
-				Meﬂger‰te f¸r Medizin- und Umwelttechnik
+00-07-51   (hex)		mÔøΩuÔøΩt AG
+000751     (base 16)		mÔøΩuÔøΩt AG
+				MeÔøΩgerÔøΩte fÔøΩr Medizin- und Umwelttechnik
 				Am Marienhof 2
 				Wedel  22880
 				GERMANY
@@ -12391,7 +12391,7 @@ company_id			Organization
 000778     (base 16)		GERSTEL GmbH & Co. KG
 				Eberhard-Gerstel-Platz 1
 				D45473
-				M¸lheim an der Ruhr  
+				MÔøΩlheim an der Ruhr  
 				GERMANY
 
 00-07-79   (hex)		Sungil Telecom Co., Ltd.
@@ -12517,7 +12517,7 @@ company_id			Organization
 00-07-8C   (hex)		Elektronikspecialisten i Borlange AB
 00078C     (base 16)		Elektronikspecialisten i Borlange AB
 				Box 50
-				40 MOCKFJƒRD
+				40 MOCKFJÔøΩRD
 				SE 780
 				SWEDEN
 
@@ -14169,7 +14169,7 @@ company_id			Organization
 00-08-AC   (hex)		Eltromat GmbH
 0008AC     (base 16)		Eltromat GmbH
 				Herforder Str. 249-251
-				Leopoldshˆhe Nordrhein-Westfalen 33818
+				LeopoldshÔøΩhe Nordrhein-Westfalen 33818
 				GERMANY
 
 00-08-AD   (hex)		Toyo-Linx Co., Ltd.
@@ -14269,7 +14269,7 @@ company_id			Organization
 00-08-BC   (hex)		Ilevo AB
 0008BC     (base 16)		Ilevo AB
 				Box 1561
-				Karlstad V‰rmland S-651 21
+				Karlstad VÔøΩrmland S-651 21
 				SWEDEN
 
 00-08-BD   (hex)		TEPG-US
@@ -14412,7 +14412,7 @@ company_id			Organization
 
 00-08-D3   (hex)		Hercules Technologies S.A.
 0008D3     (base 16)		Hercules Technologies S.A.
-				Place de l'Ètoile
+				Place de l'ÔøΩtoile
 				Carentoir Bretagne 56910
 				FRANCE
 
@@ -14755,7 +14755,7 @@ company_id			Organization
 00-09-09   (hex)		Telenor Connect A/S
 000909     (base 16)		Telenor Connect A/S
 				Ellegaardvej 25L
-				S¯nderborg Als 6400
+				SÔøΩnderborg Als 6400
 				DENMARK
 
 00-09-0A   (hex)		SnedFar Technology Co., Ltd.
@@ -15447,8 +15447,8 @@ company_id			Organization
 
 00-09-77   (hex)		Brunner Elektronik AG
 000977     (base 16)		Brunner Elektronik AG
-				M¸llerwis 1
-				Hittnau Z¸rich 8335
+				MÔøΩllerwis 1
+				Hittnau ZÔøΩrich 8335
 				SWITZERLAND
 
 00-09-78   (hex)		AIJI System Co., Ltd.
@@ -15487,7 +15487,7 @@ company_id			Organization
 00-09-7D   (hex)		SecWell Networks Oy
 00097D     (base 16)		SecWell Networks Oy
 				P.O.BOX 174
-				H‰meenpuisto 21
+				HÔøΩmeenpuisto 21
 				Tampere  33101
 				FINLAND
 
@@ -16065,10 +16065,10 @@ company_id			Organization
 				San Francisco California 94124
 				UNITED STATES
 
-00-09-D8   (hex)		F‰lt Communications AB
-0009D8     (base 16)		F‰lt Communications AB
-				Kylgr‰nd 6A
-				SE 906 20 UmeÂ 
+00-09-D8   (hex)		FÔøΩlt Communications AB
+0009D8     (base 16)		FÔøΩlt Communications AB
+				KylgrÔøΩnd 6A
+				SE 906 20 UmeÔøΩ 
 				SWEDEN
 
 00-09-D9   (hex)		Neoscale Systems, Inc
@@ -16093,7 +16093,7 @@ company_id			Organization
 0009DC     (base 16)		Galaxis Technology AG
 				Steinmetzstrasse 7
 				P.O. Box 3364
-				L¸beck Schleswig-Holstein 23556
+				LÔøΩbeck Schleswig-Holstein 23556
 				GERMANY
 
 00-09-DD   (hex)		Mavin Technology Inc.
@@ -16136,8 +16136,8 @@ company_id			Organization
 
 00-09-E3   (hex)		Angel Iglesias S.A.
 0009E3     (base 16)		Angel Iglesias S.A.
-				PolÌgono 27 Martutene
-				San Sebasti·n Guip˙zcoa 20014
+				PolÔøΩgono 27 Martutene
+				San SebastiÔøΩn GuipÔøΩzcoa 20014
 				SPAIN
 
 00-09-E4   (hex)		K Tech Infosystem Inc.
@@ -16252,7 +16252,7 @@ company_id			Organization
 00-09-F5   (hex)		Emerson Network Power Co.,Ltd
 0009F5     (base 16)		Emerson Network Power Co.,Ltd
 				1/F,3/F Electric Building Huawei Base,Ba
-				Longgang,Shenzhen Municipality,People°Øs
+				Longgang,Shenzhen Municipality,PeopleÔøΩÔøΩs
 				ShenZhen GuangDong 518029
 				CHINA
 
@@ -16418,7 +16418,7 @@ company_id			Organization
 
 00-0A-10   (hex)		FAST media integrations AG
 000A10     (base 16)		FAST media integrations AG
-				Schˆngrund 26
+				SchÔøΩngrund 26
 				Rotkreuz Canton of Zug 6343
 				SWITZERLAND
 
@@ -16764,7 +16764,7 @@ company_id			Organization
 00-0A-47   (hex)		Allied Vision Technologies
 000A47     (base 16)		Allied Vision Technologies
 				Taschenweg 2a
-				Stadtroda Th¸ringen 07646
+				Stadtroda ThÔøΩringen 07646
 				GERMANY
 
 00-0A-48   (hex)		Albatron Technology
@@ -17005,7 +17005,7 @@ company_id			Organization
 00-0A-6D   (hex)		EKS Elektronikservice GmbH
 000A6D     (base 16)		EKS Elektronikservice GmbH
 				Enzstr. 9
-				Kornwestheim Baden W¸rtemberg 70806
+				Kornwestheim Baden WÔøΩrtemberg 70806
 				GERMANY
 
 00-0A-6E   (hex)		Broadcast Technology Limited
@@ -17146,7 +17146,7 @@ company_id			Organization
 00-0A-83   (hex)		SALTO SYSTEMS S.L.
 000A83     (base 16)		SALTO SYSTEMS S.L.
 				Arkotz, 9
-				PolÌgono Lanbarren Oiartzun 20180
+				PolÔøΩgono Lanbarren Oiartzun 20180
 				SPAIN
 
 00-0A-84   (hex)		Rainsun Enterprise Co., Ltd.
@@ -17235,7 +17235,7 @@ company_id			Organization
 00-0A-91   (hex)		HemoCue AB
 000A91     (base 16)		HemoCue AB
 				Box 1204
-				ƒngelholm SkÂne 26223
+				ÔøΩngelholm SkÔøΩne 26223
 				SWEDEN
 
 00-0A-92   (hex)		Presonus Corporation
@@ -17450,7 +17450,7 @@ company_id			Organization
 
 00-0A-B3   (hex)		Fa. GIRA
 000AB3     (base 16)		Fa. GIRA
-				Dahlienstraﬂe
+				DahlienstraÔøΩe
 				Radevormwald Nordrhein-Westfalen 42477
 				GERMANY
 
@@ -17462,7 +17462,7 @@ company_id			Organization
 
 00-0A-B5   (hex)		Digital Electronic Network
 000AB5     (base 16)		Digital Electronic Network
-				8 rue du sacrÈ coeur
+				8 rue du sacrÔøΩ coeur
 				Saint Laurent sur Sevre Vendee 85290
 				FRANCE
 
@@ -17807,7 +17807,7 @@ company_id			Organization
 
 00-0A-EA   (hex)		ADAM ELEKTRONIK LTD.STI.
 000AEA     (base 16)		ADAM ELEKTRONIK LTD.STI.
-				UZUNAYNA CAD. CELENK SOK. NO:1 «AKMAK /
+				UZUNAYNA CAD. CELENK SOK. NO:1 ÔøΩAKMAK /
 				ISTANBUL  81260
 				TURKEY
 
@@ -17839,7 +17839,7 @@ company_id			Organization
 00-0A-EF   (hex)		OTRUM ASA
 000AEF     (base 16)		OTRUM ASA
 				Brattekleiv
-				FÊrvik  N-4818
+				FÔøΩrvik  N-4818
 				NORWAY
 
 00-0A-F0   (hex)		SHIN-OH ELECTRONICS CO., LTD. R&D
@@ -18236,7 +18236,7 @@ company_id			Organization
 
 00-0B-2F   (hex)		bplan GmbH
 000B2F     (base 16)		bplan GmbH
-				Industriestraﬂe 23
+				IndustriestraÔøΩe 23
 				Steinbach 61449
 				GERMANY
 
@@ -18552,10 +18552,10 @@ company_id			Organization
 				San Jose CA 95134
 				UNITED STATES
 
-00-0B-61   (hex)		Friedrich L¸tze GmbH &Co.
-000B61     (base 16)		Friedrich L¸tze GmbH &Co.
-				Bruckwiesenstraﬂe 17-19
-				Weinstadt-Groﬂheppach BW 71384
+00-0B-61   (hex)		Friedrich LÔøΩtze GmbH &Co.
+000B61     (base 16)		Friedrich LÔøΩtze GmbH &Co.
+				BruckwiesenstraÔøΩe 17-19
+				Weinstadt-GroÔøΩheppach BW 71384
 				GERMANY
 
 00-0B-62   (hex)		Ingenieurbuero fuer Elektronikdesign Ingo Mohnen
@@ -18659,7 +18659,7 @@ company_id			Organization
 00-0B-72   (hex)		Lawo AG
 000B72     (base 16)		Lawo AG
 				Am Oberwald 8
-				Rastatt Baden-W¸rttemberg 76437
+				Rastatt Baden-WÔøΩrttemberg 76437
 				GERMANY
 
 00-0B-73   (hex)		Kodeos Communications
@@ -18852,8 +18852,8 @@ company_id			Organization
 				York YO30 4GU
 				UNITED KINGDOM
 
-00-0B-91   (hex)		Aglaia Gesellschaft f¸r Bildverarbeitung und Kommunikation m
-000B91     (base 16)		Aglaia Gesellschaft f¸r Bildverarbeitung und Kommunikation m
+00-0B-91   (hex)		Aglaia Gesellschaft fÔøΩr Bildverarbeitung und Kommunikation m
+000B91     (base 16)		Aglaia Gesellschaft fÔøΩr Bildverarbeitung und Kommunikation m
 				Tiniusstr. 12-15
 				Berlin  D-13089
 				GERMANY
@@ -18886,7 +18886,7 @@ company_id			Organization
 00-0B-96   (hex)		Innotrac Diagnostics Oy
 000B96     (base 16)		Innotrac Diagnostics Oy
 				Kalevantie 25
-				Turku ≈bo 20520
+				Turku ÔøΩbo 20520
 				FINLAND
 
 00-0B-97   (hex)		Matsushita Electric Industrial Co.,Ltd.
@@ -18964,7 +18964,7 @@ company_id			Organization
 
 00-0B-A3   (hex)		Siemens AG, I&S
 000BA3     (base 16)		Siemens AG, I&S
-				Werner-von-Siemens-Straﬂe 65
+				Werner-von-Siemens-StraÔøΩe 65
 				Erlangen Bavaria 91052
 				GERMANY
 
@@ -19293,7 +19293,7 @@ company_id			Organization
 
 00-0B-D7   (hex)		DORMA Time + Access GmbH
 000BD7     (base 16)		DORMA Time + Access GmbH
-				Mainzer Straﬂe 36-52
+				Mainzer StraÔøΩe 36-52
 				Bonn Nordrheinwestfalen 53179
 				GERMANY
 
@@ -20225,7 +20225,7 @@ company_id			Organization
 00-0C-6B   (hex)		Kurz Industrie-Elektronik GmbH
 000C6B     (base 16)		Kurz Industrie-Elektronik GmbH
 				Foehrenbachstrasse 3
-				Remshalden Baden-W¸rttemberg 73630
+				Remshalden Baden-WÔøΩrttemberg 73630
 				GERMANY
 
 00-0C-6C   (hex)		Elgato Systems LLC
@@ -20784,7 +20784,7 @@ company_id			Organization
 
 00-0C-C3   (hex)		BeWAN systems
 000CC3     (base 16)		BeWAN systems
-				16 rue du Moulin des BruyËres
+				16 rue du Moulin des BruyÔøΩres
 				Courbevoie Hauts de Seine 92400
 				FRANCE
 
@@ -20802,7 +20802,7 @@ company_id			Organization
 
 00-0C-C6   (hex)		Ka-Ro electronics GmbH
 000CC6     (base 16)		Ka-Ro electronics GmbH
-				Pascalstraﬂe 22
+				PascalstraÔøΩe 22
 				Aachen NW 52076
 				GERMANY
 
@@ -20846,7 +20846,7 @@ company_id			Organization
 
 00-0C-CD   (hex)		IEC - TC57
 000CCD     (base 16)		IEC - TC57
-				3, rue de VarembÈ
+				3, rue de VarembÔøΩ
 				P.O. Box 131
 				Geneva GE 1211
 				SWITZERLAND
@@ -20955,7 +20955,7 @@ company_id			Organization
 00-0C-DE   (hex)		ABB STOTZ-KONTAKT GmbH
 000CDE     (base 16)		ABB STOTZ-KONTAKT GmbH
 				Eppelheimer Str. 82
-				Heidelberg Baden-W¸rttemberg 69123
+				Heidelberg Baden-WÔøΩrttemberg 69123
 				GERMANY
 
 00-0C-DF   (hex)		PULNiX America, Inc
@@ -21030,7 +21030,7 @@ company_id			Organization
 00-0C-EA   (hex)		aphona Kommunikationssysteme
 000CEA     (base 16)		aphona Kommunikationssysteme
 				Entwicklungs- und VertriebsgmbH
-				Deutschstraﬂe 4
+				DeutschstraÔøΩe 4
 				Wien  1230
 				AUSTRIA
 
@@ -21081,9 +21081,9 @@ company_id			Organization
 				Hillsboro OR 97124
 				UNITED STATES
 
-00-0C-F2   (hex)		GAMESA E”LICA
-000CF2     (base 16)		GAMESA E”LICA
-				PolÌgono Agustinos s/n
+00-0C-F2   (hex)		GAMESA EÔøΩLICA
+000CF2     (base 16)		GAMESA EÔøΩLICA
+				PolÔøΩgono Agustinos s/n
 				Pamplona NAVARRA 31013
 				SPAIN
 
@@ -21095,8 +21095,8 @@ company_id			Organization
 
 00-0C-F4   (hex)		AKATSUKI ELECTRIC MFG.CO.,LTD.
 000CF4     (base 16)		AKATSUKI ELECTRIC MFG.CO.,LTD.
-				593-1,aoji≠ cho
-				kusatsu≠ shi shiga 525-0041
+				593-1,aojiÔøΩ cho
+				kusatsuÔøΩ shi shiga 525-0041
 				JAPAN
 
 00-0C-F5   (hex)		InfoExpress
@@ -21200,7 +21200,7 @@ company_id			Organization
 00-0D-04   (hex)		Foxboro Eckardt Development GmbH
 000D04     (base 16)		Foxboro Eckardt Development GmbH
 				Glockenstrasse 52
-				Stuttgart Baden-W¸rttemberg 70376
+				Stuttgart Baden-WÔøΩrttemberg 70376
 				GERMANY
 
 00-0D-05   (hex)		cybernet manufacturing inc.
@@ -21295,7 +21295,7 @@ company_id			Organization
 00-0D-13   (hex)		Wilhelm Rutenbeck GmbH&Co.
 000D13     (base 16)		Wilhelm Rutenbeck GmbH&Co.
 				Niederworth 1-10
-				Schalksm¸hle NRW 58579
+				SchalksmÔøΩhle NRW 58579
 				GERMANY
 
 00-0D-14   (hex)		Vtech Innovation LP dba Advanced American Telephones
@@ -21422,7 +21422,7 @@ company_id			Organization
 
 00-0D-27   (hex)		MICROPLEX Printware AG
 000D27     (base 16)		MICROPLEX Printware AG
-				Panzerstraﬂe 5
+				PanzerstraÔøΩe 5
 				Varel Niedersachsen 26316
 				GERMANY
 
@@ -21443,7 +21443,7 @@ company_id			Organization
 00-0D-2A   (hex)		Scanmatic AS
 000D2A     (base 16)		Scanmatic AS
 				Kilsund
-				Staub¯  4920
+				StaubÔøΩ  4920
 				NORWAY
 
 00-0D-2B   (hex)		Racal Instruments
@@ -21462,7 +21462,7 @@ company_id			Organization
 00-0D-2D   (hex)		NCT Deutschland GmbH
 000D2D     (base 16)		NCT Deutschland GmbH
 				Wildenbruchstr. 15
-				Jena Th¸ringen 07745
+				Jena ThÔøΩringen 07745
 				GERMANY
 
 00-0D-2E   (hex)		Matsushita Avionics Systems Corporation
@@ -21806,7 +21806,7 @@ company_id			Organization
 00-0D-64   (hex)		COMAG Handels AG
 000D64     (base 16)		COMAG Handels AG
 				Zillenhardtstr.41
-				Goeppingen Baden-W¸rttemberg 73037
+				Goeppingen Baden-WÔøΩrttemberg 73037
 				GERMANY
 
 00-0D-65   (hex)		Cisco Systems
@@ -21932,7 +21932,7 @@ company_id			Organization
 
 00-0D-78   (hex)		Engineering & Security
 000D78     (base 16)		Engineering & Security
-				Martiri della Libert‡ 32/4
+				Martiri della LibertÔøΩ 32/4
 				Genova  16155
 				ITALY
 
@@ -21987,13 +21987,13 @@ company_id			Organization
 
 00-0D-81   (hex)		Pepperl+Fuchs GmbH
 000D81     (base 16)		Pepperl+Fuchs GmbH
-				Lilienthalstraﬂe 200
+				LilienthalstraÔøΩe 200
 				Mannheim  68307
 				GERMANY
 
 00-0D-82   (hex)		PHS srl
 000D82     (base 16)		PHS srl
-				Via Pal˘, 17
+				Via PalÔøΩ, 17
 				Arcugnano Vicenza 36057
 				ITALY
 
@@ -22081,7 +22081,7 @@ company_id			Organization
 00-0D-90   (hex)		Factum Electronics AB
 000D90     (base 16)		Factum Electronics AB
 				Teknikringen 1H
-				Linkˆping ÷stergˆtland 583 30
+				LinkÔøΩping ÔøΩstergÔøΩtland 583 30
 				SWEDEN
 
 00-0D-91   (hex)		Eclipse (HQ Espana) S.L.
@@ -22249,7 +22249,7 @@ company_id			Organization
 00-0D-AB   (hex)		Parker Hannifin GmbH Electromechanical Division Europe
 000DAB     (base 16)		Parker Hannifin GmbH Electromechanical Division Europe
 				Robert-Bosch-Strasse 22
-				Offenburg Baden W¸rttemberg 77656
+				Offenburg Baden WÔøΩrttemberg 77656
 				GERMANY
 
 00-0D-AC   (hex)		Japan CBM Corporation
@@ -22338,8 +22338,8 @@ company_id			Organization
 				8006 Zurich 
 				SWITZERLAND
 
-00-0D-BA   (hex)		OcÈ Document Technologies GmbH
-000DBA     (base 16)		OcÈ Document Technologies GmbH
+00-0D-BA   (hex)		OcÔøΩ Document Technologies GmbH
+000DBA     (base 16)		OcÔøΩ Document Technologies GmbH
 				Max-Stromeyer-Str. 116
 				Konstanz  78467
 				GERMANY
@@ -22488,7 +22488,7 @@ company_id			Organization
 
 00-0D-D2   (hex)		Simrad Optronics ASA
 000DD2     (base 16)		Simrad Optronics ASA
-				Ensj¯veien 23B
+				EnsjÔøΩveien 23B
 				PO Box 6114 Etterstad NO-0602 Oslo 
 				NORWAY
 
@@ -22555,11 +22555,11 @@ company_id			Organization
 				Taipei  110
 				TAIWAN, REPUBLIC OF CHINA
 
-00-0D-DD   (hex)		PROF›LO TELRA ELEKTRON›K SANAY› VE T›CARET A.ﬁ.
-000DDD     (base 16)		PROF›LO TELRA ELEKTRON›K SANAY› VE T›CARET A.ﬁ.
-				CEMAL SAH›R SOKAK NO:26-28
-				MEC›D›YEK÷Y
-				›STANBUL TURKEY 34255
+00-0D-DD   (hex)		PROFÔøΩLO TELRA ELEKTRONÔøΩK SANAYÔøΩ VE TÔøΩCARET A.ÔøΩ.
+000DDD     (base 16)		PROFÔøΩLO TELRA ELEKTRONÔøΩK SANAYÔøΩ VE TÔøΩCARET A.ÔøΩ.
+				CEMAL SAHÔøΩR SOKAK NO:26-28
+				MECÔøΩDÔøΩYEKÔøΩY
+				ÔøΩSTANBUL TURKEY 34255
 				TURKEY
 
 00-0D-DE   (hex)		Joyteck Co., Ltd.
@@ -22799,7 +22799,7 @@ company_id			Organization
 
 00-0E-04   (hex)		CMA/Microdialysis AB
 000E04     (base 16)		CMA/Microdialysis AB
-				Dalv‰gen 10 / Box 2
+				DalvÔøΩgen 10 / Box 2
 				Solna  171 18
 				SWEDEN
 
@@ -22854,8 +22854,8 @@ company_id			Organization
 				Hillsboro OR 97124
 				UNITED STATES
 
-00-0E-0D   (hex)		HESCH Schrˆder GmbH
-000E0D     (base 16)		HESCH Schrˆder GmbH
+00-0E-0D   (hex)		HESCH SchrÔøΩder GmbH
+000E0D     (base 16)		HESCH SchrÔøΩder GmbH
 				Boschstrasse 8
 				Neustadt Niedersachsen 31535
 				GERMANY
@@ -22879,10 +22879,10 @@ company_id			Organization
 				Tokyo  106-0032
 				JAPAN
 
-00-0E-11   (hex)		BDT B¸ro- und Datentechnik GmbH & Co. KG
-000E11     (base 16)		BDT B¸ro- und Datentechnik GmbH & Co. KG
+00-0E-11   (hex)		BDT BÔøΩro- und Datentechnik GmbH & Co. KG
+000E11     (base 16)		BDT BÔøΩro- und Datentechnik GmbH & Co. KG
 				Saline 29
-				Rottweil Baden-W¸rttemberg D-78628
+				Rottweil Baden-WÔøΩrttemberg D-78628
 				GERMANY
 
 00-0E-12   (hex)		Adaptive Micro Systems Inc.
@@ -23076,7 +23076,7 @@ company_id			Organization
 00-0E-31   (hex)		Olympus Soft Imaging Solutions GmbH
 000E31     (base 16)		Olympus Soft Imaging Solutions GmbH
 				Johann-Krane-Weg 39
-				M¸nster 48149
+				MÔøΩnster 48149
 				GERMANY
 
 00-0E-32   (hex)		Kontron Medical
@@ -23231,7 +23231,7 @@ company_id			Organization
 00-0E-49   (hex)		Forsway Scandinavia AB
 000E49     (base 16)		Forsway Scandinavia AB
 				Kaplansgatan 16 B
-				541 34 Skˆvde 
+				541 34 SkÔøΩvde 
 				SWEDEN
 
 00-0E-4A   (hex)		Changchun Huayu WEBPAD Co.,LTD
@@ -23305,7 +23305,7 @@ company_id			Organization
 
 00-0E-55   (hex)		AUVITRAN
 000E55     (base 16)		AUVITRAN
-				7c chemin des prËs
+				7c chemin des prÔøΩs
 				MEYLAN  38410
 				FRANCE
 
@@ -23444,7 +23444,7 @@ company_id			Organization
 
 00-0E-6B   (hex)		Janitza electronics GmbH
 000E6B     (base 16)		Janitza electronics GmbH
-				Vor dem Polst¸ck 1
+				Vor dem PolstÔøΩck 1
 				Lahnau Hessen 35633
 				GERMANY
 
@@ -23552,7 +23552,7 @@ company_id			Organization
 00-0E-7C   (hex)		Televes S.A.
 000E7C     (base 16)		Televes S.A.
 				Rua Benefica Conxo 17
-				Santiago de Compostela CoruÒa 15706
+				Santiago de Compostela CoruÔøΩa 15706
 				SPAIN
 
 00-0E-7D   (hex)		Electronics Line 3000 Ltd.
@@ -23653,7 +23653,7 @@ company_id			Organization
 
 00-0E-8C   (hex)		Siemens AG A&D ET
 000E8C     (base 16)		Siemens AG A&D ET
-				Siemensstraﬂe 10
+				SiemensstraÔøΩe 10
 				Regensburg  93055
 				GERMANY
 
@@ -23693,9 +23693,9 @@ company_id			Organization
 				Songpa-gu Seoul 138-169
 				KOREA, REPUBLIC OF
 
-00-0E-93   (hex)		MilÈnio 3 Sistemas ElectrÛnicos, Lda.
-000E93     (base 16)		MilÈnio 3 Sistemas ElectrÛnicos, Lda.
-				EdifÌcio Via Norte, R. Espido 164C S403
+00-0E-93   (hex)		MilÔøΩnio 3 Sistemas ElectrÔøΩnicos, Lda.
+000E93     (base 16)		MilÔøΩnio 3 Sistemas ElectrÔøΩnicos, Lda.
+				EdifÔøΩcio Via Norte, R. Espido 164C S403
 				Maia Minho 4470-177
 				PORTUGAL
 
@@ -23869,7 +23869,7 @@ company_id			Organization
 
 00-0E-AF   (hex)		CASTEL
 000EAF     (base 16)		CASTEL
-				ZI Saint Lambert des LevÈes
+				ZI Saint Lambert des LevÔøΩes
 				SAUMUR Maine et Loire 49412
 				FRANCE
 
@@ -23888,7 +23888,7 @@ company_id			Organization
 
 00-0E-B2   (hex)		Micro-Research Finland Oy
 000EB2     (base 16)		Micro-Research Finland Oy
-				V‰litalontie 83 C
+				VÔøΩlitalontie 83 C
 				Helsinki  FIN-00660
 				FINLAND
 
@@ -23951,7 +23951,7 @@ company_id			Organization
 
 00-0E-BC   (hex)		Paragon Fidelity GmbH
 000EBC     (base 16)		Paragon Fidelity GmbH
-				Schwaderm¸hlstrasse 4a
+				SchwadermÔøΩhlstrasse 4a
 				Cadolzburg  90556
 				GERMANY
 
@@ -24072,7 +24072,7 @@ company_id			Organization
 00-0E-CF   (hex)		PROFIBUS Nutzerorganisation e.V.
 000ECF     (base 16)		PROFIBUS Nutzerorganisation e.V.
 				Haid-und-Neu-Strasse 7
-				Karlsruhe Baden-W¸rttemberg 76131
+				Karlsruhe Baden-WÔøΩrttemberg 76131
 				GERMANY
 
 00-0E-D0   (hex)		Privaris, Inc.
@@ -24275,7 +24275,7 @@ company_id			Organization
 				 
 00-0E-F0   (hex)		Festo AG & Co. KG
 000EF0     (base 16)		Festo AG & Co. KG
-				Ruiterstraﬂe 82
+				RuiterstraÔøΩe 82
 				Esslingen  73734
 				GERMANY
 
@@ -24439,8 +24439,8 @@ company_id			Organization
 00-0F-0B   (hex)		Kentima Technologies AB
 000F0B     (base 16)		Kentima Technologies AB
 				Box 174
-				Kastanjev‰gen 2
-				Staffanstorp SkÂne 245 44
+				KastanjevÔøΩgen 2
+				Staffanstorp SkÔøΩne 245 44
 				SWEDEN
 
 00-0F-0C   (hex)		SYNCHRONIC ENGINEERING
@@ -24503,7 +24503,7 @@ company_id			Organization
 00-0F-15   (hex)		Kjaerulff1 A/S
 000F15     (base 16)		Kjaerulff1 A/S
 				C.F. Tietgens Boulevard 19
-				Odense Sÿ Fyn 5220
+				Odense SÔøΩ Fyn 5220
 				DENMARK
 
 00-0F-16   (hex)		JAY HOW TECHNOLOGY CO.,
@@ -24943,7 +24943,7 @@ company_id			Organization
 
 00-0F-59   (hex)		Phonak Communications AG
 000F59     (base 16)		Phonak Communications AG
-				L‰nggasse 17
+				LÔøΩnggasse 17
 				Murten FR 3280
 				SWITZERLAND
 
@@ -25159,7 +25159,7 @@ company_id			Organization
 
 00-0F-7B   (hex)		Arce Sistemas, S.A.
 000F7B     (base 16)		Arce Sistemas, S.A.
-				C/Padre Larramendi, 3 - 2∫
+				C/Padre Larramendi, 3 - 2ÔøΩ
 				Bilbao Vizcaya 48012
 				SPAIN
 
@@ -25381,7 +25381,7 @@ company_id			Organization
 00-0F-9E   (hex)		Murrelektronik GmbH
 000F9E     (base 16)		Murrelektronik GmbH
 				Falkenstrasse 3
-				Oppenweiler Baden W¸rttemberg 71570
+				Oppenweiler Baden WÔøΩrttemberg 71570
 				GERMANY
 
 00-0F-9F   (hex)		Motorola Mobility, Inc.
@@ -25419,7 +25419,7 @@ company_id			Organization
 00-0F-A4   (hex)		Sprecher Automation GmbH
 000FA4     (base 16)		Sprecher Automation GmbH
 				Franckstrasse 51
-				Linz Oberˆsterreich 4018
+				Linz OberÔøΩsterreich 4018
 				AUSTRIA
 
 00-0F-A5   (hex)		BWA Technology GmbH
@@ -25473,7 +25473,7 @@ company_id			Organization
 00-0F-AD   (hex)		FMN communications GmbH
 000FAD     (base 16)		FMN communications GmbH
 				Grimmelallee 4
-				Nordhausen Th¸ringen 99734
+				Nordhausen ThÔøΩringen 99734
 				GERMANY
 
 00-0F-AE   (hex)		E2O Communications
@@ -25561,7 +25561,7 @@ company_id			Organization
 00-0F-BB   (hex)		Nokia Siemens Networks GmbH & Co. KG
 000FBB     (base 16)		Nokia Siemens Networks GmbH & Co. KG
 				Werner-von-Siemens Str. 2-6
-				Bruchsal Baden-W¸rtemberg 76646
+				Bruchsal Baden-WÔøΩrtemberg 76646
 				GERMANY
 
 00-0F-BC   (hex)		Onkey Technologies, Inc.
@@ -25892,7 +25892,7 @@ company_id			Organization
 
 00-0F-EF   (hex)		Thales e-Transactions GmbH
 000FEF     (base 16)		Thales e-Transactions GmbH
-				Konrad-Zuse-Straﬂe 19-21
+				Konrad-Zuse-StraÔøΩe 19-21
 				Bad Hersfeld Hessen 36251
 				GERMANY
 
@@ -26572,8 +26572,8 @@ company_id			Organization
 
 00-10-5B   (hex)		NET INSIGHT AB
 00105B     (base 16)		NET INSIGHT AB
-				V‰stberga AllÈ 9
-				SE-1260 30 H‰gersten 
+				VÔøΩstberga AllÔøΩ 9
+				SE-1260 30 HÔøΩgersten 
 				SWEDEN
 
 00-10-5C   (hex)		QUANTUM DESIGNS (H.K.) LTD.
@@ -28373,8 +28373,8 @@ company_id			Organization
 				Hsin Tien City  231
 				TAIWAN, REPUBLIC OF CHINA
 
-00-11-7B   (hex)		B¸chi Labortechnik AG
-00117B     (base 16)		B¸chi Labortechnik AG
+00-11-7B   (hex)		BÔøΩchi Labortechnik AG
+00117B     (base 16)		BÔøΩchi Labortechnik AG
 				Meierseggstrasse 40
 				Flawil 9230 SG
 				SWITZERLAND
@@ -28513,8 +28513,8 @@ company_id			Organization
 
 00-11-91   (hex)		CTS-Clima Temperatur Systeme GmbH
 001191     (base 16)		CTS-Clima Temperatur Systeme GmbH
-				Lotzen‰cker 21
-				Hechingen Badenw¸rttemberg 72379
+				LotzenÔøΩcker 21
+				Hechingen BadenwÔøΩrttemberg 72379
 				GERMANY
 
 00-11-92   (hex)		Cisco Systems
@@ -28908,12 +28908,12 @@ company_id			Organization
 00-11-CF   (hex)		Thrane & Thrane A/S
 0011CF     (base 16)		Thrane & Thrane A/S
 				Lundtoftegaardsvej 93D
-				Lyngby K¯benhavn 2800
+				Lyngby KÔøΩbenhavn 2800
 				DENMARK
 
 00-11-D0   (hex)		Tandberg Data ASA
 0011D0     (base 16)		Tandberg Data ASA
-				KjelsÂsveien 161
+				KjelsÔøΩsveien 161
 				Oslo  0411
 				NORWAY
 
@@ -29002,7 +29002,7 @@ company_id			Organization
 
 00-11-DE   (hex)		EURILOGIC
 0011DE     (base 16)		EURILOGIC
-				Centrale Parc B‚t 7
+				Centrale Parc BÔøΩt 7
 				Avenue sully prud'homme
 				Chatenay Malabry  92298
 				FRANCE
@@ -29138,7 +29138,7 @@ company_id			Organization
 00-11-F3   (hex)		NeoMedia Europe AG
 0011F3     (base 16)		NeoMedia Europe AG
 				Jens-Otto-Krag-Str. 11
-				W¸rselen Nordrhein-Westfalen 52146
+				WÔøΩrselen Nordrhein-Westfalen 52146
 				GERMANY
 
 00-11-F4   (hex)		woori-net
@@ -29212,7 +29212,7 @@ company_id			Organization
 0011FF     (base 16)		Digitro Tecnologia Ltda
 				Rua: Professora Sofia Quint de Souza, 167
 				Bairro: Capoeiras
-				FlorianÛpolis Santa Catarina 88085-040
+				FlorianÔøΩpolis Santa Catarina 88085-040
 				BRAZIL
 
 00-12-00   (hex)		Cisco
@@ -29597,7 +29597,7 @@ company_id			Organization
 00-12-3B   (hex)		KeRo Systems ApS
 00123B     (base 16)		KeRo Systems ApS
 				Allikevej 3
-				H¯rsholm  2970
+				HÔøΩrsholm  2970
 				DENMARK
 
 00-12-3C   (hex)		Second Rule LLC
@@ -29749,7 +29749,7 @@ company_id			Organization
 00-12-53   (hex)		AudioDev AB
 001253     (base 16)		AudioDev AB
 				Kabingatan 9
-				Malmˆ  SE-212 39
+				MalmÔøΩ  SE-212 39
 				SWEDEN
 
 00-12-54   (hex)		Spectra Technologies Holdings Company Ltd
@@ -29787,7 +29787,7 @@ company_id			Organization
 00-12-59   (hex)		THERMO ELECTRON KARLSRUHE
 001259     (base 16)		THERMO ELECTRON KARLSRUHE
 				DIESELSTRASSE 4
-				KARLSRUHE BADEN W‹RTEMBERG 76227
+				KARLSRUHE BADEN WÔøΩRTEMBERG 76227
 				GERMANY
 
 00-12-5A   (hex)		Microsoft Corporation
@@ -30002,7 +30002,7 @@ company_id			Organization
 00-12-7C   (hex)		SWEGON AB
 00127C     (base 16)		SWEGON AB
 				Box 300
-				KVƒNUM VƒSTRA G÷TALAND SE 535 23
+				KVÔøΩNUM VÔøΩSTRA GÔøΩTALAND SE 535 23
 				SWEDEN
 
 00-12-7D   (hex)		MobileAria
@@ -30072,7 +30072,7 @@ company_id			Organization
 00-12-87   (hex)		Digital Everywhere Unterhaltungselektronik GmbH
 001287     (base 16)		Digital Everywhere Unterhaltungselektronik GmbH
 				Maria Gailer Strasse 16
-				Villach K‰rnten 9500
+				Villach KÔøΩrnten 9500
 				AUSTRIA
 
 00-12-88   (hex)		2Wire, Inc
@@ -30109,7 +30109,7 @@ company_id			Organization
 00-12-8D   (hex)		STB Datenservice GmbH
 00128D     (base 16)		STB Datenservice GmbH
 				Weinsbergstrasse 190
-				Kˆln NRW 50825
+				KÔøΩln NRW 50825
 				GERMANY
 
 00-12-8E   (hex)		Q-Free ASA
@@ -30208,7 +30208,7 @@ company_id			Organization
 00129D     (base 16)		First International Computer do Brasil
 				Rodovia BR 459
 				km 121 - Distrito Industrial
-				Santa Rita do SapucaÌ Minas Gerais 
+				Santa Rita do SapucaÔøΩ Minas Gerais 
 				BRAZIL
 
 00-12-9E   (hex)		Surf Communications Inc.
@@ -30309,7 +30309,7 @@ company_id			Organization
 00-12-AD   (hex)		IDS GmbH
 0012AD     (base 16)		IDS GmbH
 				Nobelstr, 18
-				Ettlingen Baden-W¸rttemberg 76275
+				Ettlingen Baden-WÔøΩrttemberg 76275
 				GERMANY
 
 00-12-AE   (hex)		HLS HARD-LINE Solutions Inc.
@@ -30447,7 +30447,7 @@ company_id			Organization
 
 00-12-C3   (hex)		WIT S.A.
 0012C3     (base 16)		WIT S.A.
-				138 avenue LÈon BÈrenger
+				138 avenue LÔøΩon BÔøΩrenger
 				Saint Laurent du Var PACA 06700
 				FRANCE
 
@@ -30531,7 +30531,7 @@ company_id			Organization
 00-12-D0   (hex)		Gossen-Metrawatt-GmbH
 0012D0     (base 16)		Gossen-Metrawatt-GmbH
 				Thomas-Mann-Str. 16-20
-				N¸rnberg Bavaria 90471
+				NÔøΩrnberg Bavaria 90471
 				GERMANY
 
 00-12-D1   (hex)		Texas Instruments Inc
@@ -30628,7 +30628,7 @@ company_id			Organization
 00-12-DF   (hex)		Novomatic AG
 0012DF     (base 16)		Novomatic AG
 				Wiener Strasse 158
-				Gumpoldskirchen Niederˆsterreich A-2352
+				Gumpoldskirchen NiederÔøΩsterreich A-2352
 				AUSTRIA
 
 00-12-E0   (hex)		Codan Limited
@@ -31025,7 +31025,7 @@ company_id			Organization
 
 00-13-1E   (hex)		Peiker acustic GmbH & Co. KG
 00131E     (base 16)		Peiker acustic GmbH & Co. KG
-				Max-Planck-Straﬂe 32
+				Max-Planck-StraÔøΩe 32
 				Friedrichsdorf Hessen 61381
 				GERMANY
 
@@ -31113,7 +31113,7 @@ company_id			Organization
 
 00-13-2C   (hex)		MAZ Brandenburg GmbH
 00132C     (base 16)		MAZ Brandenburg GmbH
-				Mielestraﬂe 2
+				MielestraÔøΩe 2
 				Werder Brandenburg 14542
 				GERMANY
 
@@ -31258,7 +31258,7 @@ company_id			Organization
 
 00-13-43   (hex)		Matsushita Electronic Components (Europe) GmbH
 001343     (base 16)		Matsushita Electronic Components (Europe) GmbH
-				Zeppelinstraﬂe 19
+				ZeppelinstraÔøΩe 19
 				Lueneburg Niedersachsen 21337
 				GERMANY
 
@@ -31427,7 +31427,7 @@ company_id			Organization
 
 00-13-5E   (hex)		EAB/RWI/K
 00135E     (base 16)		EAB/RWI/K
-				F‰rˆgatan 6
+				FÔøΩrÔøΩgatan 6
 				Stockholm Kista 164 80
 				SWEDEN
 
@@ -31689,7 +31689,7 @@ company_id			Organization
 00-13-87   (hex)		27M Technologies AB
 001387     (base 16)		27M Technologies AB
 				Diskettgatan 11
-				Linkˆping  S-583 35
+				LinkÔøΩping  S-583 35
 				SWEDEN
 
 00-13-88   (hex)		WiMedia Alliance
@@ -31699,10 +31699,10 @@ company_id			Organization
 				San Ramon CA 94583
 				UNITED STATES
 
-00-13-89   (hex)		Redes de TelefonÌa MÛvil S.A.
-001389     (base 16)		Redes de TelefonÌa MÛvil S.A.
+00-13-89   (hex)		Redes de TelefonÔøΩa MÔøΩvil S.A.
+001389     (base 16)		Redes de TelefonÔøΩa MÔøΩvil S.A.
 				C/Puerto de la Morcuera 14 B4
-				LeganÈs Madrid 28918
+				LeganÔøΩs Madrid 28918
 				SPAIN
 
 00-13-8A   (hex)		QINGDAO GOERTEK ELECTRONICS CO.,LTD.
@@ -32041,7 +32041,7 @@ company_id			Organization
 00-13-BE   (hex)		Virtual Conexions
 0013BE     (base 16)		Virtual Conexions
 				410 rue St-Nicolas, suite 600
-				MontrÈal QuÈbec H2Y 2P5
+				MontrÔøΩal QuÔøΩbec H2Y 2P5
 				CANADA
 
 00-13-BF   (hex)		Media System Planning Corp.
@@ -32053,8 +32053,8 @@ company_id			Organization
 
 00-13-C0   (hex)		Trix Tecnologia Ltda.
 0013C0     (base 16)		Trix Tecnologia Ltda.
-				Rua da Paz, 1957 - Ch·cara Santo AntÙnio
-				S„o Paulo  04713-002
+				Rua da Paz, 1957 - ChÔøΩcara Santo AntÔøΩnio
+				SÔøΩo Paulo  04713-002
 				BRAZIL
 
 00-13-C1   (hex)		Asoka USA Corporation
@@ -32613,7 +32613,7 @@ company_id			Organization
 00-14-17   (hex)		RSE Informations Technologie GmbH
 001417     (base 16)		RSE Informations Technologie GmbH
 				Silberbergstrasse 9
-				Wolfsberg K‰rnten 9400
+				Wolfsberg KÔøΩrnten 9400
 				AUSTRIA
 
 00-14-18   (hex)		C4Line
@@ -32812,7 +32812,7 @@ company_id			Organization
 
 00-14-36   (hex)		Qwerty Elektronik AB
 001436     (base 16)		Qwerty Elektronik AB
-				B‰linge KlockargÂrd
+				BÔøΩlinge KlockargÔøΩrd
 				Tystberga  610 60
 				SWEDEN
 
@@ -33339,7 +33339,7 @@ company_id			Organization
 00-14-89   (hex)		B15402100 - JANDEI, S.L.
 001489     (base 16)		B15402100 - JANDEI, S.L.
 				POL. IND. POCOMACO, E-28
-				LA CORU—A  15190
+				LA CORUÔøΩA  15190
 				SPAIN
 
 00-14-8A   (hex)		Elin Ebg Traction Gmbh
@@ -33644,7 +33644,7 @@ company_id			Organization
 
 00-14-B9   (hex)		MSTAR SEMICONDUCTOR
 0014B9     (base 16)		MSTAR SEMICONDUCTOR
-				11-13 rue RenÈ Jacques
+				11-13 rue RenÔøΩ Jacques
 				Issy les Moulineaux  92130
 				FRANCE
 
@@ -33714,7 +33714,7 @@ company_id			Organization
 
 00-14-C4   (hex)		Vitelcom Mobile Technology
 0014C4     (base 16)		Vitelcom Mobile Technology
-				PTA, Avda, Juan LÛpez PeÒalver, n∫ 7
+				PTA, Avda, Juan LÔøΩpez PeÔøΩalver, nÔøΩ 7
 				29590, Campanillas
 				Campanillas. Malaga. 
 				SPAIN
@@ -33811,7 +33811,7 @@ company_id			Organization
 00-14-D3   (hex)		SEPSA
 0014D3     (base 16)		SEPSA
 				calle Albatros, 7 y 9
-				Pol. Ind. La EstaciÛn
+				Pol. Ind. La EstaciÔøΩn
 				PINTO Madrid 28320
 				SPAIN
 
@@ -33899,7 +33899,7 @@ company_id			Organization
 
 00-14-E1   (hex)		Data Display AG
 0014E1     (base 16)		Data Display AG
-				Industriestraﬂe 1
+				IndustriestraÔøΩe 1
 				Germering Bayern 82110
 				GERMANY
 
@@ -34423,9 +34423,9 @@ company_id			Organization
 				Hwaseong Gyeonggi 445-895
 				KOREA, REPUBLIC OF
 
-00-15-34   (hex)		A BELTR”NICA, Companhia de ComunicaÁıes, Lda
-001534     (base 16)		A BELTR”NICA, Companhia de ComunicaÁıes, Lda
-				R. Dr. JosÈ Baptista de Sousa, 27
+00-15-34   (hex)		A BELTRÔøΩNICA, Companhia de ComunicaÔøΩÔøΩes, Lda
+001534     (base 16)		A BELTRÔøΩNICA, Companhia de ComunicaÔøΩÔøΩes, Lda
+				R. Dr. JosÔøΩ Baptista de Sousa, 27
 				Lisbon  1549-002 Lis
 				PORTUGAL
 
@@ -34554,7 +34554,7 @@ company_id			Organization
 
 00-15-48   (hex)		CUBE TECHNOLOGIES
 001548     (base 16)		CUBE TECHNOLOGIES
-				10, rue des RosiÈristes
+				10, rue des RosiÔøΩristes
 				CHAMPAGNE AU MONT D'OR FRANCE 69410
 				FRANCE
 
@@ -34592,7 +34592,7 @@ company_id			Organization
 
 00-15-4E   (hex)		IEC
 00154E     (base 16)		IEC
-				3, rue de VarembÈ
+				3, rue de VarembÔøΩ
 				P.O. Box 131
 				CH - 1211 GENEVA 20
 				GERMANY
@@ -34632,7 +34632,7 @@ company_id			Organization
 
 00-15-54   (hex)		Atalum Wireless S.A.
 001554     (base 16)		Atalum Wireless S.A.
-				C/ Orellana 5, 1∫ I
+				C/ Orellana 5, 1ÔøΩ I
 				Madrid  28004
 				SPAIN
 
@@ -34880,7 +34880,7 @@ company_id			Organization
 00-15-7B   (hex)		Leuze electronic GmbH + Co. KG
 00157B     (base 16)		Leuze electronic GmbH + Co. KG
 				In der Braike 1
-				Owen Baden-W¸rttemberg 73277
+				Owen Baden-WÔøΩrttemberg 73277
 				GERMANY
 
 00-15-7C   (hex)		Dave Networks, Inc.
@@ -35010,7 +35010,7 @@ company_id			Organization
 00-15-90   (hex)		Hectronic GmbH
 001590     (base 16)		Hectronic GmbH
 				Allmendstrasse 15
-				Bonndorf Baden-W¸rttemberg 79848
+				Bonndorf Baden-WÔøΩrttemberg 79848
 				GERMANY
 
 00-15-91   (hex)		RLW Inc.
@@ -35118,7 +35118,7 @@ company_id			Organization
 
 00-15-A1   (hex)		ECA-SINTERS
 0015A1     (base 16)		ECA-SINTERS
-				5, rue Paul MesplÈ
+				5, rue Paul MesplÔøΩ
 				TOULOUSE Cedex 01 31106
 				FRANCE
 
@@ -35191,7 +35191,7 @@ company_id			Organization
 
 00-15-AC   (hex)		Capelon AB
 0015AC     (base 16)		Capelon AB
-				J‰gerhorns v‰g 1
+				JÔøΩgerhorns vÔøΩg 1
 				Kungens Kurva Stockholm S-141 75
 				SWEDEN
 
@@ -35234,7 +35234,7 @@ company_id			Organization
 
 00-15-B3   (hex)		Caretech AB
 0015B3     (base 16)		Caretech AB
-				Nyborgsv‰gen 197
+				NyborgsvÔøΩgen 197
 				Kalix  95291
 				SWEDEN
 
@@ -35290,7 +35290,7 @@ company_id			Organization
 
 00-15-BC   (hex)		Develco
 0015BC     (base 16)		Develco
-				Olof Palmes AllÈ 40
+				Olof Palmes AllÔøΩ 40
 				Aarhus N  8200
 				DENMARK
 
@@ -35447,7 +35447,7 @@ company_id			Organization
 
 00-15-D4   (hex)		Emitor AB
 0015D4     (base 16)		Emitor AB
-				Sjˆviksbacken 14
+				SjÔøΩviksbacken 14
 				Stockholm  117 43
 				SWEDEN
 
@@ -35566,7 +35566,7 @@ company_id			Organization
 00-15-E7   (hex)		Quantec ProAudio
 0015E7     (base 16)		Quantec ProAudio
 				Leopoldstrasse 18
-				M¸nchen  D-80802
+				MÔøΩnchen  D-80802
 				GERMANY
 
 00-15-E8   (hex)		Nortel
@@ -35640,7 +35640,7 @@ company_id			Organization
 00-15-F3   (hex)		PELTOR AB
 0015F3     (base 16)		PELTOR AB
 				Box 2341
-				SE-331 02  VƒRNAMO  SE-331 02
+				SE-331 02  VÔøΩRNAMO  SE-331 02
 				SWEDEN
 
 00-15-F4   (hex)		Eventide
@@ -35773,8 +35773,8 @@ company_id			Organization
 
 00-16-08   (hex)		Sequans Communications
 001608     (base 16)		Sequans Communications
-				19 Le Parvis de la DÈfense
-				B‚timent CitiCenter
+				19 Le Parvis de la DÔøΩfense
+				BÔøΩtiment CitiCenter
 				PARIS LA DEFENSE CEDEX 92073
 				FRANCE
 
@@ -35877,8 +35877,8 @@ company_id			Organization
 				Songpa-Gu Seoul 
 				KOREA, REPUBLIC OF
 
-00-16-19   (hex)		La FactorÌa de Comunicaciones Aplicadas,S.L.
-001619     (base 16)		La FactorÌa de Comunicaciones Aplicadas,S.L.
+00-16-19   (hex)		La FactorÔøΩa de Comunicaciones Aplicadas,S.L.
+001619     (base 16)		La FactorÔøΩa de Comunicaciones Aplicadas,S.L.
 				C/Agricultura,111
 				Terrassa Barcelona 08223
 				SPAIN
@@ -35934,7 +35934,7 @@ company_id			Organization
 
 00-16-22   (hex)		BBH SYSTEMS GMBH
 001622     (base 16)		BBH SYSTEMS GMBH
-				Bˆttgerstrasse 40
+				BÔøΩttgerstrasse 40
 				Weiden i.d.OPf. Bayern 92637
 				GERMANY
 
@@ -35979,7 +35979,7 @@ company_id			Organization
 
 00-16-29   (hex)		Nivus GmbH
 001629     (base 16)		Nivus GmbH
-				Im T‰le 2
+				Im TÔøΩle 2
 				Eppingen Baden-Wuerttemberg 75031
 				GERMANY
 
@@ -36015,8 +36015,8 @@ company_id			Organization
 				Hsinchu Hsien  307
 				TAIWAN, REPUBLIC OF CHINA
 
-00-16-2F   (hex)		Geutebr¸ck GmbH
-00162F     (base 16)		Geutebr¸ck GmbH
+00-16-2F   (hex)		GeutebrÔøΩck GmbH
+00162F     (base 16)		GeutebrÔøΩck GmbH
 				Im Nassen 7-9
 				Windhagen  53578
 				GERMANY
@@ -36235,7 +36235,7 @@ company_id			Organization
 00-16-51   (hex)		Exeo Systems
 001651     (base 16)		Exeo Systems
 				1650, rue Michelin, suite 201
-				Laval QuÈbec H7L 4R3
+				Laval QuÔøΩbec H7L 4R3
 				CANADA
 
 00-16-52   (hex)		Hoatech Technologies, Inc.
@@ -36473,7 +36473,7 @@ company_id			Organization
 00-16-77   (hex)		Bihl+Wiedemann GmbH
 001677     (base 16)		Bihl+Wiedemann GmbH
 				Flosswoerthstr. 41
-				Mannheim Baden W¸rtemberg 68199
+				Mannheim Baden WÔøΩrtemberg 68199
 				GERMANY
 
 00-16-78   (hex)		SHENZHEN BAOAN GAOKE ELECTRONICS CO., LTD
@@ -36655,7 +36655,7 @@ company_id			Organization
 00-16-94   (hex)		Sennheiser Communications A/S
 001694     (base 16)		Sennheiser Communications A/S
 				Langager 6
-				Solr¯d Strand Copenhagen 2680
+				SolrÔøΩd Strand Copenhagen 2680
 				DENMARK
 
 00-16-95   (hex)		AVC Technology Limited
@@ -36840,7 +36840,7 @@ company_id			Organization
 
 00-16-B1   (hex)		KBS
 0016B1     (base 16)		KBS
-				88 rue Pierre SÈmard
+				88 rue Pierre SÔøΩmard
 				BP 55
 				Moissy cedex Ile de France 77552
 				FRANCE
@@ -36882,7 +36882,7 @@ company_id			Organization
 00-16-B8   (hex)		Sony Ericsson Mobile Communications
 0016B8     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-16-B9   (hex)		ProCurve Networking
@@ -37076,13 +37076,13 @@ company_id			Organization
 00-16-D7   (hex)		Sunways AG
 0016D7     (base 16)		Sunways AG
 				Macairestr.3-5
-				Konstanz Baden W¸rttemberg 78467
+				Konstanz Baden WÔøΩrttemberg 78467
 				GERMANY
 
 00-16-D8   (hex)		Senea AB
 0016D8     (base 16)		Senea AB
-				Fˆretagsallen 12
-				≈kersberga  18484
+				FÔøΩretagsallen 12
+				ÔøΩkersberga  18484
 				SWEDEN
 
 00-16-D9   (hex)		NINGBO BIRD CO.,LTD.
@@ -37438,7 +37438,7 @@ company_id			Organization
 
 00-17-11   (hex)		GE Healthcare Bio-Sciences AB
 001711     (base 16)		GE Healthcare Bio-Sciences AB
-				Bjˆrkgatan 30
+				BjÔøΩrkgatan 30
 				Uppsala SE 75184
 				SWEDEN
 
@@ -37518,7 +37518,7 @@ company_id			Organization
 
 00-17-1E   (hex)		Theo Benning GmbH & Co. KG
 00171E     (base 16)		Theo Benning GmbH & Co. KG
-				Muensterstraﬂe 135-137
+				MuensterstraÔøΩe 135-137
 				Bocholt NRW 46397
 				GERMANY
 
@@ -37545,7 +37545,7 @@ company_id			Organization
 00-17-22   (hex)		Hanazeder Electronic GmbH
 001722     (base 16)		Hanazeder Electronic GmbH
 				J.M. Dimmelstr 10
-				Ried i. I. Oberˆsterreich 4910
+				Ried i. I. OberÔøΩsterreich 4910
 				AUSTRIA
 
 00-17-23   (hex)		Summit Data Communications
@@ -37558,7 +37558,7 @@ company_id			Organization
 00-17-24   (hex)		Studer Professional Audio GmbH
 001724     (base 16)		Studer Professional Audio GmbH
 				Althardstrasse 30
-				Regensdorf Z¸rich CH-8105
+				Regensdorf ZÔøΩrich CH-8105
 				SWITZERLAND
 
 00-17-25   (hex)		Liquid Computing
@@ -37866,7 +37866,7 @@ company_id			Organization
 00-17-56   (hex)		Vinci Labs Oy
 001756     (base 16)		Vinci Labs Oy
 				Finlaysoninkuja 21 A
-				Tampere L‰nsi-Suomi 33210
+				Tampere LÔøΩnsi-Suomi 33210
 				FINLAND
 
 00-17-57   (hex)		RIX TECHNOLOGY LIMITED
@@ -38064,7 +38064,7 @@ company_id			Organization
 00-17-75   (hex)		TTE Germany GmbH
 001775     (base 16)		TTE Germany GmbH
 				Hermann-Schwer-Str. 3
-				Villingen-Schwenningen Baden-W¸rttemberg 78048
+				Villingen-Schwenningen Baden-WÔøΩrttemberg 78048
 				GERMANY
 
 00-17-76   (hex)		Meso Scale Diagnostics, LLC
@@ -38223,7 +38223,7 @@ company_id			Organization
 00-17-8E   (hex)		Gunnebo Cash Automation AB
 00178E     (base 16)		Gunnebo Cash Automation AB
 				Fabriksgatan 10
-				Gˆteborg  402 27
+				GÔøΩteborg  402 27
 				SWEDEN
 
 00-17-8F   (hex)		NINGBO YIDONG ELECTRONIC CO.,LTD.
@@ -38312,7 +38312,7 @@ company_id			Organization
 
 00-17-9C   (hex)		DEPRAG SCHULZ GMBH u. CO.
 00179C     (base 16)		DEPRAG SCHULZ GMBH u. CO.
-				Kurf¸rstenring 12.18
+				KurfÔøΩrstenring 12.18
 				Amberg Bayern 92224
 				GERMANY
 
@@ -38435,7 +38435,7 @@ company_id			Organization
 00-17-AF   (hex)		Enermet
 0017AF     (base 16)		Enermet
 				Salvesenintie
-				Jysk‰  FIN-40420
+				JyskÔøΩ  FIN-40420
 				FINLAND
 
 00-17-B0   (hex)		Nokia Danmark A/S
@@ -38498,7 +38498,7 @@ company_id			Organization
 00-17-B9   (hex)		Gambro Lundia AB
 0017B9     (base 16)		Gambro Lundia AB
 				BOX 10101
-				LUND SkÂne 22010
+				LUND SkÔøΩne 22010
 				SWEDEN
 
 00-17-BA   (hex)		SEDO CO., LTD.
@@ -38518,7 +38518,7 @@ company_id			Organization
 0017BC     (base 16)		Touchtunes Music Corporation
 				3 Place du Commerce
 				4th Floor
-				MontrÈal QuÈbec H3E 1H7
+				MontrÔøΩal QuÔøΩbec H3E 1H7
 				CANADA
 
 00-17-BD   (hex)		Tibetsystem
@@ -38581,12 +38581,12 @@ company_id			Organization
 0017C6     (base 16)		Cross Match Technologies Inc
 				400, boul. Jean-Lesage
 				Hall Ouest, Suite 30
-				QuÈbec, Qc  G1K 8W1
+				QuÔøΩbec, Qc  G1K 8W1
 				CANADA
 
 00-17-C7   (hex)		MARA Systems Consulting AB
 0017C7     (base 16)		MARA Systems Consulting AB
-				Instrumentv‰gen 45
+				InstrumentvÔøΩgen 45
 				Stockholm  126 53
 				SWEDEN
 
@@ -39072,7 +39072,7 @@ company_id			Organization
 00-18-13   (hex)		Sony Ericsson Mobile Communications
 001813     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-18-14   (hex)		Mitutoyo Corporation
@@ -39182,7 +39182,7 @@ company_id			Organization
 
 00-18-24   (hex)		Kimaldi Electronics, S.L.
 001824     (base 16)		Kimaldi Electronics, S.L.
-				Ctra. de RubÌ, 292 B
+				Ctra. de RubÔøΩ, 292 B
 				Pol. Ind. Can Guitard
 				Terrassa Barcelona 08228
 				SPAIN
@@ -39233,9 +39233,9 @@ company_id			Organization
 				BenQuao City Taipei 220
 				TAIWAN, REPUBLIC OF CHINA
 
-00-18-2D   (hex)		Artec Group O‹
-00182D     (base 16)		Artec Group O‹
-				T¸ri 10C
+00-18-2D   (hex)		Artec Group OÔøΩ
+00182D     (base 16)		Artec Group OÔøΩ
+				TÔøΩri 10C
 				Tallinn Harjumaa 11313
 				ESTONIA
 
@@ -39504,7 +39504,7 @@ company_id			Organization
 
 00-18-58   (hex)		TagMaster AB
 001858     (base 16)		TagMaster AB
-				Kronborgsgr‰nd 1
+				KronborgsgrÔøΩnd 1
 				Kista Stockholm S-16487
 				SWEDEN
 
@@ -39713,8 +39713,8 @@ company_id			Organization
 
 00-18-78   (hex)		Mackware GmbH
 001878     (base 16)		Mackware GmbH
-				Sch‰nzle 13
-				Waiblingen Baden-W¸rttemberg 71332
+				SchÔøΩnzle 13
+				Waiblingen Baden-WÔøΩrttemberg 71332
 				GERMANY
 
 00-18-79   (hex)		dSys
@@ -39814,7 +39814,7 @@ company_id			Organization
 
 00-18-88   (hex)		GOTIVE a.s.
 001888     (base 16)		GOTIVE a.s.
-				Z·mock· 34
+				ZÔøΩmockÔøΩ 34
 				Bratislava  81101
 				SLOVAKIA
 
@@ -39875,7 +39875,7 @@ company_id			Organization
 00-18-92   (hex)		ads-tec GmbH
 001892     (base 16)		ads-tec GmbH
 				Raiffeisenstrasse 14
-				Leinfelden-Echterdingen Baden-W¸rttemberg 70771
+				Leinfelden-Echterdingen Baden-WÔøΩrttemberg 70771
 				GERMANY
 
 00-18-93   (hex)		SHENZHEN PHOTON BROADBAND TECHNOLOGY CO.,LTD
@@ -39975,7 +39975,7 @@ company_id			Organization
 00-18-A2   (hex)		XIP Technology AB
 0018A2     (base 16)		XIP Technology AB
 				PO Box 437
-				Jˆnkˆping Sweden SE- 551 16
+				JÔøΩnkÔøΩping Sweden SE- 551 16
 				SWEDEN
 
 00-18-A3   (hex)		ZIPPY TECHNOLOGY CORP.
@@ -40166,10 +40166,10 @@ company_id			Organization
 				San Diego CA 92129
 				UNITED STATES
 
-00-18-C1   (hex)		Almitec Inform·tica e ComÈrcio Ltda.
-0018C1     (base 16)		Almitec Inform·tica e ComÈrcio Ltda.
+00-18-C1   (hex)		Almitec InformÔøΩtica e ComÔøΩrcio Ltda.
+0018C1     (base 16)		Almitec InformÔøΩtica e ComÔøΩrcio Ltda.
 				461, Francisco de Morais St.
-				S„o Paulo  04714-010
+				SÔøΩo Paulo  04714-010
 				BRAZIL
 
 00-18-C2   (hex)		Firetide, Inc
@@ -40361,9 +40361,9 @@ company_id			Organization
 
 00-18-E0   (hex)		ANAVEO
 0018E0     (base 16)		ANAVEO
-				Les CarrÈs du parc
-				10 rue des RosiÈristes
-				CHAMPAGNE au MONT D'OR RhÙne F-69410
+				Les CarrÔøΩs du parc
+				10 rue des RosiÔøΩristes
+				CHAMPAGNE au MONT D'OR RhÔøΩne F-69410
 				FRANCE
 
 00-18-E1   (hex)		Verkerk Service Systemen
@@ -40510,7 +40510,7 @@ company_id			Organization
 
 00-18-F7   (hex)		Kameleon Technologies
 0018F7     (base 16)		Kameleon Technologies
-				217, rue St HonorÈ
+				217, rue St HonorÔøΩ
 				Paris  75001
 				FRANCE
 
@@ -40543,7 +40543,7 @@ company_id			Organization
 00-18-FC   (hex)		Altec Electronic AG
 0018FC     (base 16)		Altec Electronic AG
 				Lenggenbachstrasse 3
-				Fahrweid Z¸rich CH-8951
+				Fahrweid ZÔøΩrich CH-8951
 				SWITZERLAND
 
 00-18-FD   (hex)		Optimal Technologies International Inc.
@@ -40562,7 +40562,7 @@ company_id			Organization
 
 00-18-FF   (hex)		PowerQuattro Co.
 0018FF     (base 16)		PowerQuattro Co.
-				J·nos u. 175.
+				JÔøΩnos u. 175.
 				Budapest  H-1161
 				HUNGARY
 
@@ -40575,7 +40575,7 @@ company_id			Organization
 
 00-19-01   (hex)		F1MEDIA
 001901     (base 16)		F1MEDIA
-				610, Keumkang Hightech •±, 138-1 Sangdaewon-Dong, Jungwon-Gu
+				610, Keumkang Hightech ÔøΩÔøΩ, 138-1 Sangdaewon-Dong, Jungwon-Gu
 				Seongnam-Si Gyeonggi-Do 462-707
 				KOREA, REPUBLIC OF
 
@@ -40601,7 +40601,7 @@ company_id			Organization
 00-19-05   (hex)		SCHRACK Seconet AG
 001905     (base 16)		SCHRACK Seconet AG
 				Eibesbrunnergasse 18
-				Wien ÷sterreich 1122
+				Wien ÔøΩsterreich 1122
 				AUSTRIA
 
 00-19-06   (hex)		Cisco Systems
@@ -40738,7 +40738,7 @@ company_id			Organization
 
 00-19-1B   (hex)		Sputnik Engineering AG
 00191B     (base 16)		Sputnik Engineering AG
-				Hˆheweg 85
+				HÔøΩheweg 85
 				Biel-Bienne BE  2502
 				SWITZERLAND
 
@@ -40821,7 +40821,7 @@ company_id			Organization
 
 00-19-28   (hex)		Siemens AG, Transportation Systems
 001928     (base 16)		Siemens AG, Transportation Systems
-				Werner-von-Siemens-Straﬂe 67
+				Werner-von-Siemens-StraÔøΩe 67
 				Erlangen  91052
 				GERMANY
 
@@ -41033,7 +41033,7 @@ company_id			Organization
 00-19-4A   (hex)		TESTO AG
 00194A     (base 16)		TESTO AG
 				Testo Strasse 1
-				Lenzkirch Baden-W¸rtemberg 79853
+				Lenzkirch Baden-WÔøΩrtemberg 79853
 				GERMANY
 
 00-19-4B   (hex)		SAGEM COMMUNICATION
@@ -41191,7 +41191,7 @@ company_id			Organization
 00-19-63   (hex)		Sony Ericsson Mobile Communications AB
 001963     (base 16)		Sony Ericsson Mobile Communications AB
 				Nya Vattentornet
-				Lund SkÂne 221 88
+				Lund SkÔøΩne 221 88
 				SWEDEN
 
 00-19-64   (hex)		Doorking Inc.
@@ -41388,7 +41388,7 @@ company_id			Organization
 00-19-82   (hex)		SmarDTV
 001982     (base 16)		SmarDTV
 				531 Avenue du Serpolet
-				ZE AthÈlia 2
+				ZE AthÔøΩlia 2
 				La Ciotat France 13 704
 				FRANCE
 
@@ -41465,7 +41465,7 @@ company_id			Organization
 00-19-8E   (hex)		Oticon A/S
 00198E     (base 16)		Oticon A/S
 				Kongebakken 9
-				Sm¯rum  2765
+				SmÔøΩrum  2765
 				DENMARK
 
 00-19-8F   (hex)		Alcatel Bell N.V.
@@ -41509,7 +41509,7 @@ company_id			Organization
 
 00-19-95   (hex)		Jurong Hi-Tech (Suzhou)Co.ltd
 001995     (base 16)		Jurong Hi-Tech (Suzhou)Co.ltd
-				275,Xing Long Street£¨Suzhou Indudtrial Park
+				275,Xing Long StreetÔøΩÔøΩSuzhou Indudtrial Park
 				Suzhou Jiang Su 215021
 				CHINA
 
@@ -41950,7 +41950,7 @@ company_id			Organization
 00-19-D9   (hex)		Zeutschel GmbH
 0019D9     (base 16)		Zeutschel GmbH
 				Heerweg 2
-				T¸bingen-Hirschau BW D-72070
+				TÔøΩbingen-Hirschau BW D-72070
 				GERMANY
 
 00-19-DA   (hex)		Welltrans O&E Technology Co. , Ltd.
@@ -41968,7 +41968,7 @@ company_id			Organization
 00-19-DC   (hex)		ENENSYS Technologies
 0019DC     (base 16)		ENENSYS Technologies
 				Le Germanium
-				80 Avenue des buttes de CoÎsmes
+				80 Avenue des buttes de CoÔøΩsmes
 				RENNES Brittany 35700
 				FRANCE
 
@@ -42937,7 +42937,7 @@ company_id			Organization
 00-1A-75   (hex)		Sony Ericsson Mobile Communications
 001A75     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-1A-76   (hex)		SDT information Technology Co.,LTD.
@@ -42955,7 +42955,7 @@ company_id			Organization
 
 00-1A-78   (hex)		ubtos
 001A78     (base 16)		ubtos
-				Rn.213, Woolim Lion°Øs Valley •±, #680
+				Rn.213, Woolim LionÔøΩÔøΩs Valley ÔøΩÔøΩ, #680
 				seoul Gasan-dong 153-803
 				KOREA, REPUBLIC OF
 
@@ -43089,7 +43089,7 @@ company_id			Organization
 00-1A-8D   (hex)		AVECS Bergen GmbH
 001A8D     (base 16)		AVECS Bergen GmbH
 				Billrothstr. 11 a
-				Bergen auf R¸gen M/V 18528
+				Bergen auf RÔøΩgen M/V 18528
 				GERMANY
 
 00-1A-8E   (hex)		3Way Networks Ltd
@@ -43106,11 +43106,11 @@ company_id			Organization
 				Brampton Ontario L6T 5P6
 				CANADA
 
-00-1A-90   (hex)		TrÛpico Sistemas e TelecomunicaÁıes da AmazÙnia LTDA.
-001A90     (base 16)		TrÛpico Sistemas e TelecomunicaÁıes da AmazÙnia LTDA.
+00-1A-90   (hex)		TrÔøΩpico Sistemas e TelecomunicaÔøΩÔøΩes da AmazÔøΩnia LTDA.
+001A90     (base 16)		TrÔøΩpico Sistemas e TelecomunicaÔøΩÔøΩes da AmazÔøΩnia LTDA.
 				Rod.  Campinas-Mogi-Mirim (SP 340)  Km 118,5
-				Polis de Tecnologia (CPqD)-PrÈdio 9A
-				Campinas S„o Paulo 13.086-902
+				Polis de Tecnologia (CPqD)-PrÔøΩdio 9A
+				Campinas SÔøΩo Paulo 13.086-902
 				BRAZIL
 
 00-1A-91   (hex)		FusionDynamic Ltd.
@@ -43129,7 +43129,7 @@ company_id			Organization
 00-1A-93   (hex)		ERCO Leuchten GmbH
 001A93     (base 16)		ERCO Leuchten GmbH
 				Brockhauser Weg 80-82
-				L¸denscheid NRW D-58507
+				LÔøΩdenscheid NRW D-58507
 				GERMANY
 
 00-1A-94   (hex)		Votronic GmbH
@@ -43248,7 +43248,7 @@ company_id			Organization
 00-1A-A6   (hex)		Telefunken Radio Communication Systems GmbH &CO.KG
 001AA6     (base 16)		Telefunken Radio Communication Systems GmbH &CO.KG
 				Eberhard-Finckh-Strasse 55
-				Ulm Baden-W¸rttemberg 89075
+				Ulm Baden-WÔøΩrttemberg 89075
 				GERMANY
 
 00-1A-A7   (hex)		Torian Wireless
@@ -43303,8 +43303,8 @@ company_id			Organization
 00-1A-AF   (hex)		BLUSENS TECHNOLOGY
 001AAF     (base 16)		BLUSENS TECHNOLOGY
 				EDIFICIO CNL,- AV.
-				FERNANDO CASAS NOVOA ,N∫ 37B 2∫
-				15707 - SANTIAGO DE COMPOSTELA A CORU—A 
+				FERNANDO CASAS NOVOA ,NÔøΩ 37B 2ÔøΩ
+				15707 - SANTIAGO DE COMPOSTELA A CORUÔøΩA 
 				SPAIN
 
 00-1A-B0   (hex)		Signal Networks Pvt. Ltd.,
@@ -43466,7 +43466,7 @@ company_id			Organization
 00-1A-C8   (hex)		ISL (Instrumentation Scientifique de Laboratoire)
 001AC8     (base 16)		ISL (Instrumentation Scientifique de Laboratoire)
 				Impasse des 4 vents
-				Parc d'ActivitÈ de la MesnilliÈre
+				Parc d'ActivitÔøΩ de la MesnilliÔøΩre
 				VERSON CALVADOS 14790
 				FRANCE
 
@@ -43567,7 +43567,7 @@ company_id			Organization
 
 00-1A-D8   (hex)		AlsterAero GmbH
 001AD8     (base 16)		AlsterAero GmbH
-				L¸becker Straﬂe 1
+				LÔøΩbecker StraÔøΩe 1
 				Hamburg  22087
 				GERMANY
 
@@ -43768,8 +43768,8 @@ company_id			Organization
 
 00-1A-F7   (hex)		dataschalt e+a GmbH
 001AF7     (base 16)		dataschalt e+a GmbH
-				An der H¸lshorst 7-9
-				L¸beck  23568
+				An der HÔøΩlshorst 7-9
+				LÔøΩbeck  23568
 				GERMANY
 
 00-1A-F8   (hex)		Copley Controls Corporation
@@ -43864,7 +43864,7 @@ company_id			Organization
 001B06     (base 16)		Ateliers R. LAUMONIER
 				11, rue du Chenival
 				BP 1
-				Nesles la VallÈe Val d'Oise 95690
+				Nesles la VallÔøΩe Val d'Oise 95690
 				FRANCE
 
 00-1B-07   (hex)		Mendocino Software
@@ -44024,7 +44024,7 @@ company_id			Organization
 00-1B-1F   (hex)		DELTA - Danish Electronics, Light & Acoustics
 001B1F     (base 16)		DELTA - Danish Electronics, Light & Acoustics
 				Venlighedsvej 4
-				H¯rsholm  DK-2970
+				HÔøΩrsholm  DK-2970
 				DENMARK
 
 00-1B-20   (hex)		TPine Technology
@@ -44507,7 +44507,7 @@ company_id			Organization
 001B6A     (base 16)		Powerwave Technologies Sweden AB
 				164 26
 				Kista
-				Knarrarn‰sgatan 7, Kista  
+				KnarrarnÔøΩsgatan 7, Kista  
 				SWEDEN
 
 00-1B-6B   (hex)		Swyx Solutions AG
@@ -44832,7 +44832,7 @@ company_id			Organization
 
 00-1B-9D   (hex)		Novus Security Sp. z o.o.
 001B9D     (base 16)		Novus Security Sp. z o.o.
-				ul. Pu≥awska 431
+				ul. PuÔøΩawska 431
 				Warsaw woj. mazowieckie 02-801
 				POLAND
 
@@ -44855,10 +44855,10 @@ company_id			Organization
 				34000 Montpellier 
 				FRANCE
 
-00-1B-A1   (hex)		≈mic AB
-001BA1     (base 16)		≈mic AB
+00-1B-A1   (hex)		ÔøΩmic AB
+001BA1     (base 16)		ÔøΩmic AB
 				Uppsala science park
-				Dag Hammrskjˆlds v‰g 52 B
+				Dag HammrskjÔøΩlds vÔøΩg 52 B
 				Uppsala  75183
 				SWEDEN
 
@@ -44870,7 +44870,7 @@ company_id			Organization
 
 00-1B-A3   (hex)		Flexit Group GmbH
 001BA3     (base 16)		Flexit Group GmbH
-				Br‰uhausstraﬂe 14
+				BrÔøΩuhausstraÔøΩe 14
 				Salzburg Salzburg 5020
 				AUSTRIA
 
@@ -45048,7 +45048,7 @@ company_id			Organization
 00-1B-BF   (hex)		SAGEM COMMUNICATION
 001BBF     (base 16)		SAGEM COMMUNICATION
 				14 Rue Paul Dautier
-				VÈlizy  78457
+				VÔøΩlizy  78457
 				FRANCE
 
 00-1B-C0   (hex)		Juniper Networks
@@ -45257,8 +45257,8 @@ company_id			Organization
 
 00-1B-E0   (hex)		TELENOT ELECTRONIC GmbH
 001BE0     (base 16)		TELENOT ELECTRONIC GmbH
-				Wiesentalstraﬂe 42
-				Aalen Baden-W¸rttemberg 73434
+				WiesentalstraÔøΩe 42
+				Aalen Baden-WÔøΩrttemberg 73434
 				GERMANY
 
 00-1B-E1   (hex)		ViaLogy
@@ -45294,7 +45294,7 @@ company_id			Organization
 
 00-1B-E6   (hex)		VR AG
 001BE6     (base 16)		VR AG
-				R¸tistrasse 18
+				RÔøΩtistrasse 18
 				Schlieren  CH-8952
 				SWITZERLAND
 
@@ -45388,9 +45388,9 @@ company_id			Organization
 				18-24 SHAN MEI ST, FOTAN
 				HONG KONG
 
-00-1B-F5   (hex)		Tellink Sistemas de TelecomunicaciÛn S.L.
-001BF5     (base 16)		Tellink Sistemas de TelecomunicaciÛn S.L.
-				C/ MarÌa Tubau N∫ 5 Bajo B
+00-1B-F5   (hex)		Tellink Sistemas de TelecomunicaciÔøΩn S.L.
+001BF5     (base 16)		Tellink Sistemas de TelecomunicaciÔøΩn S.L.
+				C/ MarÔøΩa Tubau NÔøΩ 5 Bajo B
 				Madrid  28050
 				SPAIN
 
@@ -45621,7 +45621,7 @@ company_id			Organization
 
 00-1C-19   (hex)		secunet Security Networks AG
 001C19     (base 16)		secunet Security Networks AG
-				Kronprinzenstraﬂe 30
+				KronprinzenstraÔøΩe 30
 				Essen NRW 45128
 				GERMANY
 
@@ -45634,7 +45634,7 @@ company_id			Organization
 00-1C-1B   (hex)		Hyperstone GmbH
 001C1B     (base 16)		Hyperstone GmbH
 				Line-Eid-Str. 3
-				Konstanz Baden-W¸rttemberg 78467
+				Konstanz Baden-WÔøΩrttemberg 78467
 				GERMANY
 
 00-1C-1C   (hex)		Center Communication Systems GmbH
@@ -45756,7 +45756,7 @@ company_id			Organization
 
 00-1C-2F   (hex)		Pfister GmbH
 001C2F     (base 16)		Pfister GmbH
-				St‰tzlinger Straﬂe 70
+				StÔøΩtzlinger StraÔøΩe 70
 				Augsburg Bavaria 86165
 				GERMANY
 
@@ -45769,7 +45769,7 @@ company_id			Organization
 
 00-1C-31   (hex)		Mobile XP Technology Co., LTD
 001C31     (base 16)		Mobile XP Technology Co., LTD
-				Room No.2506,Tri-tower C building,No.66£¨Zhongguancun East Road,Haidian District
+				Room No.2506,Tri-tower C building,No.66ÔøΩÔøΩZhongguancun East Road,Haidian District
 				Beijing  100080
 				CHINA
 
@@ -45800,7 +45800,7 @@ company_id			Organization
 
 00-1C-36   (hex)		iNEWiT NV
 001C36     (base 16)		iNEWiT NV
-				SchaliÎnhoevedreef 20D
+				SchaliÔøΩnhoevedreef 20D
 				Mechelen Antwerp 2800
 				BELGIUM
 
@@ -45847,7 +45847,7 @@ company_id			Organization
 00-1C-3D   (hex)		WaveStorm
 001C3D     (base 16)		WaveStorm
 				40 rue d'Oradour-sur-Glane
-				Paris Œle-de-France 75015
+				Paris ÔøΩle-de-France 75015
 				FRANCE
 
 00-1C-3E   (hex)		ECKey Limited
@@ -45952,13 +45952,13 @@ company_id			Organization
 
 00-1C-4E   (hex)		TASA International Limited
 001C4E     (base 16)		TASA International Limited
-				5F£¨Building2£¨No.1295 ,Xin Jinqiao Road,
+				5FÔøΩÔøΩBuilding2ÔøΩÔøΩNo.1295 ,Xin Jinqiao Road,
 				Shanghai  201206
 				CHINA
 
 00-1C-4F   (hex)		MACAB AB
 001C4F     (base 16)		MACAB AB
-				Vannhˆgsgatan 7
+				VannhÔøΩgsgatan 7
 				Trelleborg  23166
 				SWEDEN
 
@@ -46105,7 +46105,7 @@ company_id			Organization
 
 00-1C-66   (hex)		UCAMP CO.,LTD
 001C66     (base 16)		UCAMP CO.,LTD
-				#1015, Kolon Science Valley •±
+				#1015, Kolon Science Valley ÔøΩÔøΩ
 				Seoul Guro-Dong,Guro-gu, 152-848
 				KOREA, REPUBLIC OF
 
@@ -46183,7 +46183,7 @@ company_id			Organization
 00-1C-72   (hex)		Mayer & Cie GmbH & Co KG
 001C72     (base 16)		Mayer & Cie GmbH & Co KG
 				Emil Mayer Strasse 10
-				Albstadt Baden W¸rttemberg 72461
+				Albstadt Baden WÔøΩrttemberg 72461
 				GERMANY
 
 00-1C-73   (hex)		Arista Networks, Inc.
@@ -46201,7 +46201,7 @@ company_id			Organization
 
 00-1C-75   (hex)		RF Systems GmbH
 001C75     (base 16)		RF Systems GmbH
-				Einsteinstraﬂe 11
+				EinsteinstraÔøΩe 11
 				Viernheim Hessen D 68519
 				GERMANY
 
@@ -46357,7 +46357,7 @@ company_id			Organization
 00-1C-8D   (hex)		Mesa Imaging
 001C8D     (base 16)		Mesa Imaging
 				Badenerstrasse 569
-				Z¸rich ZH 8048
+				ZÔøΩrich ZH 8048
 				SWITZERLAND
 
 00-1C-8E   (hex)		Alcatel-Lucent IPD
@@ -46443,7 +46443,7 @@ company_id			Organization
 
 00-1C-9B   (hex)		FEIG ELECTRONIC GmbH
 001C9B     (base 16)		FEIG ELECTRONIC GmbH
-				Lange Straﬂe 4
+				Lange StraÔøΩe 4
 				Weilburg Hessen 35781
 				GERMANY
 
@@ -46463,7 +46463,7 @@ company_id			Organization
 00-1C-9E   (hex)		Dualtech IT AB
 001C9E     (base 16)		Dualtech IT AB
 				Banehagsgatan 1F
-				GOTHENBURG V‰stra Gˆtaland 41451
+				GOTHENBURG VÔøΩstra GÔøΩtaland 41451
 				SWEDEN
 
 00-1C-9F   (hex)		Razorstream, LLC
@@ -46499,7 +46499,7 @@ company_id			Organization
 00-1C-A4   (hex)		Sony Ericsson Mobile Communications
 001CA4     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-1C-A5   (hex)		Zygo Corporation
@@ -46827,8 +46827,8 @@ company_id			Organization
 
 00-1C-D7   (hex)		Harman/Becker Automotive Systems GmbH
 001CD7     (base 16)		Harman/Becker Automotive Systems GmbH
-				Becker-Gˆring-Str. 16
-				Karlsbad Baden - W¸rttemberg 76307
+				Becker-GÔøΩring-Str. 16
+				Karlsbad Baden - WÔøΩrttemberg 76307
 				GERMANY
 
 00-1C-D8   (hex)		BlueAnt Wireless
@@ -46888,8 +46888,8 @@ company_id			Organization
 
 00-1C-E1   (hex)		INDRA SISTEMAS, S.A.
 001CE1     (base 16)		INDRA SISTEMAS, S.A.
-				Ctra. de Loeches, n.∫ 9
-				TORREJ”N DE ARDOZ MADRID 28850
+				Ctra. de Loeches, n.ÔøΩ 9
+				TORREJÔøΩN DE ARDOZ MADRID 28850
 				SPAIN
 
 00-1C-E2   (hex)		Attero Tech, LLC.
@@ -46918,7 +46918,7 @@ company_id			Organization
 
 00-1C-E6   (hex)		INNES
 001CE6     (base 16)		INNES
-				80 avenue des Buttes de CoÎsmes
+				80 avenue des Buttes de CoÔøΩsmes
 				RENNES  35700
 				FRANCE
 
@@ -47230,7 +47230,7 @@ company_id			Organization
 00-1D-16   (hex)		Efixo
 001D16     (base 16)		Efixo
 				5 avenue de Saint Menet
-				Immeuble Axiome, B‚t B
+				Immeuble Axiome, BÔøΩt B
 				MARSEILLE PACA 13011
 				FRANCE
 
@@ -47299,13 +47299,13 @@ company_id			Organization
 00-1D-21   (hex)		Alcad SL
 001D21     (base 16)		Alcad SL
 				Pol. Ind. Arreche-Ugalde, 1
-				Ir˙n Guip˙zcoa E-20305
+				IrÔøΩn GuipÔøΩzcoa E-20305
 				SPAIN
 
 00-1D-22   (hex)		Foss Analytical A/S
 001D22     (base 16)		Foss Analytical A/S
 				Slangerupgade 69
-				Hiller¯d Seeland 3400
+				HillerÔøΩd Seeland 3400
 				DENMARK
 
 00-1D-23   (hex)		SENSUS 
@@ -47346,7 +47346,7 @@ company_id			Organization
 
 00-1D-29   (hex)		Doro AB
 001D29     (base 16)		Doro AB
-				Magistratsv‰gen 10
+				MagistratsvÔøΩgen 10
 				Lund  226 43
 				SWEDEN
 
@@ -47392,7 +47392,7 @@ company_id			Organization
 
 00-1D-30   (hex)		YX Wireless S.A.
 001D30     (base 16)		YX Wireless S.A.
-				Av. VicuÒa Mackenna #4860
+				Av. VicuÔøΩa Mackenna #4860
 				Edificio 512, piso 3. Macul
 				Santiago  8580710
 				CHILE
@@ -47545,7 +47545,7 @@ company_id			Organization
 
 00-1D-48   (hex)		Sensor-Technik Wiedemann GmbH
 001D48     (base 16)		Sensor-Technik Wiedemann GmbH
-				Am B‰renwald 6
+				Am BÔøΩrenwald 6
 				Kaufbeuren Bayern 87600
 				GERMANY
 
@@ -47595,7 +47595,7 @@ company_id			Organization
 
 00-1D-50   (hex)		SPINETIX SA
 001D50     (base 16)		SPINETIX SA
-				Parc Scientifique de l'EPFL, B‚timent C
+				Parc Scientifique de l'EPFL, BÔøΩtiment C
 				Lausanne VD 1015
 				SWITZERLAND
 
@@ -47663,8 +47663,8 @@ company_id			Organization
 00-1D-5B   (hex)		Tecvan Informatica Ltda
 001D5B     (base 16)		Tecvan Informatica Ltda
 				Rua Guaicurus, 145
-				Vila Conceic„o
-				Diadema S„o Paulo 09911-630
+				Vila ConceicÔøΩo
+				Diadema SÔøΩo Paulo 09911-630
 				BRAZIL
 
 00-1D-5C   (hex)		Tom Communication Industrial Co.,Ltd.
@@ -47714,7 +47714,7 @@ company_id			Organization
 00-1D-63   (hex)		Miele & Cie. KG
 001D63     (base 16)		Miele & Cie. KG
 				Carl-Miele-Str. 29
-				G¸tersloh  33332
+				GÔøΩtersloh  33332
 				GERMANY
 
 00-1D-64   (hex)		Adam Communications Systems Int Ltd
@@ -48315,8 +48315,8 @@ company_id			Organization
 
 00-1D-C2   (hex)		XORTEC OY
 001DC2     (base 16)		XORTEC OY
-				Hˆyt‰mˆntie 6
-				Lemp‰‰l‰ Pirkanmaa 33880
+				HÔøΩytÔøΩmÔøΩntie 6
+				LempÔøΩÔøΩlÔøΩ Pirkanmaa 33880
 				FINLAND
 
 00-1D-C3   (hex)		RIKOR TV, Ltd
@@ -48370,8 +48370,8 @@ company_id			Organization
 				Airdrie Lanarkshire ML6 7UD
 				UNITED KINGDOM
 
-00-1D-CB   (hex)		ExÈns Development Oy
-001DCB     (base 16)		ExÈns Development Oy
+00-1D-CB   (hex)		ExÔøΩns Development Oy
+001DCB     (base 16)		ExÔøΩns Development Oy
 				Kauppakatu 36
 				Kajaani Kainuu 87100
 				FINLAND
@@ -48462,8 +48462,8 @@ company_id			Organization
 
 00-1D-DA   (hex)		Mikroelektronika spol. s r. o.
 001DDA     (base 16)		Mikroelektronika spol. s r. o.
-				Dr·by 849
-				VysokÈ M˝to CZ 566 01
+				DrÔøΩby 849
+				VysokÔøΩ MÔøΩto CZ 566 01
 				CZECH REPUBLIC
 
 00-1D-DB   (hex)		C-BEL Corporation
@@ -48590,10 +48590,10 @@ company_id			Organization
 				San Francisco CA 94107
 				UNITED STATES
 
-00-1D-EE   (hex)		NEXTVISION SISTEMAS DIGITAIS DE TELEVIS√O LTDA.
-001DEE     (base 16)		NEXTVISION SISTEMAS DIGITAIS DE TELEVIS√O LTDA.
+00-1D-EE   (hex)		NEXTVISION SISTEMAS DIGITAIS DE TELEVISÔøΩO LTDA.
+001DEE     (base 16)		NEXTVISION SISTEMAS DIGITAIS DE TELEVISÔøΩO LTDA.
 				Alameda Rio Negro, 1030 - 19o. andar conj. 1904
-				Barueri S„o Paulo 06454-000
+				Barueri SÔøΩo Paulo 06454-000
 				BRAZIL
 
 00-1D-EF   (hex)		TRIMM, INC.
@@ -48645,10 +48645,10 @@ company_id			Organization
 				Gumi Gyeongbuk 730-350
 				KOREA, REPUBLIC OF
 
-00-1D-F7   (hex)		R. STAHL Schaltger‰te GmbH
-001DF7     (base 16)		R. STAHL Schaltger‰te GmbH
+00-1D-F7   (hex)		R. STAHL SchaltgerÔøΩte GmbH
+001DF7     (base 16)		R. STAHL SchaltgerÔøΩte GmbH
 				am Bahnhof 30
-				Waldenburg Baden W¸rttemberg 74638
+				Waldenburg Baden WÔøΩrttemberg 74638
 				GERMANY
 
 00-1D-F8   (hex)		Webpro Vision Technology Corporation
@@ -49631,7 +49631,7 @@ company_id			Organization
 
 00-1E-92   (hex)		JEULIN S.A.
 001E92     (base 16)		JEULIN S.A.
-				ZI N∞1
+				ZI NÔøΩ1
 				rue Jacques Monod
 				Evreux  F27019
 				FRANCE
@@ -49822,7 +49822,7 @@ company_id			Organization
 
 00-1E-B0   (hex)		ImesD Electronica S.L.
 001EB0     (base 16)		ImesD Electronica S.L.
-				EntenÁa 81
+				EntenÔøΩa 81
 				Barcelona  08015
 				SPAIN
 
@@ -50002,7 +50002,7 @@ company_id			Organization
 
 00-1E-CC   (hex)		CDVI
 001ECC     (base 16)		CDVI
-				31 Avenue du GÈnÈral Leclerc
+				31 Avenue du GÔøΩnÔøΩral Leclerc
 				PANTIN Ile de France 93500
 				FRANCE
 
@@ -50066,7 +50066,7 @@ company_id			Organization
 00-1E-D6   (hex)		Alentec & Orion AB
 001ED6     (base 16)		Alentec & Orion AB
 				Box 108
-				132 23 Saltsjˆ-Boo 
+				132 23 SaltsjÔøΩ-Boo 
 				SWEDEN
 
 00-1E-D7   (hex)		H-Stream Wireless, Inc.
@@ -50181,7 +50181,7 @@ company_id			Organization
 
 00-1E-E9   (hex)		Stoneridge Electronics AB
 001EE9     (base 16)		Stoneridge Electronics AB
-				GÂrdsfogdev‰gen 18A
+				GÔøΩrdsfogdevÔøΩgen 18A
 				Bromma Stockholm 168 66
 				SWEDEN
 
@@ -50317,8 +50317,8 @@ company_id			Organization
 
 00-1E-FE   (hex)		LEVEL s.r.o.
 001EFE     (base 16)		LEVEL s.r.o.
-				Plhovsk· 1997
-				N·chod  547 01
+				PlhovskÔøΩ 1997
+				NÔøΩchod  547 01
 				CZECH REPUBLIC
 
 00-1E-FF   (hex)		Mueller-Elektronik GmbH & Co. KG
@@ -50565,7 +50565,7 @@ company_id			Organization
 
 00-1F-25   (hex)		MBS GmbH
 001F25     (base 16)		MBS GmbH
-				Rˆmerstraﬂe 15
+				RÔøΩmerstraÔøΩe 15
 				Krefeld Nordrhein-Westfalen 47809
 				GERMANY
 
@@ -50696,7 +50696,7 @@ company_id			Organization
 00-1F-39   (hex)		Construcciones y Auxiliar de Ferrocarriles, S.A.
 001F39     (base 16)		Construcciones y Auxiliar de Ferrocarriles, S.A.
 				C/ J.M. Iturrioz, 26
-				Beasain Guip˙zcoa E-20200
+				Beasain GuipÔøΩzcoa E-20200
 				SPAIN
 
 00-1F-3A   (hex)		Hon Hai Precision Ind.Co., Ltd.
@@ -50850,14 +50850,14 @@ company_id			Organization
 				Ronkonkoma NY 11779
 				UNITED STATES
 
-00-1F-52   (hex)		UVT Unternehmensberatung f¸r Verkehr und Technik GmbH
-001F52     (base 16)		UVT Unternehmensberatung f¸r Verkehr und Technik GmbH
+00-1F-52   (hex)		UVT Unternehmensberatung fÔøΩr Verkehr und Technik GmbH
+001F52     (base 16)		UVT Unternehmensberatung fÔøΩr Verkehr und Technik GmbH
 				Josefsstr.54-56
 				Mainz RLP 55118
 				GERMANY
 
-00-1F-53   (hex)		GEMAC Gesellschaft f¸r Mikroelektronikanwendung Chemnitz mbH
-001F53     (base 16)		GEMAC Gesellschaft f¸r Mikroelektronikanwendung Chemnitz mbH
+00-1F-53   (hex)		GEMAC Gesellschaft fÔøΩr Mikroelektronikanwendung Chemnitz mbH
+001F53     (base 16)		GEMAC Gesellschaft fÔøΩr Mikroelektronikanwendung Chemnitz mbH
 				Zwickauer Str. 227
 				Chemnitz Sachsen 09116
 				GERMANY
@@ -50935,7 +50935,7 @@ company_id			Organization
 
 00-1F-5F   (hex)		Blatand GmbH
 001F5F     (base 16)		Blatand GmbH
-				Lichtenbergstraﬂe 8
+				LichtenbergstraÔøΩe 8
 				Garching Bavaria 85748
 				GERMANY
 
@@ -50991,7 +50991,7 @@ company_id			Organization
 00-1F-68   (hex)		Martinsson Elektronik AB
 001F68     (base 16)		Martinsson Elektronik AB
 				Box 9060
-				H‰gersten Stockholm 126 09
+				HÔøΩgersten Stockholm 126 09
 				SWEDEN
 
 00-1F-69   (hex)		Pingood Technology Co., Ltd.
@@ -51034,7 +51034,7 @@ company_id			Organization
 
 00-1F-6F   (hex)		Fujian Sunnada Communication Co.,Ltd.
 001F6F     (base 16)		Fujian Sunnada Communication Co.,Ltd.
-				7/F£¨Main Building£¨Fujian Torch Hi-Tech Innovation Park£¨#611 Industrial Road£¨ Fuzhou£¨PRC 350002
+				7/FÔøΩÔøΩMain BuildingÔøΩÔøΩFujian Torch Hi-Tech Innovation ParkÔøΩÔøΩ#611 Industrial RoadÔøΩÔøΩ FuzhouÔøΩÔøΩPRC 350002
 				7# Building B District, Software Park, TongPan Road Fuzhou, PRC 350003
 				Fuzhou Fujian 350002
 				CHINA
@@ -51099,8 +51099,8 @@ company_id			Organization
 
 00-1F-79   (hex)		Lodam Electronics A/S
 001F79     (base 16)		Lodam Electronics A/S
-				KÊrvej 77
-				S¯nderborg Als DK-6400
+				KÔøΩrvej 77
+				SÔøΩnderborg Als DK-6400
 				DENMARK
 
 00-1F-7A   (hex)		WiWide Inc.
@@ -51124,7 +51124,7 @@ company_id			Organization
 
 00-1F-7D   (hex)		embedded wireless GmbH
 001F7D     (base 16)		embedded wireless GmbH
-				Sˆflinger Str. 100
+				SÔøΩflinger Str. 100
 				Ulm BW 89077
 				GERMANY
 
@@ -51643,7 +51643,7 @@ company_id			Organization
 
 00-1F-CF   (hex)		MSI Technology GmbH
 001FCF     (base 16)		MSI Technology GmbH
-				Hanauer Landstraﬂe 328-330
+				Hanauer LandstraÔøΩe 328-330
 				Frankfurt am Main Hessen 60314
 				GERMANY
 
@@ -51773,12 +51773,12 @@ company_id			Organization
 00-1F-E4   (hex)		Sony Ericsson Mobile Communications
 001FE4     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-1F-E5   (hex)		In-Circuit GmbH
 001FE5     (base 16)		In-Circuit GmbH
-				Kˆnigsbr¸cker Strasse 69
+				KÔøΩnigsbrÔøΩcker Strasse 69
 				Dresden  01099
 				GERMANY
 
@@ -51819,10 +51819,10 @@ company_id			Organization
 				Carrum Downs Victoria 3201
 				AUSTRALIA
 
-00-1F-EC   (hex)		Synapse Èlectronique
-001FEC     (base 16)		Synapse Èlectronique
+00-1F-EC   (hex)		Synapse ÔøΩlectronique
+001FEC     (base 16)		Synapse ÔøΩlectronique
 				1010, 7e Avenue
-				Grand-MËre QuÈbec G9T 2B8
+				Grand-MÔøΩre QuÔøΩbec G9T 2B8
 				CANADA
 
 00-1F-ED   (hex)		Tecan Systems Inc.
@@ -51834,7 +51834,7 @@ company_id			Organization
 00-1F-EE   (hex)		ubisys technologies GmbH
 001FEE     (base 16)		ubisys technologies GmbH
 				Am Wehrhahn 45
-				D¸sseldorf NRW 40211
+				DÔøΩsseldorf NRW 40211
 				GERMANY
 
 00-1F-EF   (hex)		SHINSEI INDUSTRIES CO.,LTD
@@ -53698,7 +53698,7 @@ company_id			Organization
 00-21-13   (hex)		Padtec S/A
 002113     (base 16)		Padtec S/A
 				Road Campinas Mogi-Mirim km 118,5
-				Campinas S„o Paulo 13086-902
+				Campinas SÔøΩo Paulo 13086-902
 				BRAZIL
 
 00-21-14   (hex)		Hylab Technology Inc.
@@ -53761,7 +53761,7 @@ company_id			Organization
 00-21-1D   (hex)		Dataline AB
 00211D     (base 16)		Dataline AB
 				Katrinedalsgatan 53
-				BOR≈S  S-50451
+				BORÔøΩS  S-50451
 				SWEDEN
 
 00-21-1E   (hex)		Motorola Mobility, Inc.
@@ -53869,7 +53869,7 @@ company_id			Organization
 
 00-21-2E   (hex)		dresden-elektronik
 00212E     (base 16)		dresden-elektronik
-				Glasewaldtstraﬂe 22
+				GlasewaldtstraÔøΩe 22
 				Dresden Saxony D-01277
 				GERMANY
 
@@ -54181,7 +54181,7 @@ company_id			Organization
 00-21-5F   (hex)		IHSE GmbH
 00215F     (base 16)		IHSE GmbH
 				Maybachstrasse 11
-				Oberteuringen Baden-W¸rttemberg 88094
+				Oberteuringen Baden-WÔøΩrttemberg 88094
 				GERMANY
 
 00-21-60   (hex)		Hidea Solutions Co. Ltd.
@@ -54341,7 +54341,7 @@ company_id			Organization
 
 00-21-78   (hex)		Matuschek Messtechnik GmbH
 002178     (base 16)		Matuschek Messtechnik GmbH
-				Werner Heisenberg Straﬂe 14
+				Werner Heisenberg StraÔøΩe 14
 				Alsdorf NRW 52477
 				GERMANY
 
@@ -54360,8 +54360,8 @@ company_id			Organization
 
 00-21-7B   (hex)		Bastec AB
 00217B     (base 16)		Bastec AB
-				H‰stv‰gen 4A
-				Malmˆ M 212 35
+				HÔøΩstvÔøΩgen 4A
+				MalmÔøΩ M 212 35
 				SWEDEN
 
 00-21-7C   (hex)		2Wire
@@ -54576,7 +54576,7 @@ company_id			Organization
 00-21-9E   (hex)		Sony Ericsson Mobile Communications
 00219E     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-21-9F   (hex)		SATEL OY
@@ -54814,7 +54814,7 @@ company_id			Organization
 
 00-21-C4   (hex)		Consilium AB
 0021C4     (base 16)		Consilium AB
-				V‰stra Finnbodav‰gen 2-4
+				VÔøΩstra FinnbodavÔøΩgen 2-4
 				Nacka Stockholm 13131
 				SWEDEN
 
@@ -54859,8 +54859,8 @@ company_id			Organization
 
 00-21-CB   (hex)		SMS TECNOLOGIA ELETRONICA LTDA
 0021CB     (base 16)		SMS TECNOLOGIA ELETRONICA LTDA
-				Av. Pir‚mide, 661
-				DIADEMA S√O PAULO 09970330
+				Av. PirÔøΩmide, 661
+				DIADEMA SÔøΩO PAULO 09970330
 				BRAZIL
 
 00-21-CC   (hex)		Flextronics International
@@ -54916,7 +54916,7 @@ company_id			Organization
 00-21-D4   (hex)		Vollmer Werke GmbH
 0021D4     (base 16)		Vollmer Werke GmbH
 				Maschinenfabrik
-				Biberach Baden-W¸rttemberg 88400
+				Biberach Baden-WÔøΩrttemberg 88400
 				GERMANY
 
 00-21-D5   (hex)		X2E GmbH
@@ -55005,7 +55005,7 @@ company_id			Organization
 00-21-E2   (hex)		Creative Electronic GmbH
 0021E2     (base 16)		Creative Electronic GmbH
 				Lorcher Strasse 52
-				Birenbach Baden-W¸rttemberg 73102
+				Birenbach Baden-WÔøΩrttemberg 73102
 				GERMANY
 
 00-21-E3   (hex)		SerialTek LLC
@@ -55055,7 +55055,7 @@ company_id			Organization
 00-21-EA   (hex)		Bystronic Laser AG
 0021EA     (base 16)		Bystronic Laser AG
 				Industriestr. 21
-				3362 Niederˆnz 
+				3362 NiederÔøΩnz 
 				SWITZERLAND
 
 00-21-EB   (hex)		ESP SYSTEMS, LLC
@@ -55183,7 +55183,7 @@ company_id			Organization
 
 00-21-FF   (hex)		Cyfrowy Polsat SA
 0021FF     (base 16)		Cyfrowy Polsat SA
-				£ubinowa 4A
+				ÔøΩubinowa 4A
 				Warsaw Mazowieckie 03-878
 				POLAND
 
@@ -55199,10 +55199,10 @@ company_id			Organization
 				Calgary  T2L 2K7
 				CANADA
 
-00-22-02   (hex)		Excito Elektronik i SkÂne AB
-002202     (base 16)		Excito Elektronik i SkÂne AB
+00-22-02   (hex)		Excito Elektronik i SkÔøΩne AB
+002202     (base 16)		Excito Elektronik i SkÔøΩne AB
 				Box 126
-				Lˆddekˆpinge  246 22
+				LÔøΩddekÔøΩpinge  246 22
 				SWEDEN
 
 00-22-03   (hex)		Glensound Electronics Ltd
@@ -55225,13 +55225,13 @@ company_id			Organization
 
 00-22-06   (hex)		Cyberdyne Inc.
 002206     (base 16)		Cyberdyne Inc.
-				504Å@C49-2
+				504ÔøΩ@C49-2
 				Tsukuba-shi Ibaraki-ken 305-0817
 				JAPAN
 
 00-22-07   (hex)		Inteno Broadband Technology AB
 002207     (base 16)		Inteno Broadband Technology AB
-				Drivhjulsv‰gen 22
+				DrivhjulsvÔøΩgen 22
 				Stockholm SE 12630
 				SWEDEN
 
@@ -55333,8 +55333,8 @@ company_id			Organization
 
 00-22-17   (hex)		Neat Electronics
 002217     (base 16)		Neat Electronics
-				Varuv‰gen 2
-				Lˆddekˆpinge SkÂne SE-24642
+				VaruvÔøΩgen 2
+				LÔøΩddekÔøΩpinge SkÔøΩne SE-24642
 				SWEDEN
 
 00-22-18   (hex)		Verivue Inc.
@@ -55435,7 +55435,7 @@ company_id			Organization
 00-22-27   (hex)		uv-electronic GmbH
 002227     (base 16)		uv-electronic GmbH
 				Grosswiesenstrasse 20
-				Durchhausen Baden-W¸rttemberg 78591
+				Durchhausen Baden-WÔøΩrttemberg 78591
 				GERMANY
 
 00-22-28   (hex)		Breeze Innovations Ltd.
@@ -55477,7 +55477,7 @@ company_id			Organization
 00-22-2E   (hex)		maintech GmbH
 00222E     (base 16)		maintech GmbH
 				Seeweg 60
-				Hˆchberg Bavaria 97204
+				HÔøΩchberg Bavaria 97204
 				GERMANY
 
 00-22-2F   (hex)		Open Grid Computing, Inc.
@@ -55618,7 +55618,7 @@ company_id			Organization
 00-22-45   (hex)		Leine & Linde AB
 002245     (base 16)		Leine & Linde AB
 				Box 8
-				Str‰ngn‰s Sˆdermanland SE-645 21
+				StrÔøΩngnÔøΩs SÔøΩdermanland SE-645 21
 				SWEDEN
 
 00-22-46   (hex)		Evoc Intelligent Technology Co.,Ltd.
@@ -55642,7 +55642,7 @@ company_id			Organization
 
 00-22-49   (hex)		HOME MULTIENERGY SL
 002249     (base 16)		HOME MULTIENERGY SL
-				CAPIT¡N HAYA 1
+				CAPITÔøΩN HAYA 1
 				EDIFICIO EUCOCENTRO BAJO
 				MADRID  28020
 				SPAIN
@@ -55745,7 +55745,7 @@ company_id			Organization
 
 00-22-59   (hex)		Guangzhou New Postcom Equipment Co.,Ltd.
 002259     (base 16)		Guangzhou New Postcom Equipment Co.,Ltd.
-				No.3°°Guangpuxi Road,Guangzhou Science City,
+				No.3ÔøΩÔøΩGuangpuxi Road,Guangzhou Science City,
 				Guangzhou Guangdong 510663
 				CHINA
 
@@ -55893,9 +55893,9 @@ company_id			Organization
 				Sunnyvale CA 94085
 				UNITED STATES
 
-00-22-71   (hex)		J‰ger Computergesteuerte Messtechnik GmbH
-002271     (base 16)		J‰ger Computergesteuerte Messtechnik GmbH
-				Rheinstraﬂe 2-4
+00-22-71   (hex)		JÔøΩger Computergesteuerte Messtechnik GmbH
+002271     (base 16)		JÔøΩger Computergesteuerte Messtechnik GmbH
+				RheinstraÔøΩe 2-4
 				Lorsch Hessen 64653
 				GERMANY
 
@@ -55915,7 +55915,7 @@ company_id			Organization
 00-22-74   (hex)		FamilyPhone AB
 002274     (base 16)		FamilyPhone AB
 				Anckargripsgatan 3
-				Malmˆ  21119
+				MalmÔøΩ  21119
 				SWEDEN
 
 00-22-75   (hex)		Belkin International, Inc.
@@ -56065,7 +56065,7 @@ company_id			Organization
 
 00-22-8C   (hex)		Photon Europe GmbH
 00228C     (base 16)		Photon Europe GmbH
-				J¸licher Straﬂe 376
+				JÔøΩlicher StraÔøΩe 376
 				Aachen Nordrhein-Westfalen 52070
 				GERMANY
 
@@ -56143,7 +56143,7 @@ company_id			Organization
 00-22-98   (hex)		Sony Ericsson Mobile Communications
 002298     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-22-99   (hex)		SeaMicro Inc.
@@ -56408,7 +56408,7 @@ company_id			Organization
 
 00-22-C2   (hex)		Proview Eletronica do Brasil LTDA
 0022C2     (base 16)		Proview Eletronica do Brasil LTDA
-				R. Acar·, 203 - Distrito Industrial
+				R. AcarÔøΩ, 203 - Distrito Industrial
 				Manaus Amazonas 69075-030
 				BRAZIL
 
@@ -56489,7 +56489,7 @@ company_id			Organization
 
 00-22-CF   (hex)		PLANEX Communications INC
 0022CF     (base 16)		PLANEX Communications INC
-				2F FÅENISSAY Ebisu Bldg3-16-3
+				2F FÔøΩENISSAY Ebisu Bldg3-16-3
 				Shibuya-ku Tokyo 150-0011
 				JAPAN
 
@@ -56501,15 +56501,15 @@ company_id			Organization
 
 00-22-D1   (hex)		Albrecht Jung GmbH & Co. KG
 0022D1     (base 16)		Albrecht Jung GmbH & Co. KG
-				Volmestraﬂe 1
-				Schalksm¸hle NRW 58579
+				VolmestraÔøΩe 1
+				SchalksmÔøΩhle NRW 58579
 				GERMANY
 
-00-22-D2   (hex)		All Earth ComÈrcio de EletrÙnicos LTDA.
-0022D2     (base 16)		All Earth ComÈrcio de EletrÙnicos LTDA.
+00-22-D2   (hex)		All Earth ComÔøΩrcio de EletrÔøΩnicos LTDA.
+0022D2     (base 16)		All Earth ComÔøΩrcio de EletrÔøΩnicos LTDA.
 				Rua Bento de Arruda Camargo
 				270 - Jd. Santana
-				Campinas S„o Paulo 13088-650
+				Campinas SÔøΩo Paulo 13088-650
 				BRAZIL
 
 00-22-D3   (hex)		Hub-Tech
@@ -56534,7 +56534,7 @@ company_id			Organization
 00-22-D6   (hex)		Cypak AB
 0022D6     (base 16)		Cypak AB
 				P.O. BOX 2332
-				Funckens Gr‰nd 1
+				Funckens GrÔøΩnd 1
 				Stockholm  103 18
 				SWEDEN
 
@@ -56669,7 +56669,7 @@ company_id			Organization
 
 00-22-EB   (hex)		Data Respons A/S
 0022EB     (base 16)		Data Respons A/S
-				EllekÊr 6
+				EllekÔøΩr 6
 				Herlev  2730
 				DENMARK
 
@@ -56889,7 +56889,7 @@ company_id			Organization
 00-23-0E   (hex)		Gorba AG
 00230E     (base 16)		Gorba AG
 				Sandackerstrasse
-				Oberb¸ren SG CH - 9245
+				OberbÔøΩren SG CH - 9245
 				SWITZERLAND
 
 00-23-0F   (hex)		Hirsch Electronics Corporation
@@ -56990,9 +56990,9 @@ company_id			Organization
 
 00-23-1E   (hex)		Cezzer Multimedia Technologies
 00231E     (base 16)		Cezzer Multimedia Technologies
-				PÈpiniËre d'entreprises CREATIC
+				PÔøΩpiniÔøΩre d'entreprises CREATIC
 				115 rue Claude Chappe
-				PlouzanÈ  29280
+				PlouzanÔøΩ  29280
 				FRANCE
 
 00-23-1F   (hex)		Guangda Electronic & Telecommunication Technology Development Co., Ltd.
@@ -57158,7 +57158,7 @@ company_id			Organization
 00-23-38   (hex)		OJ-Electronics A/S
 002338     (base 16)		OJ-Electronics A/S
 				Stenager 13B
-				S¯nderborg  6400
+				SÔøΩnderborg  6400
 				DENMARK
 
 00-23-39   (hex)		Samsung Electronics
@@ -57240,7 +57240,7 @@ company_id			Organization
 00-23-45   (hex)		Sony Ericsson Mobile Communications
 002345     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-23-46   (hex)		Vestac
@@ -57403,7 +57403,7 @@ company_id			Organization
 
 00-23-5F   (hex)		Silicon Micro Sensors GmbH
 00235F     (base 16)		Silicon Micro Sensors GmbH
-				Grenzstrasse 28 / Geb‰ude 32
+				Grenzstrasse 28 / GebÔøΩude 32
 				Dresden Saxony 01109
 				GERMANY
 
@@ -57441,7 +57441,7 @@ company_id			Organization
 00-23-65   (hex)		ELKA-Elektronik GmbH
 002365     (base 16)		ELKA-Elektronik GmbH
 				Talstrasse 104
-				L¸denscheid NRW 58515
+				LÔøΩdenscheid NRW 58515
 				GERMANY
 
 00-23-66   (hex)		Beijing Siasun Electronic System Co.,Ltd.
@@ -57498,7 +57498,7 @@ company_id			Organization
 00-23-6E   (hex)		Burster GmbH & Co KG
 00236E     (base 16)		Burster GmbH & Co KG
 				Talstrasse 1-5
-				Gernsbach Baden-W¸rttemberg 76593
+				Gernsbach Baden-WÔøΩrttemberg 76593
 				GERMANY
 
 00-23-6F   (hex)		DAQ System
@@ -57670,7 +57670,7 @@ company_id			Organization
 
 00-23-89   (hex)		HANGZHOU H3C Technologies Co., Ltd.
 002389     (base 16)		HANGZHOU H3C Technologies Co., Ltd.
-				Oriental Electronics Bldg., #2, Chuangye Road£¨Shangdi Information Industry Base,
+				Oriental Electronics Bldg., #2, Chuangye RoadÔøΩÔøΩShangdi Information Industry Base,
 				Haidian District, Beijing, P.R.China
 				Beijing  100085
 				CHINA
@@ -57775,7 +57775,7 @@ company_id			Organization
 
 00-23-9A   (hex)		EasyData Software GmbH
 00239A     (base 16)		EasyData Software GmbH
-				Steinbacher Straﬂe 14-24
+				Steinbacher StraÔøΩe 14-24
 				Eschborn / Ts. Hessen D-65760
 				GERMANY
 
@@ -57804,8 +57804,8 @@ company_id			Organization
 				Changshu Jiangsu 215500
 				CHINA
 
-00-23-9F   (hex)		Institut f¸r Pr¸ftechnik
-00239F     (base 16)		Institut f¸r Pr¸ftechnik
+00-23-9F   (hex)		Institut fÔøΩr PrÔøΩftechnik
+00239F     (base 16)		Institut fÔøΩr PrÔøΩftechnik
 				Schulstr. 3
 				Todtenweis Bayern 86447
 				GERMANY
@@ -57934,7 +57934,7 @@ company_id			Organization
 00-23-B3   (hex)		Lyyn AB
 0023B3     (base 16)		Lyyn AB
 				IDEON Science Park
-				Scheelev‰gen 17
+				ScheelevÔøΩgen 17
 				Lund  223 70
 				SWEDEN
 
@@ -57991,7 +57991,7 @@ company_id			Organization
 
 00-23-BC   (hex)		EQ-SYS GmbH
 0023BC     (base 16)		EQ-SYS GmbH
-				Hinter den G‰rten 15b
+				Hinter den GÔøΩrten 15b
 				Treuenbrietzen OT Feldheim Brandenburg 14929
 				GERMANY
 
@@ -58022,7 +58022,7 @@ company_id			Organization
 00-23-C1   (hex)		Securitas Direct AB
 0023C1     (base 16)		Securitas Direct AB
 				Kalendegatan 26
-				Malmˆ  20320
+				MalmÔøΩ  20320
 				SWEDEN
 
 00-23-C2   (hex)		SAMSUNG Electronics. Co. LTD
@@ -58059,7 +58059,7 @@ company_id			Organization
 00-23-C7   (hex)		AVSystem
 0023C7     (base 16)		AVSystem
 				ul. Friedleina 4
-				KrakÛw ma≥opolskie 30-009
+				KrakÔøΩw maÔøΩopolskie 30-009
 				POLAND
 
 00-23-C8   (hex)		TEAM-R
@@ -58178,7 +58178,7 @@ company_id			Organization
 
 00-23-DA   (hex)		Industrial Computer Source (Deutschland)GmbH
 0023DA     (base 16)		Industrial Computer Source (Deutschland)GmbH
-				Marie-Curie-Straﬂe 9
+				Marie-Curie-StraÔøΩe 9
 				Pulheim NRW 50259
 				GERMANY
 
@@ -58224,12 +58224,12 @@ company_id			Organization
 00-23-E1   (hex)		Cavena Image Products AB
 0023E1     (base 16)		Cavena Image Products AB
 				Nytorpsvagen 26
-				T‰by Stockholm se-183 53
+				TÔøΩby Stockholm se-183 53
 				SWEDEN
 
 00-23-E2   (hex)		SEA Signalisation
 0023E2     (base 16)		SEA Signalisation
-				20-22 Rue Pierre MendËs France
+				20-22 Rue Pierre MendÔøΩs France
 				BP 231
 				Vaulx en Velin CEDEX  69515
 				FRANCE
@@ -58327,7 +58327,7 @@ company_id			Organization
 00-23-F1   (hex)		Sony Ericsson Mobile Communications
 0023F1     (base 16)		Sony Ericsson Mobile Communications
 				Nya Vattentornet
-				Lund SkÂne 22188
+				Lund SkÔøΩne 22188
 				SWEDEN
 
 00-23-F2   (hex)		TVLogic
@@ -58430,7 +58430,7 @@ company_id			Organization
 
 00-24-02   (hex)		Op-Tection GmbH
 002402     (base 16)		Op-Tection GmbH
-				Borsigstraﬂe 80
+				BorsigstraÔøΩe 80
 				Heinsberg Germany 52525
 				GERMANY
 
@@ -58448,7 +58448,7 @@ company_id			Organization
 
 00-24-05   (hex)		Dilog Nordic AB
 002405     (base 16)		Dilog Nordic AB
-				Faktorv‰gen 9
+				FaktorvÔøΩgen 9
 				Kungsbacka Halland 439 34
 				SWEDEN
 
@@ -58493,7 +58493,7 @@ company_id			Organization
 00-24-0C   (hex)		DELEC GmbH
 00240C     (base 16)		DELEC GmbH
 				Ruheweg 17-21
-				Gˆllheim Rheinland-Pfalz 67307
+				GÔøΩllheim Rheinland-Pfalz 67307
 				GERMANY
 
 00-24-0D   (hex)		OnePath Networks LTD.
@@ -58612,7 +58612,7 @@ company_id			Organization
 00-24-1F   (hex)		DCT-Delta GmbH
 00241F     (base 16)		DCT-Delta GmbH
 				Bodanrueckstrasse 1
-				Bodman - Ludwigshafen Baden - W¸rttemberg 78351
+				Bodman - Ludwigshafen Baden - WÔøΩrttemberg 78351
 				GERMANY
 
 00-24-20   (hex)		NetUP Inc.
@@ -58630,7 +58630,7 @@ company_id			Organization
 
 00-24-22   (hex)		Knapp Logistik Automation GmbH
 002422     (base 16)		Knapp Logistik Automation GmbH
-				G¸nter-Knapp-Strasse 5-7
+				GÔøΩnter-Knapp-Strasse 5-7
 				Hart bei Graz Styria 8075
 				AUSTRIA
 
@@ -58922,7 +58922,7 @@ company_id			Organization
 00-24-52   (hex)		Silicon Software GmbH
 002452     (base 16)		Silicon Software GmbH
 				Steubenstr. 46
-				Mannheim Baden-W¸rttemberg 68163
+				Mannheim Baden-WÔøΩrttemberg 68163
 				GERMANY
 
 00-24-53   (hex)		Initra d.o.o.
@@ -58957,7 +58957,7 @@ company_id			Organization
 
 00-24-59   (hex)		ABB STOTZ-KONTAKT GmbH
 002459     (base 16)		ABB STOTZ-KONTAKT GmbH
-				Eppelheimer Straﬂe 82
+				Eppelheimer StraÔøΩe 82
 				STO/KE1
 				Heidelberg  69123
 				GERMANY
@@ -59029,7 +59029,7 @@ company_id			Organization
 
 00-24-64   (hex)		Bridge Technologies Co AS
 002464     (base 16)		Bridge Technologies Co AS
-				M¯lleparken 4
+				MÔøΩlleparken 4
 				Oslo  0459
 				NORWAY
 
@@ -59398,7 +59398,7 @@ company_id			Organization
 
 00-24-9E   (hex)		ADC-Elektronik GmbH
 00249E     (base 16)		ADC-Elektronik GmbH
-				÷stingstraﬂe 13b
+				ÔøΩstingstraÔøΩe 13b
 				Hamm NRW D-59063
 				GERMANY
 
@@ -59447,8 +59447,8 @@ company_id			Organization
 
 00-24-A6   (hex)		TELESTAR DIGITAL GmbH
 0024A6     (base 16)		TELESTAR DIGITAL GmbH
-				Vulkanhˆhe / B410
-				Dreis - Br¸ck  54552
+				VulkanhÔøΩhe / B410
+				Dreis - BrÔøΩck  54552
 				GERMANY
 
 00-24-A7   (hex)		Advanced Video Communications Inc.
@@ -59492,7 +59492,7 @@ company_id			Organization
 00-24-AD   (hex)		Adolf Thies Gmbh & Co. KG
 0024AD     (base 16)		Adolf Thies Gmbh & Co. KG
 				Hauptstr. 76
-				Gˆttingen  37083
+				GÔøΩttingen  37083
 				GERMANY
 
 00-24-AE   (hex)		Morpho
@@ -59510,7 +59510,7 @@ company_id			Organization
 00-24-B0   (hex)		ESAB AB
 0024B0     (base 16)		ESAB AB
 				Box 8004
-				LindholmsallÈn 9
+				LindholmsallÔøΩn 9
 				Gothenburg  SE-402 77
 				SWEDEN
 
@@ -59529,7 +59529,7 @@ company_id			Organization
 00-24-B3   (hex)		Graf-Syteco GmbH & Co. KG
 0024B3     (base 16)		Graf-Syteco GmbH & Co. KG
 				Kaiserstr. 18
-				Tuningen Baden-W¸rttemberg 78609
+				Tuningen Baden-WÔøΩrttemberg 78609
 				GERMANY
 
 00-24-B4   (hex)		ESCATRONIC GmbH
@@ -59675,7 +59675,7 @@ company_id			Organization
 
 00-24-CA   (hex)		Tobii Technology AB
 0024CA     (base 16)		Tobii Technology AB
-				Karlsrov‰gen 2D
+				KarlsrovÔøΩgen 2D
 				Danderyd  18253
 				SWEDEN
 
@@ -59809,7 +59809,7 @@ company_id			Organization
 
 00-24-DF   (hex)		Digitalbox Europe GmbH
 0024DF     (base 16)		Digitalbox Europe GmbH
-				Sandstraﬂe 65
+				SandstraÔøΩe 65
 				Ratingen  40878
 				GERMANY
 
@@ -59923,7 +59923,7 @@ company_id			Organization
 
 00-24-F1   (hex)		Shenzhen Fanhai Sanjiang Electronics Co., Ltd.
 0024F1     (base 16)		Shenzhen Fanhai Sanjiang Electronics Co., Ltd.
-				3F£¨Guangcai Xintiandi Building,Nanshan Rd,Nanshan,
+				3FÔøΩÔøΩGuangcai Xintiandi Building,Nanshan Rd,Nanshan,
 				Shenzhen Guangdong 518054
 				CHINA
 
@@ -59996,7 +59996,7 @@ company_id			Organization
 
 00-24-FD   (hex)		Prosilient Technologies AB
 0024FD     (base 16)		Prosilient Technologies AB
-				≈rsta‰ngsv‰gen 25 (3rd floor), (Box 47231)
+				ÔøΩrstaÔøΩngsvÔøΩgen 25 (3rd floor), (Box 47231)
 				Stockholm  SE-10074
 				SWEDEN
 
@@ -60406,7 +60406,7 @@ company_id			Organization
 
 00-25-41   (hex)		Maquet Critical Care AB
 002541     (base 16)		Maquet Critical Care AB
-				Rˆntgenv‰gen 2
+				RÔøΩntgenvÔøΩgen 2
 				Solna  SE-171 95
 				SWEDEN
 
@@ -60633,7 +60633,7 @@ company_id			Organization
 00-25-65   (hex)		Vizimax Inc.
 002565     (base 16)		Vizimax Inc.
 				2284, rue de la Province
-				Longueuil QuÈbec J4G 1G1
+				Longueuil QuÔøΩbec J4G 1G1
 				CANADA
 
 00-25-66   (hex)		Samsung Electronics Co.,Ltd
@@ -60759,8 +60759,8 @@ company_id			Organization
 				Mamaroneck NY 10543
 				UNITED STATES
 
-00-25-7A   (hex)		CAMCO Produktions- und Vertriebs-GmbH f¸r Beschallungs- und Beleuchtungsanlagen
-00257A     (base 16)		CAMCO Produktions- und Vertriebs-GmbH f¸r Beschallungs- und Beleuchtungsanlagen
+00-25-7A   (hex)		CAMCO Produktions- und Vertriebs-GmbH fÔøΩr Beschallungs- und Beleuchtungsanlagen
+00257A     (base 16)		CAMCO Produktions- und Vertriebs-GmbH fÔøΩr Beschallungs- und Beleuchtungsanlagen
 				Fischpicke 5
 				Wenden NRW 57482
 				GERMANY
@@ -60799,7 +60799,7 @@ company_id			Organization
 
 00-25-80   (hex)		Equipson S.A.
 002580     (base 16)		Equipson S.A.
-				Poligono Ind. L¥AlterÛ
+				Poligono Ind. LÔøΩAlterÔøΩ
 				Avda. Saler, 14
 				Silla Valencia 46460
 				SPAIN
@@ -60923,8 +60923,8 @@ company_id			Organization
 
 00-25-93   (hex)		DatNet Informatikai Kft.
 002593     (base 16)		DatNet Informatikai Kft.
-				HÈtvezÈr u. 5.
-				SzigetszentmiklÛs Pest megye 2310
+				HÔøΩtvezÔøΩr u. 5.
+				SzigetszentmiklÔøΩs Pest megye 2310
 				HUNGARY
 
 00-25-94   (hex)		Eurodesign BG LTD
@@ -60942,7 +60942,7 @@ company_id			Organization
 00-25-96   (hex)		GIGAVISION srl
 002596     (base 16)		GIGAVISION srl
 				Via Figini, 16
-				MuggiÚ Milano 20053
+				MuggiÔøΩ Milano 20053
 				ITALY
 
 00-25-97   (hex)		Kalki Communication Technologies
@@ -61026,7 +61026,7 @@ company_id			Organization
 
 00-25-A4   (hex)		EuroDesign embedded technologies GmbH
 0025A4     (base 16)		EuroDesign embedded technologies GmbH
-				Waldstraﬂe 4A
+				WaldstraÔøΩe 4A
 				Kirchdorf a.d. Amper Bayern 85414
 				GERMANY
 
@@ -61111,10 +61111,10 @@ company_id			Organization
 				Shenzhen  518057
 				CHINA
 
-00-25-B2   (hex)		LFK-Lenkflugkˆrpersysteme GmbH
-0025B2     (base 16)		LFK-Lenkflugkˆrpersysteme GmbH
-				Landshuter Straﬂe  26
-				Unterschleiﬂheim Bavaria 85716
+00-25-B2   (hex)		LFK-LenkflugkÔøΩrpersysteme GmbH
+0025B2     (base 16)		LFK-LenkflugkÔøΩrpersysteme GmbH
+				Landshuter StraÔøΩe  26
+				UnterschleiÔøΩheim Bavaria 85716
 				GERMANY
 
 00-25-B3   (hex)		Hewlett-Packard Company
@@ -61259,7 +61259,7 @@ company_id			Organization
 00-25-C9   (hex)		SHENZHEN HUAPU DIGITAL CO., LTD
 0025C9     (base 16)		SHENZHEN HUAPU DIGITAL CO., LTD
 				Futian District,Chegongmiao,TianAn Cyberpark
-				17/F East,High-Tech Plaza, Phase ¢Ú
+				17/F East,High-Tech Plaza, Phase ÔøΩÔøΩ
 				ShenZhen Guangdong Province 518040
 				CHINA
 
@@ -61271,7 +61271,7 @@ company_id			Organization
 
 00-25-CB   (hex)		Reiner SCT
 0025CB     (base 16)		Reiner SCT
-				Reiner Kartenger‰te GmbH & Co. KG.
+				Reiner KartengerÔøΩte GmbH & Co. KG.
 				Goethestr. 14
 				Furtwangen  78120
 				GERMANY
@@ -61477,7 +61477,7 @@ company_id			Organization
 00-25-EC   (hex)		Humanware
 0025EC     (base 16)		Humanware
 				445 rue du Parc Industriel
-				Longueuil QuÈbec J4H 3V7
+				Longueuil QuÔøΩbec J4H 3V7
 				CANADA
 
 00-25-ED   (hex)		NuVo Technologies LLC
@@ -61518,8 +61518,8 @@ company_id			Organization
 				San Diego CA 92121
 				UNITED STATES
 
-00-25-F3   (hex)		Nordwestdeutsche Z‰hlerrevision
-0025F3     (base 16)		Nordwestdeutsche Z‰hlerrevision
+00-25-F3   (hex)		Nordwestdeutsche ZÔøΩhlerrevision
+0025F3     (base 16)		Nordwestdeutsche ZÔøΩhlerrevision
 				Ing. Aug. Knemeyer GmbH & Co. KG
 				Heideweg 33
 				Bad Laer Niedersachsen 49196
@@ -61527,7 +61527,7 @@ company_id			Organization
 
 00-25-F4   (hex)		KoCo Connector AG
 0025F4     (base 16)		KoCo Connector AG
-				Marienstraﬂe 12
+				MarienstraÔøΩe 12
 				Berlin  10117
 				GERMANY
 
@@ -61706,7 +61706,7 @@ company_id			Organization
 00-26-11   (hex)		Licera AB
 002611     (base 16)		Licera AB
 				Teknikringen 1C
-				Linkˆping  58330
+				LinkÔøΩping  58330
 				SWEDEN
 
 00-26-12   (hex)		Space Exploration Technologies
@@ -61802,7 +61802,7 @@ company_id			Organization
 
 00-26-20   (hex)		ISGUS GmbH
 002620     (base 16)		ISGUS GmbH
-				Oberdorfstraﬂe 18 - 22
+				OberdorfstraÔøΩe 18 - 22
 				VS - Schwenningen BW 78054
 				GERMANY
 
@@ -61850,8 +61850,8 @@ company_id			Organization
 				Seocho-gu, Seoul 137-130
 				KOREA, REPUBLIC OF
 
-00-26-28   (hex)		companytec automaÁ„o e controle ltda
-002628     (base 16)		companytec automaÁ„o e controle ltda
+00-26-28   (hex)		companytec automaÔøΩÔøΩo e controle ltda
+002628     (base 16)		companytec automaÔøΩÔøΩo e controle ltda
 				Rua Marcilio Dias 3005
 				Pelotas Rio Grande do Sul 96020-480
 				BRAZIL
@@ -61997,9 +61997,9 @@ company_id			Organization
 
 00-26-3F   (hex)		LIOS Technology GmbH
 00263F     (base 16)		LIOS Technology GmbH
-				Schanzenstraﬂe 39
+				SchanzenstraÔøΩe 39
 				Building D9-D13
-				Kˆln Germany D-51063
+				KÔøΩln Germany D-51063
 				GERMANY
 
 00-26-40   (hex)		Baustem Broadband Technologies, Ltd.
@@ -62085,8 +62085,8 @@ company_id			Organization
 				Flensburg  24937
 				GERMANY
 
-00-26-4F   (hex)		Kr¸ger&Gothe GmbH
-00264F     (base 16)		Kr¸ger&Gothe GmbH
+00-26-4F   (hex)		KrÔøΩger&Gothe GmbH
+00264F     (base 16)		KrÔøΩger&Gothe GmbH
 				Atzendorfer Strasse 19
 				Stassfurt Sachsen Anhalt 39418
 				GERMANY
@@ -62365,9 +62365,9 @@ company_id			Organization
 				Wuhan Hubei 430073
 				CHINA
 
-00-26-7B   (hex)		GSI Helmholtzzentrum f¸r Schwerionenforschung GmbH
-00267B     (base 16)		GSI Helmholtzzentrum f¸r Schwerionenforschung GmbH
-				Planckstraﬂe 1
+00-26-7B   (hex)		GSI Helmholtzzentrum fÔøΩr Schwerionenforschung GmbH
+00267B     (base 16)		GSI Helmholtzzentrum fÔøΩr Schwerionenforschung GmbH
+				PlanckstraÔøΩe 1
 				Darmstadt Hessen 64291
 				GERMANY
 
@@ -62393,7 +62393,7 @@ company_id			Organization
 00-26-7F   (hex)		Zenterio AB
 00267F     (base 16)		Zenterio AB
 				Diskettgatan 11B
-				Linkˆping  58335
+				LinkÔøΩping  58335
 				SWEDEN
 
 00-26-80   (hex)		Lockie Innovation Pty Ltd
@@ -62406,7 +62406,7 @@ company_id			Organization
 00-26-81   (hex)		Interspiro AB
 002681     (base 16)		Interspiro AB
 				Box 10060
-				Lidingˆ  18110
+				LidingÔøΩ  18110
 				SWEDEN
 
 00-26-82   (hex)		Gemtek Technology Co., Ltd.
@@ -62989,7 +62989,7 @@ company_id			Organization
 0026DE     (base 16)		FDI MATELEC
 				Route de saint symphorien
 				BP 69
-				Les landes GÈnusson  85130
+				Les landes GÔøΩnusson  85130
 				FRANCE
 
 00-26-DF   (hex)		TaiDoc Technology Corp.
@@ -63090,8 +63090,8 @@ company_id			Organization
 
 00-26-EE   (hex)		TKM GmbH
 0026EE     (base 16)		TKM GmbH
-				Schlossstraﬂe 123
-				Mˆnchengladbach NRW 41238
+				SchlossstraÔøΩe 123
+				MÔøΩnchengladbach NRW 41238
 				GERMANY
 
 00-26-EF   (hex)		Technology Advancement Group, Inc.
@@ -63986,7 +63986,7 @@ company_id			Organization
 
 00-30-56   (hex)		Beck IPC GmbH
 003056     (base 16)		Beck IPC GmbH
-				Gr¸ninger Weg 24
+				GrÔøΩninger Weg 24
 				D-35415 Pohlheim 
 				GERMANY
 
@@ -65582,7 +65582,7 @@ company_id			Organization
 00-40-43   (hex)		Nokia Siemens Networks GmbH & Co. KG.
 004043     (base 16)		Nokia Siemens Networks GmbH & Co. KG.
 				Werner-von-Siemens Str. 2-6
-				Bruchsal Baden-W¸rtemberg 76646
+				Bruchsal Baden-WÔøΩrtemberg 76646
 				FINLAND
 
 00-40-44   (hex)		QNIX COMPUTER CO., LTD.
@@ -68705,7 +68705,7 @@ company_id			Organization
 
 00-60-36   (hex)		AIT Austrian Institute of Technology GmbH
 006036     (base 16)		AIT Austrian Institute of Technology GmbH
-				Donau-City-Straﬂe 1
+				Donau-City-StraÔøΩe 1
 				Vienna  1220
 				AUSTRIA
 
@@ -72678,7 +72678,7 @@ company_id			Organization
 
 00-90-9B   (hex)		IMAJE
 00909B     (base 16)		IMAJE
-				Gˆtaverksgatan 6A
+				GÔøΩtaverksgatan 6A
 				Gothenburg  417 55
 				SWEDEN
 
@@ -73164,7 +73164,7 @@ company_id			Organization
 
 00-90-E9   (hex)		JANZ COMPUTER AG
 0090E9     (base 16)		JANZ COMPUTER AG
-				Im Dˆrener Feld 8
+				Im DÔøΩrener Feld 8
 				D-33100 Paderborn 
 				GERMANY
 
@@ -73877,7 +73877,7 @@ company_id			Organization
 00A057     (base 16)		LANCOM Systems GmbH
 				Adenauer Str.20 /B2
 				D-52070 AACHEN
-				W¸rselen  52146
+				WÔøΩrselen  52146
 				GERMANY
 
 00-A0-58   (hex)		GLORY, LTD.
@@ -76641,10 +76641,10 @@ company_id			Organization
 				WATERTOWN MA 02172
 				UNITED STATES
 
-00-C0-D5   (hex)		Werbeagentur J¸rgen Siebert
-00C0D5     (base 16)		Werbeagentur J¸rgen Siebert
+00-C0-D5   (hex)		Werbeagentur JÔøΩrgen Siebert
+00C0D5     (base 16)		Werbeagentur JÔøΩrgen Siebert
 				Im Klostergarten 8
-				D-50321 Br¸hl  
+				D-50321 BrÔøΩhl  
 				GERMANY
 
 00-C0-D6   (hex)		J1 SYSTEMS, INC.
@@ -77457,7 +77457,7 @@ company_id			Organization
 
 00-D0-4E   (hex)		LOGIBAG
 00D04E     (base 16)		LOGIBAG
-				2, Rue de la MandiniËre
+				2, Rue de la MandiniÔøΩre
 				72300 SABLE/SARTHE
 				FRANCE
 
@@ -78241,7 +78241,7 @@ company_id			Organization
 00-D0-C8   (hex)		Prevas A/S
 00D0C8     (base 16)		Prevas A/S
 				Frederikskaj 6
-				DK-2450 K¯benhavn SV 
+				DK-2450 KÔøΩbenhavn SV 
 				DENMARK
 
 00-D0-C9   (hex)		ADVANTECH CO., LTD.
@@ -79485,7 +79485,7 @@ company_id			Organization
 
 00-E0-7A   (hex)		MIKRODIDAKT AB
 00E07A     (base 16)		MIKRODIDAKT AB
-				Skifferv‰gen 48
+				SkiffervÔøΩgen 48
 				LUND  SE22478
 				SWEDEN
 
@@ -82233,7 +82233,7 @@ company_id			Organization
 
 10-45-F8   (hex)		LNT-Automation GmbH
 1045F8     (base 16)		LNT-Automation GmbH
-				Hans-Paul-Kaysser-Straﬂe 1
+				Hans-Paul-Kaysser-StraÔøΩe 1
 				Leutenbach-Nellmersbach BW D-71397
 				GERMANY
 
@@ -82295,10 +82295,10 @@ company_id			Organization
 				Walnut California 91789
 				UNITED STATES
 
-10-88-0F   (hex)		DARUMA TELECOMUNICA«’ES E INFORM¡TICA S/A
-10880F     (base 16)		DARUMA TELECOMUNICA«’ES E INFORM¡TICA S/A
+10-88-0F   (hex)		DARUMA TELECOMUNICAÔøΩÔøΩES E INFORMÔøΩTICA S/A
+10880F     (base 16)		DARUMA TELECOMUNICAÔøΩÔøΩES E INFORMÔøΩTICA S/A
 				AVENIDA INDEPENDENCIA, 3500, LOTEAMENTO INDUSTRIAL
-				TAUBAT… S√O PAULO 12032-000
+				TAUBATÔøΩ SÔøΩO PAULO 12032-000
 				BRAZIL
 
 10-8C-CF   (hex)		Cisco Systems
@@ -86205,7 +86205,7 @@ company_id			Organization
 
 50-2D-F4   (hex)		Phytec Messtechnik GmbH
 502DF4     (base 16)		Phytec Messtechnik GmbH
-				Robert-Koch-Straﬂe 39 
+				Robert-Koch-StraÔøΩe 39 
 				Mainz Rheinland-Pfalz 55129
 				GERMANY
 
@@ -88258,8 +88258,8 @@ company_id			Organization
 
 70-3C-39   (hex)		SEAWING Kft
 703C39     (base 16)		SEAWING Kft
-				Budai ˙t 139.
-				SzÈkesfehÈrv·r FejÈr 8000
+				Budai ÔøΩt 139.
+				SzÔøΩkesfehÔøΩrvÔøΩr FejÔøΩr 8000
 				HUNGARY
 
 70-46-42   (hex)		CHYNG HONG ELECTRONIC CO., LTD.
@@ -89004,7 +89004,7 @@ company_id			Organization
 
 78-C4-0E   (hex)		H&D Wireless 
 78C40E     (base 16)		H&D Wireless 
-				Sjˆv‰gen 17
+				SjÔøΩvÔøΩgen 17
 				Solna  169 55 
 				SWEDEN
 
@@ -90147,8 +90147,8 @@ company_id			Organization
 
 8C-59-8B   (hex)		C Technologies AB
 8C598B     (base 16)		C Technologies AB
-				Traktorv‰gen 11
-				Lund SkÂne 226 60
+				TraktorvÔøΩgen 11
+				Lund SkÔøΩne 226 60
 				SWEDEN
 
 8C-5C-A1   (hex)		d-broad,INC
@@ -90462,8 +90462,8 @@ company_id			Organization
 
 90-55-AE   (hex)		Ericsson, EAB/RWI/K
 9055AE     (base 16)		Ericsson, EAB/RWI/K
-				SkolgÂngen 17
-				G‰vle  SE-800 06
+				SkolgÔøΩngen 17
+				GÔøΩvle  SE-800 06
 				SWEDEN
 
 90-5F-8D   (hex)		modas GmbH
@@ -90492,11 +90492,11 @@ company_id			Organization
 				Vimercate MB 20059
 				ITALY
 
-90-6D-C8   (hex)		DLG AutomaÁ„o Industrial Ltda
-906DC8     (base 16)		DLG AutomaÁ„o Industrial Ltda
-				Rua JosÈ Batista Soares, 53
+90-6D-C8   (hex)		DLG AutomaÔøΩÔøΩo Industrial Ltda
+906DC8     (base 16)		DLG AutomaÔøΩÔøΩo Industrial Ltda
+				Rua JosÔøΩ Batista Soares, 53
 				Distrito Industrial
-				Sert„ozinho S„o Paulo 14176-119
+				SertÔøΩozinho SÔøΩo Paulo 14176-119
 				BRAZIL
 
 90-6E-BB   (hex)		Hon Hai Precision Ind. Co.,Ltd.
@@ -90697,8 +90697,8 @@ company_id			Organization
 				Shenzhen Guangdong 518103
 				CHINA
 
-94-2E-63   (hex)		FinsÈcur
-942E63     (base 16)		FinsÈcur
+94-2E-63   (hex)		FinsÔøΩcur
+942E63     (base 16)		FinsÔøΩcur
 				52 rue Paul Lescop
 				Nanterre  92000
 				FRANCE
@@ -90827,11 +90827,11 @@ company_id			Organization
 				Vimercate MB 20059
 				ITALY
 
-94-BA-31   (hex)		Visiontec da AmazÙnia Ltda.
-94BA31     (base 16)		Visiontec da AmazÙnia Ltda.
+94-BA-31   (hex)		Visiontec da AmazÔøΩnia Ltda.
+94BA31     (base 16)		Visiontec da AmazÔøΩnia Ltda.
 				Rod. Geraldo Scavone, 2300 - Galpao 27
 				California Center - Pq. California
-				JacareÌ SP 12305-490
+				JacareÔøΩ SP 12305-490
 				BRAZIL
 
 94-C4-E9   (hex)		PowerLayer Microsystems HongKong Limited
@@ -93149,7 +93149,7 @@ B8921D     (base 16)		BG T&amp;A
 
 B8-94-D2   (hex)		Retail Innovation HTT AB
 B894D2     (base 16)		Retail Innovation HTT AB
-				Sjˆ‰ngsv‰gen 2
+				SjÔøΩÔøΩngsvÔøΩgen 2
 				Sollentuna  S-192 72
 				SWEDEN
 
@@ -94096,7 +94096,7 @@ C86CB6     (base 16)		Optcom Co., Ltd.
 C8-72-48   (hex)		Aplicom Oy
 C87248     (base 16)		Aplicom Oy
 				Rautatienkatu 56
-				ƒ‰nekoski L‰nsi-Suomi 44101
+				ÔøΩÔøΩnekoski LÔøΩnsi-Suomi 44101
 				FINLAND
 
 C8-7C-BC   (hex)		Valink Co., Ltd. 
@@ -95480,7 +95480,7 @@ D8FE8F     (base 16)		IDFone Co., Ltd.
 
 DC-02-65   (hex)		Meditech Kft
 DC0265     (base 16)		Meditech Kft
-				‹llıi ˙t 200.
+				ÔøΩllÔøΩi ÔøΩt 200.
 				Budapest  1191
 				HUNGARY
 

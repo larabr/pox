@@ -40,14 +40,14 @@
 
 import struct
 import time
-from packet_utils       import *
-from tcp import *
-from udp import *
-from icmp import *
-from igmp import *
-from gre import *
+from .packet_utils       import *
+from .tcp import *
+from .udp import *
+from .icmp import *
+from .igmp import *
+from .gre import *
 
-from packet_base import packet_base
+from .packet_base import packet_base
 
 from pox.lib.addresses import IPAddr, IP_ANY, IP_BROADCAST
 
@@ -169,7 +169,7 @@ class ipv4(packet_base):
         else:
             self.next =  raw[self.hl*4:length]
 
-        if isinstance(self.next, packet_base) and not self.next.parsed:
+        if isinstance(self.__next__, packet_base) and not self.next.parsed:
             self.next = raw[self.hl*4:length]
 
     def checksum(self):

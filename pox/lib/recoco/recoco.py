@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from __future__ import print_function
+
 from collections import deque
-from Queue import PriorityQueue
-from Queue import Queue
+from queue import PriorityQueue
+from queue import Queue
 import time
 import threading
 from threading import Thread
@@ -337,7 +337,7 @@ class Scheduler (object):
         # Just unschedule/sleep
         #print "Unschedule", t, rv
         pass
-      elif type(rv) == int or type(rv) == long or type(rv) == float:
+      elif type(rv) == int or type(rv) == int or type(rv) == float:
         # Sleep time
         if rv == 0:
           #print "sleep 0"
@@ -851,7 +851,7 @@ class SelectHub (object):
     #TODO: Fix this.  It's pretty expensive.  There had been some code which
     #      priority heaped this, but I don't think a fully working version
     #      ever quite made it.
-    for t,trl,twl,txl,tto in tasks.itervalues():
+    for t,trl,twl,txl,tto in tasks.values():
       if tto != None:
         if tto <= now:
           # Already expired
@@ -860,7 +860,7 @@ class SelectHub (object):
           if tto-now > 0.1: print("preexpired",tto,now,tto-now)
           continue
         tt = tto - now
-        if tt < timeout or timeout is None:
+        if timeout is None or tt < timeout:
           timeout = tt
           timeoutTask = t
 
@@ -877,9 +877,9 @@ class SelectHub (object):
         self._return(t, ([],[],[]))
 
     if timeout is None: timeout = CYCLE_MAXIMUM
-    ro, wo, xo = self._select_func( rl.keys() + [self._pinger],
-                                    wl.keys(),
-                                    xl.keys(), timeout )
+    ro, wo, xo = self._select_func( list(rl.keys()) + [self._pinger],
+                                    list(wl.keys()),
+                                    list(xl.keys()), timeout )
 
     if len(ro) == 0 and len(wo) == 0 and len(xo) == 0 and timeoutTask != None:
       # IO is idle - dispatch timers / release timeouts
@@ -914,7 +914,7 @@ class SelectHub (object):
         if task not in rets: rets[task] = ([],[],[])
         rets[task][2].append(i)
 
-      for t,v in rets.iteritems():
+      for t,v in rets.items():
         del tasks[t]
         self._return(t, v)
       rets.clear()

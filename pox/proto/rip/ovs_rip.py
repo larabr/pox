@@ -67,7 +67,7 @@ import pox.lib.packet.rip as RIP
 import pox.lib.packet as pkt
 from pox.lib.recoco import Timer, Task
 import socket
-from rip_core import *
+from .rip_core import *
 from pox.proto.arp_helper import send_arp_reply
 from pox.proto.arp_table import ARPTable
 from pox.lib.util import dpid_to_str
@@ -136,7 +136,7 @@ class Port (object):
 
   @property
   def any_ip (self):
-    return iter(self.ips).next()
+    return next(iter(self.ips))
 
 
 
@@ -221,7 +221,7 @@ class OVSRIPRouter (RIPRouter):
     if not self._conn: return # Nothing to do now
     ports = {}
     self._ports = ports
-    for name,ip_prefix_pairs in self._port_cache.items():
+    for name,ip_prefix_pairs in list(self._port_cache.items()):
       if name not in self._conn.ports: continue
       ofport = self._conn.ports[name]
       if ofport.port_no not in ports:
@@ -246,7 +246,7 @@ class OVSRIPRouter (RIPRouter):
   @property
   def all_ips (self):
     all_ips = set()
-    for portobj in self._ports.itervalues():
+    for portobj in self._ports.values():
       all_ips.update(portobj.ips)
     return all_ips
 
@@ -301,7 +301,7 @@ class OVSRIPRouter (RIPRouter):
     fm.match.dl_type = pkt.ethernet.ARP_TYPE
     fm.match.nw_proto = pkt.arp.REQUEST
     fm.actions.append(of.ofp_action_output(port = of.OFPP_CONTROLLER))
-    for portno,portobj in self._ports.iteritems():
+    for portno,portobj in self._ports.items():
       if portno not in self._conn.ports: continue
       fm.match.in_port = portno
       for ip in portobj.ips:
@@ -315,7 +315,7 @@ class OVSRIPRouter (RIPRouter):
     fm.match.dl_type = pkt.ethernet.ARP_TYPE
     fm.match.nw_proto = pkt.arp.REPLY
     fm.actions.append(of.ofp_action_output(port = of.OFPP_CONTROLLER))
-    for portno,portobj in self._ports.iteritems():
+    for portno,portobj in self._ports.items():
       if portno not in self._conn.ports: continue
       fm.match.in_port = portno
       fm.match.dl_dst = self._conn.ports[portno].hw_addr
@@ -330,7 +330,7 @@ class OVSRIPRouter (RIPRouter):
     fm.match.tp_src = pkt.ICMP.TYPE_ECHO_REQUEST # Type
     fm.match.tp_dst = 0 # Code
     fm.actions.append(of.ofp_action_output(port = of.OFPP_CONTROLLER))
-    for portno,portobj in self._ports.iteritems():
+    for portno,portobj in self._ports.items():
       if portno not in self._conn.ports: continue
       fm.match.in_port = portno
       fm.match.dl_dst = self._conn.ports[portno].hw_addr
@@ -626,7 +626,7 @@ class OVSRIPRouter (RIPRouter):
 
     out = []
 
-    for port,dests in direct.items():
+    for port,dests in list(direct.items()):
       if port not in conn.ports:
         self.log.warn("No such port %s", port)
         continue
@@ -677,7 +677,7 @@ class OVSRIPRouter (RIPRouter):
     self._cur = {RIP_NET_TABLE:{}, RIP_PORT_TABLE:{}}
     cur = self._cur
 
-    for e in self.table.values():
+    for e in list(self.table.values()):
       if e.metric >= INFINITY: continue
       fm = ovs.ofp_flow_mod_table_id()
       fm.xid = 0
@@ -698,7 +698,7 @@ class OVSRIPRouter (RIPRouter):
         fm.actions.append(ovs.nx_action_resubmit.resubmit_table(RIP_PORT_TABLE))
       cur[RIP_NET_TABLE][(e.ip, e.size)] = fm
 
-    for e in self.table.values():
+    for e in list(self.table.values()):
       if e.metric >= INFINITY: continue
       fm = ovs.ofp_flow_mod_table_id()
       fm.xid = 0
@@ -724,8 +724,8 @@ class OVSRIPRouter (RIPRouter):
       cur[RIP_PORT_TABLE][(e.ip, e.size)] = fm
 
     if self._conn:
-      data1 = b''.join(x.pack() for x in self._cur[RIP_PORT_TABLE].itervalues())
-      data2 = b''.join(x.pack() for x in self._cur[RIP_NET_TABLE].itervalues())
+      data1 = b''.join(x.pack() for x in self._cur[RIP_PORT_TABLE].values())
+      data2 = b''.join(x.pack() for x in self._cur[RIP_NET_TABLE].values())
       data = data1 + data2
       if data == self._prev: return # Nothing changed
 
@@ -758,12 +758,12 @@ class OVSRIPRouters (object):
 
 def static (dpid, __INSTANCE__=None, **kw):
   try:
-    dpid = long(dpid)
+    dpid = int(dpid)
   except:
     dpid = util.str_to_dpid(dpid)
 
   r = core.OVSRIPRouters.get(dpid=dpid)
-  for prefix,rest in kw.items():
+  for prefix,rest in list(kw.items()):
     prefix = IPAddr.parse_cidr(prefix)
     rest = rest.split(",")
     next_hop = IPAddr(rest[0])
@@ -786,7 +786,7 @@ def launch (dpid, __INSTANCE__=None, **kw):
     pox.openflow.nicira.launch(convert_packet_in=True)
 
   try:
-    dpid = long(dpid)
+    dpid = int(dpid)
   except:
     dpid = util.str_to_dpid(dpid)
 
@@ -794,7 +794,7 @@ def launch (dpid, __INSTANCE__=None, **kw):
   core.OVSRIPRouters.add(r)
 
   # Directly attached networks
-  for iface,routes in kw.items():
+  for iface,routes in list(kw.items()):
     # Try to parse iface as a port number; else a name
     try:
       iface = int(iface)

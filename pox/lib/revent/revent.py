@@ -92,7 +92,7 @@ class Source (EventMixin):
     # handlers, see raiseEventNoErrors().
 """
 
-from __future__ import print_function
+
 
 import operator
 
@@ -326,7 +326,7 @@ class EventMixin (object):
     """
     Returns the number of listeners.
     """
-    return sum((len(x) for x in self._eventMixin_handlers.itervalues()))
+    return sum((len(x) for x in self._eventMixin_handlers.values()))
 
   def removeListener (self, handlerOrEID, eventType=None):
     """
@@ -400,10 +400,10 @@ class EventMixin (object):
     """
     assert not (event_type and event_name)
     if (not event_type) and not (event_name):
-      if not handler.func_name.startswith("_handle_"):
+      if not handler.__name__.startswith("_handle_"):
         raise RuntimeError("Could not infer event type")
       #event_name = handler.func_name[8:]
-      event_name = handler.func_name.rsplit('_', 1)[-1]
+      event_name = handler.__name__.rsplit('_', 1)[-1]
     by_name = True if event_name else False
     t = event_name if by_name else event_type
 
@@ -581,8 +581,8 @@ class CallProxy (object):
     removeData :  The identifier used for removal of the handler
     """
     self.source = weakref.ref(source, self._forgetMe)
-    self.obj = weakref.ref(handler.im_self, self._forgetMe) # methods only!
-    self.method = handler.im_func
+    self.obj = weakref.ref(handler.__self__, self._forgetMe) # methods only!
+    self.method = handler.__func__
     self.removeData = removeData
     self.name = str(handler)
 

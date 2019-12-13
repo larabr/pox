@@ -50,7 +50,7 @@ from pox.datapaths import do_launch
 from pox.datapaths.switch import SoftwareSwitchBase, OFConnection
 from pox.datapaths.switch import ExpireMixin
 import pox.lib.pxpcap as pxpcap
-from Queue import Queue
+from queue import Queue
 from threading import Thread
 import pox.openflow.libopenflow_01 as of
 from pox.lib.packet import ethernet
@@ -98,7 +98,7 @@ def _do_ctl2 (event):
     if event.first == "add-port":
       ra(1,2)
       if len(event.args) == 1 and len(_switches) == 1:
-        sw = _switches[_switches.keys()[0]]
+        sw = _switches[list(_switches.keys())[0]]
         p = args[0]
       else:
         ra(2)
@@ -108,8 +108,8 @@ def _do_ctl2 (event):
     elif event.first == "del-port":
       ra(1,2)
       if len(event.args) == 1:
-        for sw in _switches.values():
-          for p in sw.ports.values():
+        for sw in list(_switches.values()):
+          for p in list(sw.ports.values()):
             if p.name == event.args[0]:
               sw.remove_interface(event.args[0])
               return
@@ -119,9 +119,9 @@ def _do_ctl2 (event):
     elif event.first == "show":
       ra(0)
       s = []
-      for sw in _switches.values():
+      for sw in list(_switches.values()):
         s.append("Switch %s" % (sw.name,))
-        for no,p in sw.ports.iteritems():
+        for no,p in sw.ports.items():
           stats = sw.port_stats[no]
           s.append(" %3s %-16s rx:%-20s tx:%-20s" % (no, p.name,
                      "%s (%s)" % (stats.rx_packets,stats.rx_bytes),
@@ -134,7 +134,7 @@ def _do_ctl2 (event):
       if len(args) == 1:
         sw = get_sw(args[0])
       s = []
-      for switch in _switches.values():
+      for switch in list(_switches.values()):
         if sw is None or switch is sw:
           s.append("== " + switch.name + " ==")
           for entry in switch.table.entries:
@@ -145,7 +145,7 @@ def _do_ctl2 (event):
       # Wire a virtual port to a channel: wire-port [sw] port channel
       ra(2,3)
       if len(event.args) == 2 and len(_switches) == 1:
-        sw = _switches[_switches.keys()[0]]
+        sw = _switches[list(_switches.keys())[0]]
         p = args[0]
         c = args[1]
       else:
@@ -153,7 +153,7 @@ def _do_ctl2 (event):
         sw = get_sw(args[0])
         p = args[1]
         c = args[2]
-      for port in sw.ports.values():
+      for port in list(sw.ports.values()):
         if port.name == p:
           px = sw.px.get(port.port_no)
           if not isinstance(px, VirtualPort):
@@ -166,13 +166,13 @@ def _do_ctl2 (event):
       # Unhook the virtual port: unwire-port [sw] port
       ra(1,2)
       if len(event.args) == 1 and len(_switches) == 1:
-        sw = _switches[_switches.keys()[0]]
+        sw = _switches[list(_switches.keys())[0]]
         p = args[0]
       else:
         ra(2)
         sw = get_sw(args[0])
         p = args[1]
-      for port in sw.ports.values():
+      for port in list(sw.ports.values()):
         if port.name == p:
           px = sw.px.get(port.port_no)
           if not isinstance(px, VirtualPort):
@@ -197,7 +197,7 @@ def _do_ctl2 (event):
           for y,z in zip(x[::2],x[1::2]):
             data.append(int(y+z,16))
       data = "".join(chr(x) for x in data)
-      for port in sw.ports.values():
+      for port in list(sw.ports.values()):
         if port.name == p:
           px = sw.px.get(port.port_no)
           sw._pcap_rx(px, data, 0, 0, len(data))
@@ -231,11 +231,11 @@ def _do_ctl2 (event):
         if k not in kvs:
           raise RuntimeError("Unknown option '%s'" % (k,))
         kvs[k] = (kvs[k][0],kvs[k][0](v))
-      kvs = {k:v[1] for k,v in kvs.items()}
+      kvs = {k:v[1] for k,v in list(kvs.items())}
       ra(2,3)
       pad = (kvs['p'] * kvs['s'])[:kvs['s']]
       if len(args) == 2 and len(_switches) == 1:
-        sw = _switches[_switches.keys()[0]]
+        sw = _switches[list(_switches.keys())[0]]
         mac,ip = args
       else:
         ra(3)
@@ -245,7 +245,7 @@ def _do_ctl2 (event):
       ip = IPAddr(ip)
       srcport = kvs['port']
 
-      for p in sw.ports.values():
+      for p in list(sw.ports.values()):
         if srcport == "" or p.name == srcport:
           echo = pkt.echo()
           echo.payload = pad
@@ -304,7 +304,7 @@ def launch (address = '127.0.0.1', port = 6633, max_retry_delay = 16,
       # We can reuse the exiting one
     else:
       # Create one...
-      import ctl
+      from . import ctl
       ctl.server(ctl_port)
       core.ctld.addListenerByName("CommandEvent", _do_ctl)
 
@@ -442,7 +442,7 @@ class PCapSwitch (ExpireMixin, SoftwareSwitchBase):
 
     self.log.setLevel(log_level)
 
-    for px in self.px.itervalues():
+    for px in self.px.values():
       px.start()
 
     self.t.start()
@@ -490,7 +490,7 @@ class PCapSwitch (ExpireMixin, SoftwareSwitchBase):
       if dev.get('addrs',{}).get('AF_INET') != None:
         on_error("Device %s has an IP address -- ignoring", name)
         return
-      for no,p in self.px.iteritems():
+      for no,p in self.px.items():
         if p.device == name:
           on_error("Device %s already added", name)
 
@@ -524,8 +524,8 @@ class PCapSwitch (ExpireMixin, SoftwareSwitchBase):
     return px
 
   def remove_interface (self, name_or_num):
-    if isinstance(name_or_num, basestring):
-      for no,p in self.px.iteritems():
+    if isinstance(name_or_num, str):
+      for no,p in self.px.items():
         if p.device == name_or_num:
           self.remove_interface(no)
           return
