@@ -381,7 +381,7 @@ class host_tracker (EventMixin):
 
     macEntry.refresh()
 
-    (pckt_srcip, hasARP) = self.getSrcIPandARP(packet.__next__)
+    (pckt_srcip, hasARP) = self.getSrcIPandARP(packet.next)
     if pckt_srcip is not None:
       self.updateIPInfo(pckt_srcip,macEntry,hasARP)
 

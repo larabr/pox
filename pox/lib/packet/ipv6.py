@@ -383,7 +383,7 @@ class ipv6 (packet_base):
     else:
       self.next =  raw[offset:offset+length]
 
-    if isinstance(self.__next__, packet_base) and not self.next.parsed:
+    if isinstance(self.next, packet_base) and not self.next.parsed:
       self.next = raw[offset:offset+length]
 
   def add_header (self, eh):

@@ -104,7 +104,7 @@ class packet_base (object):
             lg.debug("str(%s): %s" % (self.__class__.__name__, e))
           return "[%s:Bad representation]" % (self.__class__.__name__,)
         return "[%s l:%i%s]" % (self.__class__.__name__, len(self),
-            "" if self.__next__ else " *")
+            "" if self.next else " *")
 
     def dump(self):
         p = self
@@ -129,7 +129,7 @@ class packet_base (object):
               m.append("[%s]" % (p.__class__.__name__,))
             break
           m.append(str(p))
-          p = p.__next__
+          p = p.next
         return "".join(m)
 
     def find(self, proto):
@@ -141,7 +141,7 @@ class packet_base (object):
         if self.__class__.__name__ == proto and self.parsed:
             return self
         else:
-            if self.__next__ and isinstance(self.__next__, packet_base):
+            if self.next and isinstance(self.next, packet_base):
                 return self.next.find(proto)
             else:
                 return None
@@ -155,7 +155,7 @@ class packet_base (object):
         setting the new payload's "prev" field to point back to its new
         container (the same as the set_payload() method).
         """
-        return self.__next__
+        return self.next
 
     @payload.setter
     def payload (self, new_payload):
@@ -192,16 +192,16 @@ class packet_base (object):
     def pack(self):
         '''Convert header and payload to bytes'''
 
-        if self.parsed is False and self.raw is not None and self.__next__ is None:
+        if self.parsed is False and self.raw is not None and self.next is None:
           return self.raw
 
         self.pre_hdr()
 
-        if self.__next__ == None:
+        if self.next == None:
             return self.hdr(b'')
-        elif isinstance(self.__next__, packet_base):
+        elif isinstance(self.next, packet_base):
             rest = self.next.pack()
         else:
-            rest = self.__next__
+            rest = self.next
 
         return self.hdr(rest) + rest

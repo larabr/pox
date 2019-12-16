@@ -145,12 +145,12 @@ class udp(packet_base):
             payload_len = len(self.raw)
             payload = self.raw
         else:
-            if isinstance(self.__next__, packet_base):
+            if isinstance(self.next, packet_base):
                 payload = self.next.pack()
-            elif self.__next__ is None:
+            elif self.next is None:
                 payload = bytes()
             else:
-                payload = self.__next__
+                payload = self.next
             payload_len = udp.MIN_LEN + len(payload)
 
             myhdr = struct.pack('!HHHH', self.srcport, self.dstport,

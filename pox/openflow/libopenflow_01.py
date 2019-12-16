@@ -962,7 +962,7 @@ class ofp_match (ofp_base):
     match.dl_src = packet.src
     match.dl_dst = packet.dst
     match.dl_type = packet.type
-    p = packet.__next__
+    p = packet.next
 
     # Is this in the spec?
     if packet.type < 1536:
@@ -971,12 +971,12 @@ class ofp_match (ofp_base):
     if isinstance(p, llc):
       if p.has_snap and p.oui == '\0\0\0':
         match.dl_type = p.eth_type
-        p = p.__next__
+        p = p.next
     if isinstance(p, vlan):
       match.dl_type = p.eth_type
       match.dl_vlan = p.id
       match.dl_vlan_pcp = p.pcp
-      p = p.__next__
+      p = p.next
     else:
       match.dl_vlan = OFP_VLAN_NONE
       match.dl_vlan_pcp = 0
@@ -991,7 +991,7 @@ class ofp_match (ofp_base):
         match.tp_src = 0
         match.tp_dst = 0
         return match
-      p = p.__next__
+      p = p.next
 
       if isinstance(p, udp) or isinstance(p, tcp):
         match.tp_src = p.srcport

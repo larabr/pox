@@ -199,7 +199,7 @@ class EthAddr (object):
       # Don't even bother for local (though it should never match and OUI!)
       name = _eth_oui_to_name.get(self._value[:3])
       if name:
-        rest = separator.join('%02x' % (ord(x),) for x in self._value[3:])
+        rest = separator.join('%02x' % (ord(x),) for x in self._value[3:]) #TODO ERROR
         return name + separator + rest
 
     return separator.join(('%02x' % (ord(x),) for x in self._value))
@@ -387,14 +387,41 @@ class IPAddr (object):
   def __str__ (self):
     return self.toStr()
 
-  def __cmp__ (self, other):
-    if other is None: return 1
+  def __eq__(self, other):
     try:
       if not isinstance(other, IPAddr):
         other = IPAddr(other)
-      return cmp(self.toUnsigned(), other.toUnsigned())
+      return self.toUnsigned() == other.toUnsigned()
     except:
-      return -other.__cmp__(self)
+      return other.__eq__(self)
+
+  def __ne__(self, other):
+    try:
+      if not isinstance(other, IPAddr):
+        other = IPAddr(other)
+      return self.toUnsigned() != other.toUnsigned()
+    except:
+      return other.__ne__(self)
+
+  def __lt__(self, other):
+    try:
+      if not isinstance(other, IPAddr):
+        other = IPAddr(other)
+      return self.toUnsigned() < other.toUnsigned()
+    except:
+      # reversed order
+      return other.__gt__(self) 
+
+  def __gt__(self, other):
+    try:
+      if not isinstance(other, IPAddr):
+        other = IPAddr(other)
+      return self.toUnsigned() > other.toUnsigned()
+    except:
+      # reversed order
+      return other.__lt__(self)
+
+
 
   def __hash__ (self):
     return self._value.__hash__()
@@ -436,7 +463,7 @@ class IPAddr6 (object):
     """
     o = b''
     for i in range(16):
-      o = chr(num & 0xff) + o
+      o = chr(num & 0xff).encode('latin-1') + o
       num >>= 8
     return cls.from_raw(o)
 
@@ -555,7 +582,7 @@ class IPAddr6 (object):
   def num (self):
     o = 0
     for b in self._value:
-      o = (o << 8) | ord(b)
+      o = (o << 8) | b
     return o
 
   @property
@@ -690,7 +717,7 @@ class IPAddr6 (object):
     by passing ipv4=True; this probably only makes sense if .is_ipv4_compatible
     (or .is_ipv4_mapped, of course).
     """
-    o = [ord(lo) | (ord(hi)<<8) for hi,lo in
+    o = [lo | (hi<<8) for hi,lo in
          (self._value[i:i+2] for i in range(0,16,2))]
 
     if (ipv4 is None and self.is_ipv4_mapped) or ipv4:
@@ -737,14 +764,39 @@ class IPAddr6 (object):
   def __str__ (self):
     return self.to_str()
 
-  def __cmp__ (self, other):
-    if other is None: return 1
+  def __eq__(self, other):
     try:
       if not isinstance(other, type(self)):
         other = type(self)(other)
-      return cmp(self._value, other._value)
+      return self._value == other._value
     except:
-      return -cmp(other,self)
+      return other.__eq__(self)
+
+  def __ne__(self, other):
+    try:
+      if not isinstance(other, type(self)):
+        other = type(self)(other)
+      return not self._value == other._value
+    except:
+      return other.__ne__(self)
+
+  def __lt__(self, other):
+    try:
+      if not isinstance(other, type(self)):
+        other = type(self)(other)
+      return self._value < other._value
+    except:
+      # reversed order
+      return other.__gt__(self) 
+
+  def __gt__(self, other):
+    try:
+      if not isinstance(other, type(self)):
+        other = type(self)(other)
+      return self._value > other._value
+    except:
+      # reversed order
+      return other.__lt__(self)
 
   def __hash__ (self):
     return self._value.__hash__()
@@ -764,7 +816,7 @@ class IPAddr6 (object):
     e = list(EthAddr(eth).toTuple())
     e[0] ^= 2
     e[3:3] = [0xff,0xfe]
-    e = ''.join(chr(b) for b in e)
+    e = b''.join(chr(b).encode('latin-1') for b in e)
     return IPAddr6.from_raw(self._value[:8]+e)
 
 

@@ -703,12 +703,12 @@ class tcp (packet_base):
     else:
       if payload is not None:
         pass
-      elif isinstance(self.__next__, packet_base):
+      elif isinstance(self.next, packet_base):
         payload = self.next.pack()
-      elif self.__next__ is None:
+      elif self.next is None:
         payload = bytes()
       else:
-        payload = self.__next__
+        payload = self.next
       payload = self.hdr(None, calc_checksum = False) + payload
       payload_len = len(payload)
 

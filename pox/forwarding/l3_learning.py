@@ -171,7 +171,7 @@ class l3_switch (EventMixin):
       # Ignore LLDP packets
       return
 
-    if isinstance(packet.__next__, ipv4):
+    if isinstance(packet.next, ipv4):
       log.debug("%i %i IP %s => %s", dpid,inport,
                 packet.next.srcip,packet.next.dstip)
 
@@ -269,8 +269,8 @@ class l3_switch (EventMixin):
         msg.in_port = inport
         event.connection.send(msg)
 
-    elif isinstance(packet.__next__, arp):
-      a = packet.__next__
+    elif isinstance(packet.next, arp):
+      a = packet.next
       log.debug("%i %i ARP %s %s => %s", dpid, inport,
        {arp.REQUEST:"request",arp.REPLY:"reply"}.get(a.opcode,
        'op:%i' % (a.opcode,)), a.protosrc, a.protodst)

@@ -169,7 +169,7 @@ class ipv4(packet_base):
         else:
             self.next =  raw[self.hl*4:length]
 
-        if isinstance(self.__next__, packet_base) and not self.next.parsed:
+        if isinstance(self.next, packet_base) and not self.next.parsed:
             self.next = raw[self.hl*4:length]
 
     def checksum(self):

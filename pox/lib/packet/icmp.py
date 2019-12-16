@@ -64,11 +64,11 @@ _type_to_name = {
 # stringizing.
 # (Note: There may actually be a better way now using _to_str().)
 def _str_rest (s, p):
-  if p.__next__ is None:
+  if p.next is None:
     return s
-  if isinstance(p.__next__, str):
-    return "[%s bytes]" % (len(p.__next__),)
-  return s+str(p.__next__)
+  if isinstance(p.next, str):
+    return "[%s bytes]" % (len(p.next),)
+  return s+str(p.next)
 
 
 #----------------------------------------------------------------------

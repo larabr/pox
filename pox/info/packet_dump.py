@@ -47,7 +47,7 @@ def _handle_PacketIn (event):
         break
       return
     if not hasattr(p, 'next'): break
-    p = p.__next__
+    p = p.next
 
   if not show: return
 
@@ -62,7 +62,7 @@ def _handle_PacketIn (event):
         msg += "[%s bytes]" % (len(p),)
         break
       msg += "[%s]" % (p.__class__.__name__,)
-      p = p.__next__
+      p = p.next
 
   if _max_length:
     if len(msg) > _max_length:

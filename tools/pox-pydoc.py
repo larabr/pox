@@ -1922,7 +1922,7 @@ class Scanner:
         self.children = children
         self.descendp = descendp
 
-    def __next__(self):
+    def next(self):
         if not self.state:
             if not self.roots:
                 return None
