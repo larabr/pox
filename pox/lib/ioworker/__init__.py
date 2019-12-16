@@ -52,8 +52,8 @@ class IOWorker (object):
   """
   def __init__(self):
     super(IOWorker,self).__init__()
-    self.send_buf = b""
-    self.receive_buf = b""
+    self.send_buf = b''
+    self.receive_buf = b''
     self.closed = False
 
     self._custom_rx_handler = None
