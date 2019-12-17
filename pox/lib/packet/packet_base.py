@@ -171,7 +171,7 @@ class packet_base (object):
         elif type(payload) == bytes:
             self.next = payload
         else:
-            raise TypeError("payload must be string or packet subclass")
+            raise TypeError("payload must be bytes or packet subclass")
 
     def parse(self, raw):
         '''Override me with packet parsing code'''

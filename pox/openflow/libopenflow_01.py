@@ -125,7 +125,7 @@ def _readzs (data, offset, length):
   #if len(d[1].replace(b"\x00", b"")) > 0:
   #  raise RuntimeError("Non-zero string padding")
   assert True if (len(d) == 1) else (len(d[1].replace(b"\x00", b"")) == 0)
-  return (offset, d[0])
+  return (offset, d[0].decode('latin-1'))
 
 def _readether (data, offset):
   (offset, d) = _read(data, offset, 6)
@@ -728,7 +728,7 @@ class ofp_phy_port (ofp_base):
     packed += struct.pack("!H", self.port_no)
     packed += (self.hw_addr if isinstance(self.hw_addr, bytes) else
                self.hw_addr.toRaw())
-    packed += self.name.ljust(OFP_MAX_PORT_NAME_LEN,'\0')
+    packed += self.name.ljust(OFP_MAX_PORT_NAME_LEN,'\0').encode('latin-1')
     packed += struct.pack("!LLLLLL", self.config, self.state, self.curr,
                           self.advertised, self.supported, self.peer)
     return packed
@@ -760,12 +760,17 @@ class ofp_phy_port (ofp_base):
     if self.peer != other.peer: return False
     return True
 
-  def __cmp__ (self, other):
-    if type(other) != type(self): return id(self)-id(other)
-    if self.port_no < other.port_no: return -1
-    if self.port_no > other.port_no: return 1
-    if self == other: return 0
-    return id(self)-id(other)
+  def __lt__ (self, other):
+    if type(other) != type(self): return id(self) < id(other)
+    if self.port_no != other.port_no:
+      return self.port_no < other.port_no
+    return id(self) < id(other)
+
+  def __gt__ (self, other):
+    if type(other) != type(self): return id(self) > id(other)
+    if self.port_no != other.port_no:
+      return self.port_no > other.port_no
+    return id(self) > id(other)
 
   def __hash__(self, *args, **kwargs):
     return hash(self.port_no) ^ hash(self.hw_addr) ^ \
@@ -2821,11 +2826,11 @@ class ofp_desc_stats (ofp_stats_body_base):
     assert self._assert()
 
     packed = b""
-    packed += self.mfr_desc.ljust(DESC_STR_LEN,'\0')
-    packed += self.hw_desc.ljust(DESC_STR_LEN,'\0')
-    packed += self.sw_desc.ljust(DESC_STR_LEN,'\0')
-    packed += self.serial_num.ljust(SERIAL_NUM_LEN,'\0')
-    packed += self.dp_desc.ljust(DESC_STR_LEN,'\0')
+    packed += self.mfr_desc.ljust(DESC_STR_LEN,'\0').encode('latin-1')
+    packed += self.hw_desc.ljust(DESC_STR_LEN,'\0').encode('latin-1')
+    packed += self.sw_desc.ljust(DESC_STR_LEN,'\0').encode('latin-1')
+    packed += self.serial_num.ljust(SERIAL_NUM_LEN,'\0').encode('latin-1')
+    packed += self.dp_desc.ljust(DESC_STR_LEN,'\0').encode('latin-1')
     return packed
 
   def unpack (self, raw, offset, avail):
@@ -3786,7 +3791,7 @@ class ofp_packet_in (ofp_header):
   def data (self, data):
     assert assert_type("data", data, (packet_base, bytes))
     if data is None:
-      self._data = ''
+      self._data = b''
     elif isinstance(data, packet_base):
       self._data = data.pack()
     else:
