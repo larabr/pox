@@ -158,8 +158,8 @@ class basics_test (unittest.TestCase):
     Not comprehensive.
     """
     learn = self._make_learn_action()
-    good = """00 0c 00 00 08 02 00 00  00 00 08 02 00 00
-              00 30 00 00 04 06 00 00  00 00 02 06 00 00
+    good = """00 0c 00 00 08 02 00 00  00 00 08 02 00 00\
+              00 30 00 00 04 06 00 00  00 00 02 06 00 00\
               10 10 00 00 00 02 00 00"""
     good = bytearray.fromhex(good)
     self.assertEqual(good, b''.join(x.pack() for x in learn.spec))

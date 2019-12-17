@@ -14,10 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# If you have PyPy 1.6+ in a directory called pypy alongside pox.py, we
+# If you have PyPy in a directory called pypy alongside pox.py, we
 # use it.
-# Otherwise, we try to use a Python interpreter called python2.7, which
-# is a good idea if you're using Python from MacPorts, for example.
 # We fall back to just "python" and hope that works.
 
 ''''true
@@ -31,6 +29,10 @@ fi
 
 if [ -x pypy/bin/pypy ]; then
   exec pypy/bin/pypy $OPT "$0" $FLG "$@"
+fi
+
+if type python3 > /dev/null 2> /dev/null; then
+  exec python3 $OPT "$0" $FLG "$@"
 fi
 
 exec python $OPT "$0" $FLG "$@"
