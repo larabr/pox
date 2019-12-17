@@ -60,6 +60,11 @@ class basics_test (unittest.TestCase):
   def _init_action_nx_action_pop_mpls (self, cls):
     return cls(ethertype=101)
 
+  def _init_action_nx_action_mpls_label (self, cls):
+    return cls(label=0)
+
+  def _init_action_nx_action_mpls_tc (self, cls):
+    return cls(tc=0)
 
   def test_unpack_weird_header (self):
     """
@@ -155,9 +160,9 @@ class basics_test (unittest.TestCase):
     learn = self._make_learn_action()
     good = """00 0c 00 00 08 02 00 00  00 00 08 02 00 00
               00 30 00 00 04 06 00 00  00 00 02 06 00 00
-              10 10 00 00 00 02 00 00""".split()
-    good = ''.join([chr(int(x,16)) for x in good])
-    self.assertEqual(good, ''.join(x.pack() for x in learn.spec))
+              10 10 00 00 00 02 00 00"""
+    good = bytearray.fromhex(good)
+    self.assertEqual(good, b''.join(x.pack() for x in learn.spec))
 
 
   def test_match_pack_unpack (self):
