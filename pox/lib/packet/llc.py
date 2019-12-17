@@ -118,8 +118,8 @@ class llc (packet_base):
       r += struct.pack("!B", self.control)
     else:
       #FIXME: this is sloppy
-      r += chr(self.control & 0xff)
-      r += chr((self.control>>8) & 0xff)
+      r += chr(self.control & 0xff).encode('latin-1')
+      r += chr((self.control>>8) & 0xff).encode('latin-1')
     if self.has_snap:
       # SNAP
       r += self.oui
