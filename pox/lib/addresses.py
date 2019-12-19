@@ -121,12 +121,12 @@ class EthAddr (object):
     have a destination MAC address within this range are not relayed by
     bridges conforming to IEEE 802.1D
     """
-    return  ((ord(self._value[0]) == 0x01)
-    	and (ord(self._value[1]) == 0x80)
-    	and (ord(self._value[2]) == 0xC2)
-    	and (ord(self._value[3]) == 0x00)
-    	and (ord(self._value[4]) == 0x00)
-    	and (ord(self._value[5]) <= 0x0F))
+    return  ((self._value[0] == 0x01)
+    	and (self._value[1] == 0x80)
+    	and (self._value[2] == 0xC2)
+    	and (self._value[3] == 0x00)
+    	and (self._value[4] == 0x00)
+    	and (self._value[5] <= 0x0F))
 
   @property
   def is_bridge_filtered (self):
@@ -156,7 +156,7 @@ class EthAddr (object):
     """
     Returns True if this is a multicast address.
     """
-    return True if (ord(self._value[0]) & 1) else False
+    return True if (self._value[0] & 1) else False
 
   @property
   def is_multicast (self):
