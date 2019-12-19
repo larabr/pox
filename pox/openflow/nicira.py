@@ -396,7 +396,7 @@ class nx_flow_mod (of.ofp_flow_mod, of.ofp_vendor_base):
                           self.flags, match_len)
     packed += _PAD6
     packed += match
-    packed += _PAD * ((match_len + 7)/8*8 - match_len)
+    packed += _PAD * ((match_len + 7)//8*8 - match_len)
     for i in self.actions:
       packed += i.pack()
 
@@ -2429,7 +2429,7 @@ class nxt_packet_in (nicira_base, of.ofp_packet_in):
                           match_len)
     packed += _PAD6
     packed += match.pack()
-    packed += _PAD * ((match_len + 7)/8*8 - match_len)
+    packed += _PAD * ((match_len + 7)//8*8 - match_len)
     packed += _PAD2
     packed += self.packed_data
     return packed
@@ -2573,7 +2573,7 @@ class nx_match (object):
     return offset
 
   def pack (self, omittable = False):
-    return ''.join(x.pack(omittable) for x in self._parts)
+    return b''.join(x.pack(omittable) for x in self._parts)
 
   def __eq__ (self, other):
     if not isinstance(other, self.__class__): return False
