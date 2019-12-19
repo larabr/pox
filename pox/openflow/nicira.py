@@ -2036,7 +2036,7 @@ class nxm_entry (object):
 
     if mask is not None:
       h |= (1 << 8)
-      h |= (self._nxm_length * 2)
+      h |= int(self._nxm_length * 2)
     else:
       h |= self._nxm_length
 
